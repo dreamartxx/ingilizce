@@ -11,13 +11,13 @@ Hostinger → Websites / Web siteleri → Add website / Web sitesi ekle → Node
 - Node.js: **22.x** (en az 22.12)
 - Paket yöneticisi: npm
 - Yükleme komutu istenirse: `npm ci`
-- Build command / derleme: `npm run build`
+- Build command / derleme alanı varsa: `npm run build`. Express ekranında bu alan görünmezse sorun değil; `postinstall` bağımlılık kurulumundan sonra arayüzü otomatik derler.
 - Start command / başlatma: `npm start`
 - Entry file / giriş dosyası istenirse: `server/index.js`
 - Output directory / çıktı klasörü istenirse: `dist`
 - Port: Hostinger'ın verdiği `PORT` otomatik kullanılır; sabit port girmek gerekmez.
 
-Panel alanları farklı sırada görünebilir. Önce geçici alan adıyla yayınlayabilirsin. İlk yayında dersler deneme alanında açılır. Hesapların ve yapay zekânın çalışması için aşağıdaki ortam değişkenleri gerekir.
+Panel alanları farklı sırada görünebilir. Önce geçici alan adıyla yayınlayabilirsin. İlk yayında dersler deneme alanında açılır. Henüz veritabanı/API değerlerin yoksa otomatik bulunan boş satırları sağdaki × ile kaldır; yalnızca `NODE_ENV=production` ve gerçek geçici alan adına uygun `APP_ORIGIN` değerini ekleyerek devam et. Diğer değerleri yayın sonrasında ekleyebilirsin. Hesapların ve yapay zekânın çalışması için aşağıdaki ortam değişkenleri gerekir.
 
 ## 2. Kalıcı veritabanını oluştur
 
