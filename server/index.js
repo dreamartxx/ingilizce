@@ -5,6 +5,9 @@ import {randomUUID} from 'node:crypto';
 import express from 'express';
 import {MysqlStore,hashPassword} from './store.js';
 import {createApp,apiErrors} from './app.js';
+// Hosting process managers may load this ESM entry through require().
+// Keep asynchronous initialization inside a function, not at module scope.
+async function start(){
 if(existsSync('.env'))process.loadEnvFile('.env');
 const env=process.env;
 let store=null;
@@ -15,7 +18,10 @@ const dist=resolve(root,'dist');
 if(existsSync(resolve(dist,'index.html'))){app.use(express.static(dist,{index:false}));app.get('/{*path}',(_req,res)=>res.sendFile(resolve(dist,'index.html')));}else if(env.NODE_ENV!=='production'){const {createServer}=await import('vite');const vite=await createServer({server:{middlewareMode:true},appType:'spa'});app.use(vite.middlewares);}else{app.get('/{*path}',(_req,res)=>res.status(503).send('Build missing. Run npm run build.'));}
 app.use(apiErrors);
 const port=Number(env.PORT||3000);
-const server=app.listen(port,'0.0.0.0',()=>console.log(`Adım: http://localhost:${port}`));
+const server=app.listen(port,'0.0.0.0');
+server.once('listening',()=>console.log(`Adım: http://localhost:${server.address()?.port??port}`));
 server.on('error',()=>{console.error('Server could not start. Check PORT and network permissions.');process.exit(1);});
 async function stop(){server.close();if(store)await store.close();process.exit(0);}
 process.on('SIGTERM',stop);process.on('SIGINT',stop);
+}
+start().catch(error=>{console.error('Application initialization failed:',error.code||error.name);process.exit(1);});
