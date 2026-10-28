@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {assess,scheduleReview,streak,dayKey,recordActivity,freshProgress} from '../src/learning.js';
+import {placement,units,allPhrases} from '../src/content.js';
+test('low foundations cannot be hidden by lucky advanced answers',()=>{const answers=placement.map(q=>q.level==='A1'?null:q.answer);assert.equal(assess(answers).level,'A1 başlangıç');});
+test('skipped listening is explicitly distinguishable from assessed listening',()=>{const result=assess(placement.map(q=>q.audio?null:q.answer));assert.equal(result.skills.Dinleme.answered,0);assert.equal(result.skills.Dinleme.total,4);});
+test('full score only offers B1 exploration, not certified CEFR',()=>{assert.equal(assess(placement.map(q=>q.answer)).level,'B1 keşif');});
+test('forgotten cards return in ten minutes and reset repetitions',()=>{const r=scheduleReview({repetitions:5,days:20},'again',1000);assert.equal(r.due,601000);assert.equal(r.repetitions,0);});
+test('review spacing grows but is capped',()=>{assert.equal(scheduleReview({repetitions:2,days:4},'good',0).days,8);assert.equal(scheduleReview({repetitions:8,days:60},'easy',0).days,60);});
+test('Istanbul day and streak cross UTC midnight correctly',()=>{assert.equal(dayKey(new Date('2026-10-27T22:00:00Z')),'2026-10-28');assert.equal(streak({'2026-10-27':{},'2026-10-26':{}},new Date('2026-10-28T10:00:00Z')),2);});
+test('original curriculum has unique phrase IDs and valid quiz answers',()=>{assert.equal(units.length,8);assert.equal(allPhrases.length,48);assert.equal(new Set(allPhrases.map(c=>c.id)).size,48);for(const u of units)for(const q of u.quiz)assert.ok(q.answer>=0&&q.answer<q.options.length);});
