@@ -21,7 +21,13 @@ export class MysqlStore {
  async changePassword(id,hash){const c=await this.pool.getConnection();try{await c.beginTransaction();await c.execute('UPDATE users SET password_hash=? WHERE id=?',[hash,id]);await c.execute('DELETE FROM sessions WHERE user_id=?',[id]);await c.commit();}catch(e){await c.rollback();throw e;}finally{c.release();}}
  async getProgress(id){const [rows]=await this.pool.execute('SELECT state,revision FROM progress WHERE user_id=?',[id]);if(!rows[0])return {state:null,revision:0};return {state:typeof rows[0].state==='string'?JSON.parse(rows[0].state):rows[0].state,revision:rows[0].revision};}
  async saveProgress(id,state,revision){await this.pool.execute('INSERT IGNORE INTO progress (user_id,state,revision) VALUES (?, ?, 0)',[id,'{}']);const [r]=await this.pool.execute('UPDATE progress SET state=?,revision=revision+1 WHERE user_id=? AND revision=?',[JSON.stringify(state),id,revision]);return r.affectedRows===1;}
- async useAi(id,day,limit){const c=await this.pool.getConnection();try{await c.beginTransaction();await c.execute('INSERT IGNORE INTO ai_usage (user_id,day,requests) VALUES (?,?,0)',[id,day]);const [r]=await c.execute('UPDATE ai_usage SET requests=requests+1 WHERE user_id=? AND day=? AND requests<?',[id,day,limit]);await c.commit();return r.affectedRows===1;}catch(e){await c.rollback();throw e;}finally{c.release();}}
+ async useAi(id,day,limit){
+  // Seed in autocommit: keeping INSERT IGNORE and UPDATE in one transaction
+  // would upgrade shared row locks and can deadlock concurrent requests.
+  await this.pool.execute('INSERT IGNORE INTO ai_usage (user_id,day,requests) VALUES (?,?,0)',[id,day]);
+  const [r]=await this.pool.execute('UPDATE ai_usage SET requests=requests+1 WHERE user_id=? AND day=? AND requests<?',[id,day,limit]);
+  return r.affectedRows===1;
+ }
  async close(){await this.pool.end();}
 }
 // Only used by automated tests; production never silently falls back to memory.
