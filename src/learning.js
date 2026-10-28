@@ -1,5 +1,5 @@
 import {placement,units} from './content.js';
-export const freshProgress = () => ({assessment:null,completed:[],cards:{},activity:{},goal:20,notes:{},lessonDraft:null});
+export const freshProgress = () => ({assessment:null,completed:[],cards:{},activity:{},goal:20,notes:{},lessonDraft:null,wordCards:{},favourites:[],mistakes:{},attempts:{},course:{},courseDraft:null,writing:{},placementV2:null});
 export const dayKey = (date=new Date()) => new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Istanbul',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
 export function assess(answers) {
  const evaluated=placement.map((q,i)=>({...q,skipped:answers[i]===null,correct:answers[i]===q.answer}));

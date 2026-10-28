@@ -4,11 +4,15 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 
 ## Neler var?
 
-- 12 soruluk başlangıç taraması: okuma, dinleme ve temel yapı için ayrı sonuçlar. Kesin CEFR sertifikasyonu değildir; konuşma/yazma seviyesi çıkarmaz.
-- A1–A2 odaklı 8 özgün bölüm, 48 günlük kalıp, Türkçe açıklamalar, hikâyeler ve sorular.
-- Öğren → hatırla → dinle/yaz → oku → sesli söyle akışı; bölüm içi ilerleme kaydı.
-- Hatırlama durumuna göre 10 dakika–60 gün arasında tekrar planlama.
-- Tarayıcı sesleriyle İngilizce dinleme ve yavaşlatma; cihazda ses kaydı ve tekrar dinleme.
+- A1–B2 için 24 soruluk seviye taraması; atlanan dinleme soruları ayrı sayılır.
+- 32 konu: Türkçe anlatım, adım adım cümle kurma, 96 örnek ve 128 gramer sorusu.
+- 192 kelime/ifade: arama, seviye/konu filtresi, favoriler, kişisel kart kutusu, yazılı hatırlama.
+- 32 özgün okuma metni, 64 okuma sorusu, 32 dinleme sorusu, 32 konuşma/yazma görevi.
+- Yanlışlar otomatik birikir; beceri/seviye filtreli ayrı çalışma ve üç farklı günde doğru hatırlama takibi.
+- Dört ImageGen atlasında 16 özgün sahne; konu ve kartlarda görsel bağlam.
+- İlk sürümün 8 bölümü ve 48 kalıbı ile mevcut kayıtlar korunur.
+- Kart tekrarları 10 dakika–60 gün; aynı oturumda kartların tekrar dönmesi engellenir.
+- ElevenLabs statik MP3 desteği hazır. Kayıtlar henüz üretilmemişse bu açıkça belirtilir; kullanıcı isterse geçici cihaz sesini seçebilir.
 - 3 rehberli konuşma sahnesi ve API bağlandığında yazılı yapay zekâ öğretmeni.
 - Seviyeye göre başlangıç bölümü önerisi; kişisel ilerleme, günlük hedef ve notlar.
 - British Council video, dinleme ve okuma kütüphanesi; bağlantılar kaynağın kendi sitesinde açılır.
@@ -46,7 +50,7 @@ API anahtarı tarayıcıya veya GitHub'a gönderilmez. Yapay zekâ yalnızca yaz
 ## Gizlilik ve sınırlar
 
 - Ses kaydı sunucuya yüklenmez. “Konuşarak yaz” isteğe bağlı Web Speech özelliğidir; tarayıcı sağlayıcısının uzaktaki ses hizmetini kullanabilir.
-- Dinleme için cihazda İngilizce bir ses gerekir. Ses bulunmazsa uygulama anlaşılır bir mesaj gösterir; dinleme soruları atlanabilir ve sonuçta belirtilir.
+- ElevenLabs kaydı olmayan metinler eksik olarak işaretlenir. Geçici cihaz sesi isteğe bağlıdır; dinleme soruları atlanabilir.
 - Mikrofon üretimde HTTPS gerektirir. Web Speech desteği tarayıcıya göre değişir; yazıyla devam her zaman mümkündür.
 - Hesaplar veritabanında ayrı tutulur. Parolalar rastgele salt + scrypt ile saklanır; oturum tokenlarının yalnızca SHA-256 özetleri veritabanına yazılır. Çerezler HttpOnly, SameSite=Strict ve üretimde Secure'dur.
 - Davet kodu ayarlanmadıkça yeni üyelik kapalıdır. Bu sürümde e-posta doğrulama, otomatik e-posta ile şifre kurtarma, ödeme veya yönetici paneli yoktur.
@@ -70,3 +74,15 @@ Ders metinleri ve çizim uygulama için özgün hazırlanmıştır. Haricî içe
 - [Hostinger MySQL bağlantısı](https://www.hostinger.com/support/connecting-a-hostinger-mysql-database-to-a-node-js-application/)
 - [OpenAI Chat Completions API](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create)
 - [British Council Starting Out](https://learnenglish.britishcouncil.org/free-resources/general/video-series/starting-out)
+
+## ElevenLabs ses üretimi
+
+`node scripts/generate-narration.mjs` yalnızca planı gösterir. Şu an 636 metin / yaklaşık 31 bin karakter vardır. Anahtar kaynakta, manifestte veya istemcide bulunmaz. Üretim için mevcut anahtarı yalnızca özel bir yerel dosyadan okuyun:
+
+```sh
+node scripts/generate-narration.mjs --generate --key-file /private/path/elevenlabs-key.txt --voice EXISTING_VOICE_ID --limit 3
+```
+
+İlk üç kaydı dinleyip sesi doğrulayın; sonra `--limit` kaldırılarak devam edilebilir. Araç mevcut manifesti korur, yalnızca eksikleri üretir ve krediler yetmiyorsa durur. Satın alma veya plan yükseltmez. `public/audio/` MP3 dosyaları ve manifest yayımlanır. Boş manifest tamamlanmış ses üretimi anlamına gelmez. Türkçe ve İngilizce için `eleven_multilingual_v2` kullanılır.
+
+Bu müfredat A1–B2 yapılarından seçilmiş bir çalışma rotasıdır; kapsamlı bir dil okulunun tüm kelime havuzu veya CEFR belgelendirmesi değildir. Yazma/konuşmada kayıt ve öz değerlendirme vardır; otomatik değerlendirme olduğu iddia edilmez.
