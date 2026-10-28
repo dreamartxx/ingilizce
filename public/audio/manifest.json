@@ -1,1 +1,3281 @@
-{"provider":"ElevenLabs","clips":{}}
+{
+  "version": 2,
+  "provider": "ElevenLabs",
+  "generatedAt": "2026-10-28T13:55:58.266Z",
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "voices": {
+    "en": "Max - Elearning and Documentary",
+    "tr": "Seyfullah Kartal"
+  },
+  "clips": {
+    "Hello! What would you like to drink?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 0,
+      "end": 2.5218820861678006
+    },
+    "Would you like sugar?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 3.1718820861678005,
+      "end": 4.492131519274377
+    },
+    "How would you like to pay?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 5.142131519274376,
+      "end": 6.671360544217687
+    },
+    "Thank you! Enjoy your drink.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 7.321360544217687,
+      "end": 10.104467120181406
+    },
+    "Good evening! Do you have a reservation?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 10.754467120181406,
+      "end": 13.955532879818595
+    },
+    "What is your name, please?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 14.605532879818593,
+      "end": 16.030272108843537
+    },
+    "Here is your key. Breakfast is at eight.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 16.680272108843536,
+      "end": 19.98582766439909
+    },
+    "You are welcome. Enjoy your stay!": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 20.63582766439909,
+      "end": 23.053219954648526
+    },
+    "Hello! My name is Emma. What is your name?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 23.703219954648524,
+      "end": 27.243877551020407
+    },
+    "Nice to meet you! Where are you from?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 27.893877551020406,
+      "end": 30.59861678004535
+    },
+    "I am from England. It is lovely to meet you.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 31.24861678004535,
+      "end": 34.52804988662131
+    },
+    "Have a lovely day!": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 35.17804988662131,
+      "end": 36.99462585034013
+    },
+    "name": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 37.644625850340134,
+      "end": 38.35219954648526
+    },
+    "My name is Deniz.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 39.00219954648526,
+      "end": 41.03727891156462
+    },
+    "friend": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 41.687278911564626,
+      "end": 42.58956916099773
+    },
+    "She is my friend.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 43.23956916099773,
+      "end": 44.74267573696145
+    },
+    "teacher": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 45.39267573696145,
+      "end": 46.45170068027211
+    },
+    "My father is a teacher.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 47.10170068027211,
+      "end": 49.04888888888889
+    },
+    "ready": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 49.69888888888889,
+      "end": 50.470566893424035
+    },
+    "Are you ready?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 51.120566893424034,
+      "end": 52.31020408163265
+    },
+    "tired": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 52.960204081632654,
+      "end": 53.914739229024946
+    },
+    "I am tired today.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 54.564739229024944,
+      "end": 56.773151927437645
+    },
+    "from": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 57.423151927437644,
+      "end": 58.03809523809524
+    },
+    "I am from Turkey.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 58.688095238095244,
+      "end": 60.63528344671202
+    },
+    "cup": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 61.28528344671202,
+      "end": 61.9524716553288
+    },
+    "This is a cup of tea.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 62.6024716553288,
+      "end": 64.83700680272109
+    },
+    "apple": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 65.48700680272108,
+      "end": 66.41541950113378
+    },
+    "I have an apple.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 67.06541950113379,
+      "end": 68.38566893424037
+    },
+    "umbrella": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 69.03566893424036,
+      "end": 69.99020408163265
+    },
+    "Take an umbrella.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 70.64020408163265,
+      "end": 71.96045351473923
+    },
+    "water": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 72.61045351473922,
+      "end": 73.43437641723355
+    },
+    "I need some water.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 74.08437641723356,
+      "end": 75.92707482993197
+    },
+    "menu": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 76.57707482993197,
+      "end": 77.4009977324263
+    },
+    "Can I see the menu?": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 78.05099773242631,
+      "end": 79.84145124716554
+    },
+    "bill": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 80.49145124716554,
+      "end": 81.34149659863947
+    },
+    "The bill is on the table.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 81.99149659863947,
+      "end": 84.22603174603177
+    },
+    "family": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 84.87603174603176,
+      "end": 86.03954648526079
+    },
+    "My family is here.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 86.68954648526078,
+      "end": 88.1404081632653
+    },
+    "daughter": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 88.79040816326531,
+      "end": 89.61433106575964
+    },
+    "Their daughter is a student.": {
+      "src": "/audio/5f230d502479fe13247ba3d0.mp3",
+      "start": 90.26433106575965,
+      "end": 92.42049886621317
+    },
+    "son": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 0,
+      "end": 0.8761678004535147
+    },
+    "Our son is ten.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 1.5261678004535146,
+      "end": 3.4733560090702946
+    },
+    "parents": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 4.123356009070294,
+      "end": 5.130136054421768
+    },
+    "My parents live nearby.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 5.780136054421768,
+      "end": 8.354263038548751
+    },
+    "keys": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 9.004263038548752,
+      "end": 10.011043083900226
+    },
+    "These are my keys.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 10.661043083900225,
+      "end": 12.764965986394555
+    },
+    "bag": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 13.414965986394556,
+      "end": 14.343378684807254
+    },
+    "Her bag is blue.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 14.993378684807254,
+      "end": 16.391995464852606
+    },
+    "usually": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 17.041995464852604,
+      "end": 17.944285714285712
+    },
+    "I usually walk to work.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 18.59428571428571,
+      "end": 20.698208616780043
+    },
+    "breakfast": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 21.348208616780042,
+      "end": 22.381111111111107
+    },
+    "She has breakfast at seven.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 23.03111111111111,
+      "end": 25.344013605442175
+    },
+    "wake up": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 25.994013605442174,
+      "end": 26.922426303854873
+    },
+    "I wake up early.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 27.572426303854872,
+      "end": 29.075532879818592
+    },
+    "evening": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 29.72553287981859,
+      "end": 30.575578231292514
+    },
+    "We read in the evening.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 31.225578231292513,
+      "end": 33.27725623582766
+    },
+    "every day": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 33.92725623582766,
+      "end": 35.27362811791383
+    },
+    "I practise every day.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 35.92362811791383,
+      "end": 37.844693877551016
+    },
+    "before": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 38.494693877551015,
+      "end": 39.44922902494331
+    },
+    "I read before bed.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 40.099229024943305,
+      "end": 41.941927437641716
+    },
+    "where": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 42.591927437641715,
+      "end": 43.415850340136046
+    },
+    "Where is the station?": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 44.065850340136045,
+      "end": 45.93467120181405
+    },
+    "when": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 46.58467120181405,
+      "end": 47.17349206349205
+    },
+    "When does the film start?": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 47.823492063492054,
+      "end": 50.031904761904755
+    },
+    "why": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 50.681904761904754,
+      "end": 51.4535827664399
+    },
+    "Why are you here?": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 52.1035827664399,
+      "end": 53.73730158730158
+    },
+    "how much": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 54.38730158730158,
+      "end": 55.86428571428571
+    },
+    "How much is this book?": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 56.514285714285705,
+      "end": 58.04351473922902
+    },
+    "address": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 58.693514739229016,
+      "end": 59.43907029478457
+    },
+    "What is your address?": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 60.08907029478457,
+      "end": 61.43544217687074
+    },
+    "station": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 62.085442176870735,
+      "end": 63.06609977324262
+    },
+    "The station opens early.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 63.71609977324262,
+      "end": 66.05512471655328
+    },
+    "room": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 66.70512471655327,
+      "end": 67.5551700680272
+    },
+    "There are two rooms.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 68.2051700680272,
+      "end": 69.78664399092969
+    },
+    "table": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 70.4366439909297,
+      "end": 71.28668934240362
+    },
+    "The book is on the table.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 71.93668934240362,
+      "end": 74.01448979591837
+    },
+    "chair": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 74.66448979591837,
+      "end": 75.69739229024944
+    },
+    "There is a chair here.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 76.34739229024943,
+      "end": 77.7198866213152
+    },
+    "window": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 78.36988662131519,
+      "end": 79.37666666666667
+    },
+    "The window is open.": {
+      "src": "/audio/4bac1e50307e4ff6da4f6000.mp3",
+      "start": 80.02666666666666,
+      "end": 81.63426303854874
+    },
+    "under": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 0,
+      "end": 0.7716780045351473
+    },
+    "The bag is under the chair.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 1.4216780045351474,
+      "end": 4.048049886621316
+    },
+    "next to": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 4.698049886621315,
+      "end": 5.57421768707483
+    },
+    "The lamp is next to the bed.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 6.22421768707483,
+      "end": 8.223650793650794
+    },
+    "help": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 8.873650793650794,
+      "end": 9.61920634920635
+    },
+    "Can you help me?": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 10.26920634920635,
+      "end": 11.380476190476191
+    },
+    "swim": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 12.030476190476191,
+      "end": 13.037256235827666
+    },
+    "I can swim.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 13.687256235827665,
+      "end": 14.85077097505669
+    },
+    "cook": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 15.500770975056689,
+      "end": 16.246326530612244
+    },
+    "He can cook very well.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 16.896326530612246,
+      "end": 18.817392290249433
+    },
+    "drive": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 19.467392290249435,
+      "end": 20.395804988662135
+    },
+    "She cannot drive.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 21.045804988662134,
+      "end": 23.045238095238098
+    },
+    "slowly": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 23.695238095238096,
+      "end": 24.675895691609977
+    },
+    "Please speak slowly.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 25.32589569160998,
+      "end": 27.69104308390023
+    },
+    "please": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 28.341043083900228,
+      "end": 29.373945578231293
+    },
+    "Please sit here.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 30.023945578231295,
+      "end": 31.997256235827667
+    },
+    "now": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 32.64725623582767,
+      "end": 33.62791383219955
+    },
+    "I am reading now.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 34.27791383219955,
+      "end": 35.62428571428572
+    },
+    "wait": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 36.27428571428572,
+      "end": 37.045963718820865
+    },
+    "We are waiting outside.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 37.69596371882086,
+      "end": 39.64315192743764
+    },
+    "rain": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 40.29315192743764,
+      "end": 41.29993197278912
+    },
+    "It is raining.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 41.949931972789116,
+      "end": 43.557528344671205
+    },
+    "listen": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 44.2075283446712,
+      "end": 45.55390022675737
+    },
+    "I am listening to music.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 46.20390022675737,
+      "end": 46.975578231292516
+    },
+    "read": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 47.625578231292515,
+      "end": 49.572766439909294
+    },
+    "She is reading a story.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 50.22276643990929,
+      "end": 51.22954648526077
+    },
+    "outside": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 51.87954648526077,
+      "end": 53.48714285714286
+    },
+    "They are playing outside.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 54.137142857142855,
+      "end": 55.71861678004535
+    },
+    "yesterday": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 56.36861678004535,
+      "end": 57.40151927437642
+    },
+    "I called you yesterday.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 58.05151927437642,
+      "end": 59.972585034013605
+    },
+    "visit": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 60.6225850340136,
+      "end": 61.49875283446712
+    },
+    "We visited a museum.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 62.14875283446712,
+      "end": 64.46165532879819
+    },
+    "buy": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 65.11165532879818,
+      "end": 65.80496598639455
+    },
+    "I bought a coat.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 66.45496598639455,
+      "end": 67.87970521541949
+    },
+    "journey": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 68.5297052154195,
+      "end": 69.4581179138322
+    },
+    "The journey was short.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 70.10811791383219,
+      "end": 72.13367346938774
+    },
+    "arrive": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 72.78367346938775,
+      "end": 73.868820861678
+    },
+    "We arrived at nine.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 74.518820861678,
+      "end": 76.15253968253967
+    },
+    "last week": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 76.80253968253967,
+      "end": 78.07054421768707
+    },
+    "I saw her last week.": {
+      "src": "/audio/8ef0afd48f29cb98eea74fb0.mp3",
+      "start": 78.72054421768706,
+      "end": 80.64160997732425
+    },
+    "while": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 0,
+      "end": 0.8239229024943311
+    },
+    "I listened while she spoke.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 1.4739229024943312,
+      "end": 3.995804988662132
+    },
+    "suddenly": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 4.645804988662132,
+      "end": 5.5219727891156465
+    },
+    "Suddenly, the phone rang.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 6.171972789115646,
+      "end": 9.085691609977324
+    },
+    "ring": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 9.735691609977323,
+      "end": 10.637981859410429
+    },
+    "My phone was ringing.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 11.28798185941043,
+      "end": 13.39190476190476
+    },
+    "notice": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 14.04190476190476,
+      "end": 15.048684807256235
+    },
+    "I noticed a small shop.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 15.698684807256235,
+      "end": 17.88097505668934
+    },
+    "carry": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 18.530975056689343,
+      "end": 19.354897959183674
+    },
+    "She was carrying a bag.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 20.004897959183673,
+      "end": 22.134943310657597
+    },
+    "through": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 22.784943310657596,
+      "end": 23.426009070294786
+    },
+    "We walked through the park.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 24.076009070294784,
+      "end": 26.127687074829932
+    },
+    "plan": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 26.77768707482993,
+      "end": 27.523242630385486
+    },
+    "We have a plan.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 28.173242630385488,
+      "end": 29.545736961451247
+    },
+    "tomorrow": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 30.195736961451246,
+      "end": 31.176394557823127
+    },
+    "I will call tomorrow.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 31.82639455782313,
+      "end": 33.7997052154195
+    },
+    "book": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 34.4497052154195,
+      "end": 35.35199546485261
+    },
+    "I am going to book a room.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 36.001995464852605,
+      "end": 37.635714285714286
+    },
+    "flight": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 38.285714285714285,
+      "end": 39.083514739229024
+    },
+    "Our flight leaves at six.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 39.73351473922902,
+      "end": 41.94192743764172
+    },
+    "pack": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 42.59192743764172,
+      "end": 43.33748299319728
+    },
+    "I need to pack my bag.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 43.987482993197276,
+      "end": 46.19589569160998
+    },
+    "soon": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 46.845895691609975,
+      "end": 47.61757369614512
+    },
+    "We will meet soon.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 48.26757369614512,
+      "end": 49.97965986394557
+    },
+    "cheaper": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 50.62965986394558,
+      "end": 51.55807256235828
+    },
+    "This ticket is cheaper.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 52.208072562358275,
+      "end": 54.57321995464852
+    },
+    "comfortable": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 55.22321995464853,
+      "end": 56.334489795918365
+    },
+    "This seat is comfortable.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 56.98448979591837,
+      "end": 58.539841269841276
+    },
+    "crowded": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 59.189841269841274,
+      "end": 60.09213151927438
+    },
+    "The train is crowded.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 60.74213151927438,
+      "end": 62.610952380952384
+    },
+    "faster": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 63.26095238095238,
+      "end": 64.21548752834467
+    },
+    "This train is faster.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 64.86548752834467,
+      "end": 67.25675736961452
+    },
+    "choice": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 67.90675736961451,
+      "end": 68.70455782312925
+    },
+    "It is a good choice.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 69.35455782312926,
+      "end": 71.17113378684807
+    },
+    "price": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 71.82113378684808,
+      "end": 72.6973015873016
+    },
+    "The price is lower today.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 73.3473015873016,
+      "end": 75.76469387755104
+    },
+    "rice": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 76.41469387755103,
+      "end": 77.34310657596373
+    },
+    "We need some rice.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 77.99310657596374,
+      "end": 79.52233560090704
+    },
+    "amount": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 80.17233560090705,
+      "end": 81.07462585034015
+    },
+    "Use a small amount.": {
+      "src": "/audio/9edffc5d3069b003a7002b8b.mp3",
+      "start": 81.72462585034016,
+      "end": 83.54120181405898
+    },
+    "enough": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 0,
+      "end": 0.8761678004535147
+    },
+    "We have enough food.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 1.5261678004535146,
+      "end": 3.55172335600907
+    },
+    "few": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 4.2017233560090705,
+      "end": 4.868911564625851
+    },
+    "There are a few apples.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 5.518911564625851,
+      "end": 7.857936507936509
+    },
+    "little": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 8.50793650793651,
+      "end": 9.357981859410433
+    },
+    "Add a little milk.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 10.007981859410432,
+      "end": 11.955170068027211
+    },
+    "shopping list": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 12.605170068027212,
+      "end": 14.238888888888889
+    },
+    "I wrote a shopping list.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 14.88888888888889,
+      "end": 16.496485260770974
+    },
+    "rule": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 17.146485260770977,
+      "end": 17.944285714285716
+    },
+    "Read the rules first.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 18.594285714285714,
+      "end": 20.672086167800455
+    },
+    "allowed": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 21.322086167800453,
+      "end": 22.302743764172334
+    },
+    "Parking is not allowed.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 22.952743764172336,
+      "end": 25.552993197278912
+    },
+    "necessary": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 26.20299319727891,
+      "end": 27.810589569160996
+    },
+    "Is a ticket necessary?": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 28.460589569160998,
+      "end": 29.258390022675737
+    },
+    "advice": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 29.908390022675736,
+      "end": 31.986190476190476
+    },
+    "Thank you for your advice.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 32.63619047619048,
+      "end": 33.61684807256236
+    },
+    "break": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 34.26684807256236,
+      "end": 36.86709750566894
+    },
+    "You should take a break.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 37.517097505668936,
+      "end": 38.83734693877551
+    },
+    "seat belt": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 39.48734693877551,
+      "end": 40.676984126984124
+    },
+    "Wear your seat belt.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 41.32698412698413,
+      "end": 43.117437641723356
+    },
+    "experience": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 43.76743764172336,
+      "end": 45.192176870748305
+    },
+    "It was a useful experience.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 45.842176870748304,
+      "end": 48.46854875283447
+    },
+    "already": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 49.11854875283447,
+      "end": 49.91634920634921
+    },
+    "I have already eaten.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 50.56634920634921,
+      "end": 52.27843537414966
+    },
+    "yet": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 52.928435374149664,
+      "end": 53.64786848072563
+    },
+    "We have not finished yet.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 54.297868480725626,
+      "end": 56.349546485260774
+    },
+    "ever": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 56.99954648526077,
+      "end": 57.849591836734696
+    },
+    "Have you ever been here?": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 58.499591836734695,
+      "end": 59.898208616780046
+    },
+    "try": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 60.548208616780045,
+      "end": 61.346009070294784
+    },
+    "I have tried this dish.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 61.99600907029478,
+      "end": 64.02156462585033
+    },
+    "abroad": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 64.67156462585034,
+      "end": 65.67834467120181
+    },
+    "She has worked abroad.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 66.3283446712018,
+      "end": 68.58900226757369
+    },
+    "enjoy": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 69.23900226757368,
+      "end": 70.0890476190476
+    },
+    "I enjoy reading.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 70.73904761904761,
+      "end": 72.60786848072561
+    },
+    "decide": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 73.25786848072562,
+      "end": 74.2385260770975
+    },
+    "We decided to stay.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 74.8885260770975,
+      "end": 76.88795918367346
+    },
+    "avoid": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 77.53795918367346,
+      "end": 78.91045351473923
+    },
+    "Try to avoid noise.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 79.56045351473922,
+      "end": 81.48151927437641
+    },
+    "hobby": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 82.13151927437642,
+      "end": 82.98156462585034
+    },
+    "Painting is my hobby.": {
+      "src": "/audio/a45de16452a5bb24a1a7af63.mp3",
+      "start": 83.63156462585034,
+      "end": 85.6832426303855
+    },
+    "improve": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 0,
+      "end": 1.0851473922902495
+    },
+    "I want to improve my English.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 1.7351473922902496,
+      "end": 4.596621315192744
+    },
+    "practise": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 5.246621315192744,
+      "end": 6.27952380952381
+    },
+    "I practise speaking daily.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 6.929523809523809,
+      "end": 9.634263038548752
+    },
+    "since": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 10.284263038548753,
+      "end": 11.212675736961451
+    },
+    "I have lived here since May.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 11.862675736961451,
+      "end": 14.48904761904762
+    },
+    "recently": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 15.13904761904762,
+      "end": 16.51154195011338
+    },
+    "I have been busy recently.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 17.16154195011338,
+      "end": 18.194444444444446
+    },
+    "progress": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 18.84444444444445,
+      "end": 21.549183673469393
+    },
+    "You are making progress.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 22.199183673469392,
+      "end": 23.127596371882092
+    },
+    "effort": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 23.77759637188209,
+      "end": 26.40396825396826
+    },
+    "Learning takes effort.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 27.053968253968257,
+      "end": 28.426462585034017
+    },
+    "regularly": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 29.076462585034015,
+      "end": 30.840793650793653
+    },
+    "She practises regularly.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 31.490793650793652,
+      "end": 32.47145124716553
+    },
+    "achieve": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 33.12145124716553,
+      "end": 34.676802721088436
+    },
+    "We can achieve our goal.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 35.326802721088434,
+      "end": 36.22909297052154
+    },
+    "realise": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 36.87909297052154,
+      "end": 39.113628117913834
+    },
+    "I realised I had lost my key.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 39.76362811791383,
+      "end": 42.23326530612245
+    },
+    "by the time": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 42.883265306122446,
+      "end": 44.020657596371876
+    },
+    "By the time I arrived, it was dark.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 44.67065759637188,
+      "end": 47.61049886621315
+    },
+    "previously": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 48.260498866213155,
+      "end": 49.47625850340136
+    },
+    "We had met previously.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 50.12625850340136,
+      "end": 52.151814058956916
+    },
+    "fortunately": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 52.801814058956914,
+      "end": 55.27145124716553
+    },
+    "Fortunately, nobody was hurt.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 55.92145124716553,
+      "end": 57.05884353741496
+    },
+    "manage": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 57.708843537414964,
+      "end": 60.64868480725623
+    },
+    "I managed to catch the bus.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 61.29868480725624,
+      "end": 62.51444444444444
+    },
+    "eventually": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 63.16444444444444,
+      "end": 65.19
+    },
+    "Eventually, we found the hotel.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 65.84,
+      "end": 68.33575963718822
+    },
+    "unless": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 68.98575963718821,
+      "end": 69.9402947845805
+    },
+    "We will walk unless it rains.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 70.5902947845805,
+      "end": 73.42564625850339
+    },
+    "result": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 74.0756462585034,
+      "end": 75.10854875283447
+    },
+    "The result depends on you.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 75.75854875283446,
+      "end": 78.4371655328798
+    },
+    "prepare": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 79.08716553287981,
+      "end": 81.58292517006802
+    },
+    "I will prepare dinner.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 82.23292517006801,
+      "end": 83.1874603174603
+    },
+    "depend on": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 83.8374603174603,
+      "end": 86.6728117913832
+    },
+    "It depends on the weather.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 87.3228117913832,
+      "end": 88.35571428571427
+    },
+    "likely": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 89.00571428571426,
+      "end": 91.68433106575961
+    },
+    "Rain is likely tomorrow.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 92.33433106575961,
+      "end": 94.17702947845802
+    },
+    "in case": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 94.82702947845803,
+      "end": 95.8599319727891
+    },
+    "Take a coat in case it gets cold.": {
+      "src": "/audio/24fb08097a620ad99597445c.mp3",
+      "start": 96.50993197278909,
+      "end": 99.21467120181403
+    },
+    "imagine": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 0,
+      "end": 1.0329024943310658
+    },
+    "Imagine living by the sea.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 1.6829024943310658,
+      "end": 4.2831519274376415
+    },
+    "opportunity": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 4.933151927437642,
+      "end": 6.044421768707483
+    },
+    "This is a good opportunity.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 6.694421768707484,
+      "end": 9.477528344671203
+    },
+    "afford": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 10.127528344671202,
+      "end": 11.082063492063492
+    },
+    "I cannot afford a new car.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 11.732063492063492,
+      "end": 14.253945578231292
+    },
+    "instead": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 14.903945578231292,
+      "end": 16.1197052154195
+    },
+    "We could walk instead.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 16.7697052154195,
+      "end": 17.88097505668934
+    },
+    "suggest": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 18.53097505668934,
+      "end": 21.314081632653057
+    },
+    "I suggest taking a break.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 21.96408163265306,
+      "end": 22.918616780045348
+    },
+    "perhaps": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 23.56861678004535,
+      "end": 26.09049886621315
+    },
+    "Perhaps we could try again.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 26.74049886621315,
+      "end": 27.95625850340136
+    },
+    "neighbour": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 28.60625850340136,
+      "end": 29.27344671201814
+    },
+    "The neighbour who helped is kind.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 29.92344671201814,
+      "end": 32.393083900226756
+    },
+    "reliable": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 33.043083900226755,
+      "end": 34.102108843537415
+    },
+    "She is a reliable colleague.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 34.752108843537414,
+      "end": 37.50909297052154
+    },
+    "belong to": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 38.15909297052154,
+      "end": 39.42709750566893
+    },
+    "This bag belongs to me.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 40.07709750566893,
+      "end": 42.207142857142856
+    },
+    "colleague": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 42.857142857142854,
+      "end": 43.785555555555554
+    },
+    "My colleague lives nearby.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 44.43555555555555,
+      "end": 46.82682539682539
+    },
+    "recommend": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 47.47682539682539,
+      "end": 48.6925850340136
+    },
+    "I recommend the book I read.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 49.342585034013595,
+      "end": 51.81222222222221
+    },
+    "nearby": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 52.46222222222221,
+      "end": 53.44287981859409
+    },
+    "There is a library nearby.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 54.09287981859409,
+      "end": 56.405782312925155
+    },
+    "produce": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 57.05578231292516,
+      "end": 58.036439909297044
+    },
+    "Cheese is produced here.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 58.68643990929704,
+      "end": 60.86873015873015
+    },
+    "repair": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 61.51873015873015,
+      "end": 62.65612244897958
+    },
+    "The door was repaired.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 63.306122448979586,
+      "end": 65.22718820861678
+    },
+    "deliver": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 65.87718820861677,
+      "end": 66.77947845804988
+    },
+    "The parcel was delivered today.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 67.42947845804989,
+      "end": 70.29095238095238
+    },
+    "design": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 70.94095238095238,
+      "end": 71.94773242630386
+    },
+    "The house was designed by her.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 72.59773242630385,
+      "end": 75.66818594104308
+    },
+    "material": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 76.31818594104308,
+      "end": 77.27272108843538
+    },
+    "This material is recycled.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 77.92272108843537,
+      "end": 80.3401133786848
+    },
+    "process": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 80.9901133786848,
+      "end": 82.04913832199546
+    },
+    "The process takes two days.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 82.69913832199545,
+      "end": 85.3516326530612
+    },
+    "mention": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 86.00163265306121,
+      "end": 87.13902494331064
+    },
+    "He mentioned the meeting.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 87.78902494331064,
+      "end": 89.26600907029476
+    },
+    "explain": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 89.91600907029476,
+      "end": 91.0534013605442
+    },
+    "She explained the problem.": {
+      "src": "/audio/e68139cd1fcc9500a8c994bd.mp3",
+      "start": 91.70340136054419,
+      "end": 93.72895691609975
+    },
+    "promise": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 0,
+      "end": 1.006780045351474
+    },
+    "He promised to call.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 1.656780045351474,
+      "end": 3.5778458049886623
+    },
+    "message": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 4.227845804988663,
+      "end": 5.051768707482994
+    },
+    "I received your message.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 5.701768707482994,
+      "end": 7.857936507936509
+    },
+    "remind": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 8.50793650793651,
+      "end": 9.566961451247167
+    },
+    "Please remind me tomorrow.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 10.216961451247167,
+      "end": 13.600884353741499
+    },
+    "report": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 14.250884353741498,
+      "end": 15.388276643990931
+    },
+    "They reported a problem.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 16.03827664399093,
+      "end": 17.72424036281179
+    },
+    "although": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 18.37424036281179,
+      "end": 19.407142857142855
+    },
+    "Although it rained, we walked.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 20.057142857142857,
+      "end": 23.519433106575963
+    },
+    "however": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 24.169433106575966,
+      "end": 25.071723356009073
+    },
+    "It is expensive. However, it lasts.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 25.721723356009072,
+      "end": 31.117074829931973
+    },
+    "therefore": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 31.767074829931975,
+      "end": 32.69548752834467
+    },
+    "It was late. Therefore, we left.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 33.34548752834468,
+      "end": 37.434716553287984
+    },
+    "reason": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 38.08471655328799,
+      "end": 39.065374149659874
+    },
+    "What is the reason?": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 39.71537414965987,
+      "end": 41.5058276643991
+    },
+    "benefit": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 42.155827664399105,
+      "end": 43.18873015873017
+    },
+    "Exercise has many benefits.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 43.83873015873017,
+      "end": 46.54346938775512
+    },
+    "drawback": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 47.193469387755115,
+      "end": 48.30473922902495
+    },
+    "The main drawback is the cost.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 48.95473922902496,
+      "end": 51.60723356009072
+    },
+    "regret": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 52.25723356009072,
+      "end": 53.264013605442194
+    },
+    "I regret missing the chance.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 53.91401360544219,
+      "end": 56.592630385487546
+    },
+    "consequence": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 57.242630385487544,
+      "end": 59.94736961451249
+    },
+    "Consider the consequences.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 60.59736961451249,
+      "end": 61.708639455782325
+    },
+    "prevent": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 62.35863945578233,
+      "end": 65.01113378684809
+    },
+    "We could have prevented it.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 65.6611337868481,
+      "end": 66.66791383219957
+    },
+    "otherwise": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 67.31791383219957,
+      "end": 69.99653061224491
+    },
+    "Leave now; otherwise, you will be late.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 70.64653061224492,
+      "end": 71.81004535147395
+    },
+    "overlook": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 72.46004535147394,
+      "end": 74.61621315192745
+    },
+    "We had overlooked a detail.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 75.26621315192745,
+      "end": 76.29911564625851
+    },
+    "outcome": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 76.9491156462585,
+      "end": 78.89630385487528
+    },
+    "The outcome could have been different.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 79.54630385487529,
+      "end": 80.68369614512473
+    },
+    "circumstance": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 81.33369614512472,
+      "end": 82.62782312925171
+    },
+    "The circumstances have changed.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 83.2778231292517,
+      "end": 85.8258276643991
+    },
+    "impact": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 86.47582766439909,
+      "end": 87.53485260770975
+    },
+    "Education has a lasting impact.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 88.18485260770974,
+      "end": 91.04632653061223
+    },
+    "qualification": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 91.69632653061224,
+      "end": 93.27780045351473
+    },
+    "This job requires a qualification.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 93.92780045351473,
+      "end": 96.99825396825396
+    },
+    "previous": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 97.64825396825397,
+      "end": 98.68115646258504
+    },
+    "My previous job was demanding.": {
+      "src": "/audio/c31ce980b671fae11d3f81e4.mp3",
+      "start": 99.33115646258503,
+      "end": 102.34936507936507
+    },
+    "currently": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 0,
+      "end": 0.9806575963718821
+    },
+    "I am currently working from home.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 1.6306575963718821,
+      "end": 4.12641723356009
+    },
+    "reflect": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 4.776417233560091,
+      "end": 5.704829931972789
+    },
+    "Our choices reflect our priorities.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 6.354829931972789,
+      "end": 9.477528344671201
+    },
+    "evidence": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 10.127528344671202,
+      "end": 11.134308390022676
+    },
+    "There is no clear evidence.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 11.784308390022677,
+      "end": 14.044965986394558
+    },
+    "assume": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 14.694965986394559,
+      "end": 15.832358276643992
+    },
+    "Do not assume he knew.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 16.482358276643993,
+      "end": 18.351179138321996
+    },
+    "apparently": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 19.001179138321998,
+      "end": 20.164693877551024
+    },
+    "Apparently, the train was delayed.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 20.814693877551022,
+      "end": 23.911269841269842
+    },
+    "conclude": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 24.561269841269844,
+      "end": 25.59417233560091
+    },
+    "What can we conclude from this?": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 26.24417233560091,
+      "end": 28.948911564625856
+    },
+    "plausible": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 29.598911564625855,
+      "end": 30.553446712018143
+    },
+    "That is a plausible explanation.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 31.203446712018145,
+      "end": 34.30002267573697
+    },
+    "certainty": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 34.95002267573697,
+      "end": 36.11353741496599
+    },
+    "We cannot say with certainty.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 36.763537414965995,
+      "end": 39.520521541950124
+    },
+    "wish": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 40.17052154195012,
+      "end": 41.229546485260784
+    },
+    "I wish I had more time.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 41.87954648526078,
+      "end": 43.72224489795919
+    },
+    "frustrated": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 44.37224489795919,
+      "end": 45.561882086167806
+    },
+    "I felt frustrated by the delay.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 46.21188208616781,
+      "end": 48.86437641723357
+    },
+    "appreciate": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 49.51437641723357,
+      "end": 50.73013605442178
+    },
+    "I appreciate your patience.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 51.38013605442178,
+      "end": 54.11099773242632
+    },
+    "expectation": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 54.76099773242632,
+      "end": 56.60369614512473
+    },
+    "We need realistic expectations.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 57.25369614512473,
+      "end": 58.44333333333334
+    },
+    "patience": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 59.09333333333335,
+      "end": 61.74582766439911
+    },
+    "Learning requires patience.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 62.39582766439911,
+      "end": 63.61158730158731
+    },
+    "motivation": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 64.26158730158731,
+      "end": 66.99244897959184
+    },
+    "My motivation has improved.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 67.64244897959185,
+      "end": 69.79861678004536
+    },
+    "maintain": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 70.44861678004536,
+      "end": 71.5598866213152
+    },
+    "The equipment is well maintained.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 72.20988662131519,
+      "end": 74.81013605442176
+    },
+    "renovate": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 75.46013605442177,
+      "end": 76.54528344671202
+    },
+    "The building is being renovated.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 77.19528344671201,
+      "end": 80.0567573696145
+    },
+    "arrange": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 80.70675736961451,
+      "end": 81.6612925170068
+    },
+    "I arranged to have it repaired.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 82.31129251700679,
+      "end": 84.78092970521541
+    },
+    "efficient": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 85.4309297052154,
+      "end": 86.51607709750566
+    },
+    "The new process is more efficient.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 87.16607709750565,
+      "end": 90.00142857142855
+    },
+    "procedure": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 90.65142857142855,
+      "end": 91.86718820861677
+    },
+    "Follow the procedure carefully.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 92.51718820861676,
+      "end": 93.47172335600905
+    },
+    "inspect": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 94.12172335600904,
+      "end": 96.59136054421766
+    },
+    "The bridge has been inspected.": {
+      "src": "/audio/4c706c4d17295d6b768848ea.mp3",
+      "start": 97.24136054421766,
+      "end": 98.32650793650791
+    },
+    "enquire": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 0,
+      "end": 2.8353514739229024
+    },
+    "I would like to enquire about the course.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 3.4853514739229023,
+      "end": 4.701111111111111
+    },
+    "clarify": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 5.351111111111111,
+      "end": 7.42891156462585
+    },
+    "Could you clarify that point?": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 8.07891156462585,
+      "end": 9.242426303854876
+    },
+    "confirm": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 9.892426303854876,
+      "end": 12.126961451247166
+    },
+    "Please confirm the date.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 12.776961451247166,
+      "end": 13.78374149659864
+    },
+    "availability": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 14.433741496598639,
+      "end": 17.608684807256235
+    },
+    "I asked about room availability.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 18.258684807256234,
+      "end": 20.96342403628118
+    },
+    "requirement": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 21.613424036281177,
+      "end": 22.85530612244898
+    },
+    "What are the entry requirements?": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 23.505306122448978,
+      "end": 25.739841269841268
+    },
+    "appropriate": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 26.38984126984127,
+      "end": 27.579478458049888
+    },
+    "Is this the appropriate form?": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 28.229478458049886,
+      "end": 30.751360544217686
+    },
+    "emphasise": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 31.401360544217688,
+      "end": 32.512630385487526
+    },
+    "The author emphasises the risk.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 33.16263038548753,
+      "end": 35.89349206349207
+    },
+    "remarkable": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 36.54349206349207,
+      "end": 37.70700680272109
+    },
+    "Her progress is remarkable.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 38.357006802721095,
+      "end": 40.69603174603175
+    },
+    "contribution": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 41.346031746031755,
+      "end": 42.90138321995466
+    },
+    "We appreciate your contribution.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 43.55138321995466,
+      "end": 45.838163265306136
+    },
+    "feature": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 46.488163265306135,
+      "end": 47.5210657596372
+    },
+    "The main feature is simplicity.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 48.1710657596372,
+      "end": 50.92804988662133
+    },
+    "perspective": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 51.57804988662133,
+      "end": 52.793809523809536
+    },
+    "Consider another perspective.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 53.443809523809534,
+      "end": 55.91344671201815
+    },
+    "particularly": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 56.56344671201815,
+      "end": 58.850226757369626
+    },
+    "This part is particularly useful.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 59.500226757369624,
+      "end": 60.53312925170069
+    },
+    "whereas": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 61.18312925170069,
+      "end": 63.94011337868482
+    },
+    "Some agree, whereas others disagree.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 64.59011337868482,
+      "end": 65.80587301587303
+    },
+    "nevertheless": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 66.45587301587302,
+      "end": 68.92551020408165
+    },
+    "It was difficult. Nevertheless, we continued.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 69.57551020408164,
+      "end": 74.34392290249434
+    },
+    "sustainable": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 74.99392290249433,
+      "end": 76.10519274376418
+    },
+    "We need a sustainable solution.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 76.75519274376417,
+      "end": 78.96360544217687
+    },
+    "trade-off": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 79.61360544217686,
+      "end": 80.56814058956915
+    },
+    "There is a trade-off between cost and speed.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 81.21814058956915,
+      "end": 84.73267573696144
+    },
+    "claim": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 85.38267573696143,
+      "end": 86.0759863945578
+    },
+    "The claim needs evidence.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 86.72598639455781,
+      "end": 88.647052154195
+    },
+    "tend to": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 89.297052154195,
+      "end": 90.27770975056688
+    },
+    "People tend to choose familiar things.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 90.92770975056688,
+      "end": 93.684693877551
+    },
+    "My name is Deniz. I am a teacher. My new neighbour is Emma. She is from England. We are happy to meet.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 94.334693877551,
+      "end": 102.76024943310657
+    },
+    "Türkçede “Ben öğretmenim” derken ayrı bir fiil duymayız. İngilizcede bu bağ için am gerekir. Kimlik, duygu, yaş ve durum anlatırken kullan.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 103.41024943310656,
+      "end": 113.01131519274375
+    },
+    "Olumsuzda am/is/are sonrasına not koy. Soruda bu sözcüğü öznenin önüne taşı. Meslekten önce a/an kullan; çoğul mesleklerde kullanma.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 113.66131519274374,
+      "end": 125.6395238095238
+    },
+    "I am a teacher.": {
+      "src": "/audio/860dbbc546c16d63516b0172.mp3",
+      "start": 126.28952380952379,
+      "end": 127.32242630385485
+    },
+    "She is tired.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 0,
+      "end": 1.163514739229025
+    },
+    "I am in a café. I order a coffee and an apple. The coffee is hot. The apple is green. I ask for the bill.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 1.8135147392290252,
+      "end": 10.839886621315191
+    },
+    "Bir şeyden ilk kez bahsederken a/an kullan. Karşındaki hangi şey olduğunu biliyorsa the kullan. A/an seçimi harfe değil ilk sese bağlıdır: an hour, a university.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 11.489886621315193,
+      "end": 22.971768707482994
+    },
+    "Sayılamayan water için a water yerine some water temelini öğren. A/an tekil sayılabilir bir isim ister: a book, an apple.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 23.621768707482993,
+      "end": 31.759977324263037
+    },
+    "I have a book.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 32.40997732426304,
+      "end": 33.44287981859411
+    },
+    "She is an engineer.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 34.092879818594106,
+      "end": 35.909455782312925
+    },
+    "This is our family. Our daughter is a student. Our son is ten. These are his books. My parents live next door.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 36.559455782312924,
+      "end": 43.469909297052155
+    },
+    "My benim, your senin/sizin, his onun (erkek), her onun (kadın), our bizim, their onların demektir. İyelik sözcüğünden sonra isim gelir: my bag.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 44.11990929705215,
+      "end": 56.12424036281179
+    },
+    "Birden çok şeyi çoğul isimle anlat. Book → books, box → boxes. Child → children gibi düzensizleri ayrıca öğren. This yakındaki tekil, these yakındaki çoğuldur.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 56.77424036281179,
+      "end": 68.5173469387755
+    },
+    "This is my bag.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 69.16734693877551,
+      "end": 70.25249433106576
+    },
+    "These are our children.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 70.90249433106575,
+      "end": 72.27498866213152
+    },
+    "Her name is Elif.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 72.92498866213151,
+      "end": 74.06238095238095
+    },
+    "I usually wake up at seven. I have breakfast at home. My wife works in a library. We read in the evening. We do not watch TV every day.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 74.71238095238094,
+      "end": 82.98120181405895
+    },
+    "Her gün yaptıklarını, alışkanlıklarını ve genel gerçekleri anlat. I work: çalışırım. He works: o çalışır. Often, usually, every day sana geniş zaman için ipucu verir.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 83.63120181405894,
+      "end": 94.90410430839
+    },
+    "Olumsuz: I do not work / she does not work. Does geçmiş zaman değildir; he/she/it için yardımcı fiildir. Does varsa ana fiilden -s kalkar.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 95.55410430839001,
+      "end": 106.48741496598637
+    },
+    "I walk every morning.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 107.13741496598638,
+      "end": 108.6405215419501
+    },
+    "She works in a bank.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 109.2905215419501,
+      "end": 110.76750566893422
+    },
+    "Does he drink tea?": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 111.41750566893423,
+      "end": 112.50265306122448
+    },
+    "I ask a woman, “Where is the station?” She says it is near the park. “When does the train leave?” I ask. “At ten,” she says. I thank her.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 113.15265306122447,
+      "end": 122.6492290249433
+    },
+    "What ne, where nerede, when ne zaman, why neden, how nasıl anlamındadır. What time saat kaçta, how much ne kadar sorar. Soru sözcüğünü başa koy.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 123.29922902494329,
+      "end": 132.8741723356009
+    },
+    "Be ile soruda do/does ekleme: Where are you? Eylemle soruda do/does gerekir: Where do you live? Who is your teacher? kimlik sorusudur.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 133.5241723356009,
+      "end": 145.6329931972789
+    },
+    "Where do you live?": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 146.2829931972789,
+      "end": 147.31589569160997
+    },
+    "What time does it open?": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 147.96589569160997,
+      "end": 149.23390022675736
+    },
+    "Why are you tired?": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 149.88390022675736,
+      "end": 151.04741496598638
+    },
+    "There is a small room by the garden. There are two chairs and a table. A book is on the table. A bag is under a chair. The window is open.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 151.69741496598638,
+      "end": 160.8805215419501
+    },
+    "Bir yerde ne bulunduğunu söylemek için there is/are kullan. It is bir şeyin ne olduğunu anlatır; there is ise varlığını söyler. There is a chair: bir sandalye var.": {
+      "src": "/audio/a09c21ec83e087e4011f083b.mp3",
+      "start": 161.5305215419501,
+      "end": 174.13566893424036
+    },
+    "On üstünde, under altında, next to yanında, between iki şeyin arasında demektir. Is there…? ve Are there…? ile var mı diye sor.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 0,
+      "end": 9.49657596371882
+    },
+    "There is a lamp on the desk.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 10.14657596371882,
+      "end": 11.701927437641723
+    },
+    "There are two chairs.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 12.351927437641724,
+      "end": 13.672176870748299
+    },
+    "The bag is under the table.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 14.322176870748299,
+      "end": 15.929773242630386
+    },
+    "Emma can swim, but I cannot. I can cook, and she wants to learn. We help each other. She speaks slowly when we practise English. I ask her to repeat new words.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 16.579773242630385,
+      "end": 26.624920634920635
+    },
+    "Can beceri ve izin anlatır. I can swim: yüzebilirim. Can I sit here? buraya oturabilir miyim? Can sonrasında fiil yalın kalır; to gelmez.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 27.274920634920633,
+      "end": 36.222925170068024
+    },
+    "Olumsuz cannot veya can’t. Soruda can başa gelir. She can speak: she olsa da speak fiiline -s eklenmez. Kibar rica için Can you help me, please? kullan.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 36.87292517006803,
+      "end": 47.4927664399093
+    },
+    "I can cook.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 48.1427664399093,
+      "end": 49.01893424036282
+    },
+    "It is raining now. I am reading near the window. My daughter is listening to music. My son is drawing a cat. We usually go out, but today we are staying home.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 49.668934240362816,
+      "end": 61.46428571428572
+    },
+    "Konuşma anında süren ya da bu dönemde geçici olan eylemler için kullan. I am reading now. “Now, at the moment” gibi zaman sözcüklerini fark et.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 62.11428571428572,
+      "end": 72.02882086167801
+    },
+    "Geniş zaman alışkanlığı anlatır; şimdiki zaman o anda olanı. I work at home (alışkanlık); I am working at home today (bugün geçici). Know ve like genellikle continuous almaz.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 72.67882086167802,
+      "end": 86.25049886621316
+    },
+    "I am reading a book.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 86.90049886621317,
+      "end": 88.56034013605444
+    },
+    "They are waiting outside.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 89.21034013605444,
+      "end": 90.42609977324265
+    },
+    "She is not sleeping.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 91.07609977324265,
+      "end": 92.39634920634923
+    },
+    "Last week, we visited a small museum. We bought our tickets online and arrived at ten. The guide told us about the town. Afterwards, we had lunch near the river. We enjoyed the journey.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 93.04634920634922,
+      "end": 103.01312925170069
+    },
+    "Belli ve bitmiş bir geçmiş zamanda olanları anlat. Yesterday, last week, two days ago gibi ifadeler kullan. Walk → walked; go → went; buy → bought.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 103.6631292517007,
+      "end": 114.20460317460319
+    },
+    "Soru ve olumsuzda did kullanınca fiili yalına döndür: Did you go? I did not go. Was/were ise be fiilinin geçmişidir; bunlarla did kullanma.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 114.85460317460318,
+      "end": 124.97811791383221
+    },
+    "We visited a museum yesterday.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 125.62811791383221,
+      "end": 127.49693877551022
+    },
+    "I bought a new coat.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 128.14693877551022,
+      "end": 129.4410657596372
+    },
+    "Did you enjoy the film?": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 130.09106575963722,
+      "end": 131.28070294784584
+    },
+    "I was walking through the park when my phone rang. My friend was waiting at the wrong café. While we were talking, I noticed the correct café across the road. Fortunately, it was only a short walk away.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 131.93070294784584,
+      "end": 143.28197278911568
+    },
+    "Geçmişte belli bir anda sürmekte olan eylemi anlat. At eight, I was cooking. Devam eden eylem arka planı, past simple ise araya giren olayı verir.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 143.9319727891157,
+      "end": 154.15997732426308
+    },
+    "I was walking when it started to rain. Yağmur başladığında yürüyordum. İki uzun eylem aynı anda sürerse while ile bağla: While I was cooking, she was reading.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 154.8099773242631,
+      "end": 167.12777777777782
+    },
+    "I was sleeping when you called.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 167.77777777777783,
+      "end": 169.28088435374156
+    },
+    "They were waiting at six.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 169.93088435374153,
+      "end": 171.642970521542
+    },
+    "While she was reading, I was cooking.": {
+      "src": "/audio/529182bde9435ecd5bff24be.mp3",
+      "start": 172.29297052154197,
+      "end": 174.81485260770978
+    },
+    "We are going to visit my sister this weekend. I have already booked our train tickets. We are meeting her at the station on Saturday. My bag is heavy, so my son says, “I will carry it.” I hope the weather will be good.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 0,
+      "end": 12.7618820861678
+    },
+    "Önceden düşündüğün plan için going to kullan: I am going to study tonight. O anda verdiğin karar için will kullan: The phone is ringing. I will answer it.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 13.4118820861678,
+      "end": 24.919886621315193
+    },
+    "Görünen kanıta dayalı tahminde going to yaygındır: Look at those clouds! Genel gelecek tahmininde will kullanabilirsin. Gelecek için kesin bir randevu present continuous ile de anlatılabilir.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 25.56988662131519,
+      "end": 38.14891156462585
+    },
+    "I am going to visit my sister.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 38.798911564625854,
+      "end": 40.641609977324265
+    },
+    "I will carry that bag for you.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 41.29160997732426,
+      "end": 43.0559410430839
+    },
+    "We are meeting at six.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 43.705941043083904,
+      "end": 45.05231292517007
+    },
+    "The fast train is more expensive than the bus, but it is much more comfortable. The bus takes four hours. The train takes only two. We choose the train because we want more time in the city. It is not the cheapest choice, but it suits us.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 45.70231292517007,
+      "end": 60.919705215419505
+    },
+    "İki şeyi karşılaştırırken bigger than veya more comfortable than kullan. Big → bigger, easy → easier. Good → better düzensizdir.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 61.5697052154195,
+      "end": 71.01403628117914
+    },
+    "Bir grup içinde en olanı seçerken the biggest / the most useful kullan. As … as eşitlik anlatır. More better deme; better zaten daha iyi anlamındadır.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 71.66403628117914,
+      "end": 82.25775510204082
+    },
+    "This train is faster than the bus.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 82.90775510204081,
+      "end": 84.64596371882085
+    },
+    "It is the cheapest room.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 85.29596371882086,
+      "end": 86.79907029478457
+    },
+    "This chair is as comfortable as that one.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 87.44907029478458,
+      "end": 89.73585034013605
+    },
+    "Four friends are coming for dinner. We have some rice and a few eggs, but not enough vegetables. I write a shopping list. We need a little milk and many more tomatoes. I check the cupboard before leaving so that I do not buy too much.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 90.38585034013605,
+      "end": 104.40160997732426
+    },
+    "Apples sayılabilir, water sayılamaz. How many apples? How much water? A few birkaç sayılabilir şeyi; a little biraz sayılamayanı anlatır.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 105.05160997732426,
+      "end": 114.99226757369614
+    },
+    "Some genellikle olumlu; any soru ve olumsuzda kullanılır. Teklif ve rica sorularında some yaygındır: Would you like some tea? A lot of her iki türle kullanılabilir.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 115.64226757369615,
+      "end": 127.75108843537416
+    },
+    "There are not many apples.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 128.40108843537416,
+      "end": 130.63562358276644
+    },
+    "Could I have a little water?": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 131.28562358276645,
+      "end": 132.736485260771
+    },
+    "The workshop starts at nine. You have to wear closed shoes, and you must not use the machines alone. You do not have to bring tools because everything is provided. The instructor says we should take regular breaks. Safety comes before speed.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 133.386485260771,
+      "end": 149.38755102040818
+    },
+    "Must ve have to zorunluluk; should öneri bildirir. You must wear a seat belt: takmak zorundasın. You should rest: dinlensen iyi olur.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 150.0375510204082,
+      "end": 159.16841269841274
+    },
+    "Mustn’t yasak demektir. Don’t have to ise zorunda değilsin; yapabilirsin ama gerekli değil. Bu ikisini aynı anlamda kullanma. Geçmiş zorunluluk had to ile anlatılır.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 159.81841269841271,
+      "end": 170.54274376417234
+    },
+    "We have to show our tickets.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 171.19274376417235,
+      "end": 172.66972789115647
+    },
+    "You must not park here.": {
+      "src": "/audio/c71d7aa5280bc37f316545e1.mp3",
+      "start": 173.31972789115648,
+      "end": 174.66609977324265
+    },
+    "I have never travelled abroad alone before. This week, I have tried several new dishes and spoken English every day. Yesterday, I asked for directions without using my phone. I have not visited the old castle yet. I am saving that for tomorrow.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 0,
+      "end": 15.269637188208616
+    },
+    "Zamanı özellikle söylemeden yaşam deneyimi anlat: I have visited London. Geçmişte oldu ama şimdi için anlamı var. Ever sorularda hiç, never hiç … değil anlamındadır.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 15.919637188208617,
+      "end": 26.774580498866214
+    },
+    "Yesterday gibi bitmiş zaman varsa past simple kullan. I went yesterday. Just az önce; already çoktan; yet soru ve olumsuzda henüz anlamına gelir.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 27.424580498866213,
+      "end": 39.507278911564626
+    },
+    "I have tried sushi.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 40.157278911564624,
+      "end": 41.92160997732426
+    },
+    "She has just arrived.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 42.571609977324265,
+      "end": 43.89185941043084
+    },
+    "Have you ever travelled alone?": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 44.54185941043084,
+      "end": 45.992721088435374
+    },
+    "I wanted to find a relaxing hobby, so I decided to join a painting class. I enjoy learning with other adults. At first, I avoided showing my pictures, but now I am more confident. I go to the class to practise, not to be perfect.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 46.64272108843537,
+      "end": 61.572766439909294
+    },
+    "İkinci fiilin biçimini ilk fiil belirler. Want to learn, decide to go; enjoy reading, avoid driving. Bu çiftleri tek bir kalıp olarak öğren.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 62.22276643990929,
+      "end": 71.92832199546484
+    },
+    "Like ve love hem -ing hem to alabilir. Bu derste temel çiftlere odaklan. Amaç belirtirken to kullan: I went to the shop to buy bread.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 72.57832199546485,
+      "end": 82.44061224489795
+    },
+    "I want to learn English.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 83.09061224489795,
+      "end": 85.1684126984127
+    },
+    "She enjoys cooking.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 85.8184126984127,
+      "end": 87.0864172335601
+    },
+    "We went out to buy bread.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 87.73641723356009,
+      "end": 89.47462585034013
+    },
+    "I have been learning English for a year, but I have only recently started speaking regularly. For months, I worried about making mistakes. Now I practise with a neighbour twice a week. I have noticed that short, regular sessions help more than one long session. Progress is not always obvious, yet it becomes clear when I look back.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 90.12462585034014,
+      "end": 112.94365079365079
+    },
+    "Geçmişte başlayıp hâlâ süren bir etkinliğin süresini vurgula. I have been studying for two hours. Sonucu değil devam eden uğraşı öne çıkarır.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 113.5936507936508,
+      "end": 123.09022675736962
+    },
+    "For two years bir süre; since 2020 başlangıç noktasıdır. Know gibi durum fiilleriyle present perfect simple kullan: I have known her for years.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 123.74022675736961,
+      "end": 135.3004761904762
+    },
+    "I have been learning English for a year.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 135.9504761904762,
+      "end": 138.65521541950113
+    },
+    "She has been working since nine.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 139.30521541950114,
+      "end": 141.74873015873015
+    },
+    "I have known him for years.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 142.39873015873016,
+      "end": 144.11081632653062
+    },
+    "By the time I reached the hotel, the reception had closed. I checked my pocket and realised that I had left the key in a café. Fortunately, the café owner had noticed it and kept it safe. While I was returning to collect it, I thought about how easily a small mistake can change an evening. Eventually, everything worked out.": {
+      "src": "/audio/b44f1531094a2f9d538f16b2.mp3",
+      "start": 144.7608163265306,
+      "end": 168.99045351473922
+    },
+    "Geçmişte iki olay varsa daha önce olanı past perfect ile belirginleştir. When I arrived, the train had left. Geldiğimde tren zaten gitmişti.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 0,
+      "end": 11.272902494331065
+    },
+    "Past simple anlatıyı ilerletir; past continuous arka planı, past perfect daha önceki geçmişi verir. Her geçmiş fiili past perfect yapma; olayların sırası için gerektiğinde kullan.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 11.922902494331066,
+      "end": 24.31907029478458
+    },
+    "She had left before I arrived.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 24.96907029478458,
+      "end": 27.22972789115646
+    },
+    "I was tired because I had worked all day.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 27.879727891156463,
+      "end": 30.76732426303855
+    },
+    "Had you met him before?": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 31.417324263038548,
+      "end": 32.94655328798186
+    },
+    "Our walking group meets every Sunday. If the weather is fine, we walk along the river. If heavy rain is forecast, we will visit a museum instead. We always carry water because exercise makes us thirsty. Unless someone suggests a better idea, this will remain our plan. Being flexible helps everyone enjoy the day.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 33.59655328798186,
+      "end": 57.01639455782313
+    },
+    "Genel sonuçlarda zero conditional: If you heat ice, it melts. Gelecekte gerçek bir olasılıkta first conditional: If it rains, I will stay home.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 57.66639455782313,
+      "end": 67.9988888888889
+    },
+    "If bölümünde gelecek anlamı olsa da genellikle will kullanma. Unless, if not anlamındadır. Unless it rains, we will walk: yağmur yağmazsa yürüyeceğiz.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 68.64888888888889,
+      "end": 77.93648526077098
+    },
+    "If I have time, I will call you.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 78.58648526077098,
+      "end": 80.37693877551021
+    },
+    "If water freezes, it becomes ice.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 81.02693877551022,
+      "end": 83.23535147392292
+    },
+    "Unless it rains, we will go out.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 83.88535147392291,
+      "end": 85.7802947845805
+    },
+    "If I had the opportunity, I would spend a month in a small village abroad. I would rent a simple room and shop at the local market. I cannot afford a long trip now, but imagining it motivates me to study. My friend suggests a shorter visit instead. Perhaps a realistic first step is better than waiting for the perfect plan.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 86.43029478458051,
+      "end": 108.72687074829933
+    },
+    "Şimdi veya gelecekte gerçek dışı, uzak ya da hayalî bir durumu anlat. If I had more time, I would travel. Şu an yeterli zamanım olmadığı ima edilir.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 109.37687074829932,
+      "end": 120.10120181405897
+    },
+    "Buradaki geçmiş biçim geçmiş zaman demek değildir; gerçeklikten uzaklığı gösterir. Tavsiye kalıbı: If I were you, I would… Were bütün öznelerle bu varsayımda kullanılabilir.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 120.75120181405896,
+      "end": 133.51308390022675
+    },
+    "If I had a car, I would drive.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 134.16308390022675,
+      "end": 136.34537414965985
+    },
+    "If I were you, I would ask.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 136.99537414965985,
+      "end": 138.94256235827663
+    },
+    "What would you do if you won?": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 139.59256235827664,
+      "end": 141.01730158730157
+    },
+    "The neighbour who lives upstairs is a retired engineer. He recommended a library where adults meet to practise languages. The colleague I invited was nervous at first, but she soon felt welcome. What makes the group useful is not the size of the room but the patience of the people. Everyone has something to contribute.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 141.66730158730158,
+      "end": 162.004693877551
+    },
+    "Bir ismi tanımlamak için kısa cümle ekle. The woman who lives next door: yan evde yaşayan kadın. Who kadın hakkında ek tanım başlatır.": {
+      "src": "/audio/eff94f6b5385aed74fe1769d.mp3",
+      "start": 162.654693877551,
+      "end": 172.38637188208617
+    },
+    "Tanımlayıcı cümlede nesne olan who/which/that bazen düşebilir: The book I bought. Özne ise düşmez: The man who called. Where yer içinde gerçekleşen durumu anlatır.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 0,
+      "end": 11.952086167800454
+    },
+    "The man who lives here is a teacher.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 12.602086167800454,
+      "end": 15.411315192743764
+    },
+    "This is the book that I bought.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 16.061315192743766,
+      "end": 17.77340136054422
+    },
+    "This is the café where we met.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 18.42340136054422,
+      "end": 20.579569160997732
+    },
+    "At the local farm, cheese is produced in small batches. The milk is collected each morning and checked carefully. Years ago, the work was done entirely by hand. Some machines are used now, but important decisions are still made by experienced workers. The owner explains that technology supports skill rather than replacing it completely.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 21.229569160997734,
+      "end": 44.44043083900227
+    },
+    "Yapan kişi yerine eylemden etkilenen şeyi öne çıkar. People make cheese → Cheese is made. Kimin yaptığı bilinmiyorsa veya önemli değilse passive işe yarar.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 45.090430839002266,
+      "end": 56.93802721088435
+    },
+    "Geniş zamanda is/are made; geçmişte was/were made. Yapanı eklemek istersen by kullan. Past participle (V3) fiile göre değişir: write → written.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 57.58802721088435,
+      "end": 72.7531746031746
+    },
+    "The room is cleaned every day.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 73.40317460317459,
+      "end": 75.37648526077096
+    },
+    "The bridge was built in 1990.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 76.02648526077097,
+      "end": 78.7573469387755
+    },
+    "The letter was written by Elif.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 79.4073469387755,
+      "end": 81.43290249433106
+    },
+    "Elif called while my brother was out. She said that the meeting had been moved to Friday. She told me she would send an email with the new address. When my brother returned, I passed on the message and reminded him to check his inbox. He was relieved because he had another appointment on the original day.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 82.08290249433107,
+      "end": 103.3868253968254
+    },
+    "Doğrudan söz: “I am tired.” Aktarım: She said she was tired. Sözü geçmiş bir bakış açısından aktarırken zaman sıkça bir adım geriye gider.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 104.03682539682539,
+      "end": 116.35462585034013
+    },
+    "Say doğrudan kişi nesnesi almaz: said to me. Tell kişi ister: told me. Zamirleri kimin söylediğine göre değiştir. Hâlâ doğru olan bilgilerde zaman geri kayması her zaman zorunlu değildir.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 117.00462585034013,
+      "end": 130.5501814058957
+    },
+    "She said she was tired.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 131.20018140589568,
+      "end": 133.5914512471655
+    },
+    "He told me he would call.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 134.24145124716551,
+      "end": 136.03190476190474
+    },
+    "They said they lived nearby.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 136.68190476190475,
+      "end": 138.91643990929703
+    },
+    "Although city life offers convenient transport, it can be noisy and expensive. A village may be quieter, but reaching a hospital or workplace can take longer. My sister prefers the city because she values easy access to services. I prefer a smaller town. Neither choice is perfect, so we need to consider our own priorities.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 139.56643990929703,
+      "end": 163.76995464852607
+    },
+    "Because neden, so sonuç anlatır. I was tired, so I went home. Although beklenmeyen zıtlığı bağlar: Although I was tired, I stayed.": {
+      "src": "/audio/a04ac84bdd5cf934b32ecfa0.mp3",
+      "start": 164.41995464852604,
+      "end": 174.49122448979588
+    },
+    "Although ile aynı bağda gereksiz but kullanma. However yeni cümlede geçiş olabilir: It was expensive. However, I bought it. Despite ardından isim veya -ing gelir; tam cümle doğrudan gelmez.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 0,
+      "end": 14.773310657596372
+    },
+    "Although it was raining, we walked.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 15.423310657596373,
+      "end": 17.109274376417233
+    },
+    "I stayed because I was interested.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 17.759274376417235,
+      "end": 19.523605442176873
+    },
+    "It was late, so we left.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 20.17360544217687,
+      "end": 21.650589569161
+    },
+    "When the community centre announced a free workshop, I postponed signing up. By the time I applied, every place had been taken. If I had registered earlier, I would have attended a session on digital photography. Initially, I blamed the limited number of places. On reflection, however, I realised that I had overlooked the deadline. The experience encouraged me to keep a simple calendar rather than rely on memory. A disappointing outcome can still lead to a useful change.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 22.300589569160998,
+      "end": 58.07634920634921
+    },
+    "Gerçekleşmemiş bir geçmişi ve hayalî sonucunu düşün. If I had left earlier, I would have caught the train. Erken çıkmadım ve treni kaçırdım.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 58.726349206349205,
+      "end": 67.77884353741496
+    },
+    "İki bölüm de geçmişe bakar. If kısmında had + V3, sonuçta would have + V3 kullan. Could have yetenek/olasılık, might have daha belirsiz sonuç anlatır.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 68.42884353741496,
+      "end": 88.84460317460318
+    },
+    "If I had studied, I would have passed.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 89.49460317460317,
+      "end": 91.70301587301587
+    },
+    "She might have come if we had invited her.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 92.35301587301586,
+      "end": 94.66591836734693
+    },
+    "If we had left earlier, we would have arrived on time.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 95.31591836734692,
+      "end": 98.30800453514738
+    },
+    "Several years ago, I turned down an opportunity to study abroad because the timing felt wrong. If I had accepted it, I would probably be more confident in English now. That does not mean my actual decision was unreasonable: my family circumstances were different then. Looking back is useful only if it helps us choose our next step. I am currently taking an evening course, and the skills I develop today may shape opportunities that I cannot yet imagine.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 98.95800453514738,
+      "end": 132.25213151927437
+    },
+    "Geçmişte farklı olan bir şeyin bugünkü sonucunu hayal et. If I had studied medicine, I would be a doctor now. Eğitim geçmişte, doktor olma durumu şimdi.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 132.90213151927435,
+      "end": 143.8876870748299
+    },
+    "Zamanı anlama göre seç. Third conditional geçmiş sonuç içindir; mixed yapıda now gibi sözcükler şimdiki sonucu belirginleştirir. Her iki bölümü otomatik aynı zamana koyma.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 144.5376870748299,
+      "end": 156.7248752834467
+    },
+    "If I had slept well, I would feel better now.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 157.37487528344667,
+      "end": 161.54247165532877
+    },
+    "If she had taken the job, she would live in London now.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 162.19247165532875,
+      "end": 165.2106802721088
+    },
+    "If we had saved more, we could buy a car now.": {
+      "src": "/audio/08c762d4c8cc50768a4ff1b2.mp3",
+      "start": 165.8606802721088,
+      "end": 169.0356235827664
+    },
+    "The café was unexpectedly closed, although its online opening hours had not changed. A neighbour suggested that the owner must have gone on holiday. That was plausible, but not certain. A delivery note on the door indicated that urgent repairs were taking place. The owner might have planned a short closure without updating the website. Rather than treating the first explanation as a fact, we should compare it with the available evidence and remain willing to revise our conclusion.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 0,
+      "end": 33.320249433106575
+    },
+    "Must have güçlü geçmiş çıkarımıdır: The road is wet. It must have rained. Might have olasılık, can’t have ise mümkün olmadığına güçlü inanç gösterir.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 33.970249433106574,
+      "end": 44.04151927437641
+    },
+    "Bunlar kesin kanıt değildir; konuşanın kanıta dayalı çıkarımıdır. Should have geçmiş eleştiri/pişmanlık anlatır: You should have called. Bu, aradın demek değil; araman gerekirdi demektir.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 44.69151927437642,
+      "end": 57.55789115646259
+    },
+    "She must have missed the bus.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 58.20789115646259,
+      "end": 60.49467120181406
+    },
+    "He might have forgotten.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 61.14467120181406,
+      "end": 62.882879818594105
+    },
+    "You should have called me.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 63.53287981859411,
+      "end": 64.67027210884355
+    },
+    "I sometimes wish I had started learning English earlier. However, wishing cannot change the past, and comparing myself with younger learners often reduces my motivation. My tutor encourages me to notice what I can do now that I could not do a month ago. I wish progress were faster, but I am beginning to appreciate the value of steady practice. Realistic expectations do not mean low ambition; they allow us to stay engaged long enough to reach demanding goals.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 65.32027210884354,
+      "end": 99.0062358276644
+    },
+    "I wish I knew: keşke bilsem; şimdi bilmiyorum. Geçmiş biçim gerçek dışı dileği anlatır. I wish I had known: keşke bilseydim; geçmişte bilmiyordum.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 99.6562358276644,
+      "end": 111.86954648526077
+    },
+    "Değişmesini istediğin davranışta wish + would kullanılabilir: I wish you would listen. Kendi kontrolündeki basit gelecekte hope daha uygundur: I hope I pass the exam.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 112.51954648526078,
+      "end": 125.88224489795918
+    },
+    "I wish I had studied harder.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 126.53224489795919,
+      "end": 128.47943310657598
+    },
+    "I wish it would stop raining.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 129.12943310657596,
+      "end": 130.71090702947845
+    },
+    "Our local library is being renovated to make it more accessible. The entrance has already been widened, and new lighting has been installed. During the work, visitors have been asked to use a temporary entrance. I recently had my old laptop repaired so that I could borrow digital books while the reading room was closed. The project has taken longer than expected, yet its purpose remains valuable: access should depend less on a person’s mobility or confidence with technology.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 131.36090702947845,
+      "end": 164.86401360544218
+    },
+    "The road is being repaired: yol şu anda onarılıyor. The road has been repaired: yol onarıldı ve sonuç mevcut. Passive yapıda zaman ve görünüş be üzerinde taşınır.": {
+      "src": "/audio/ffdb22ab08e78f96271d5f3f.mp3",
+      "start": 165.5140136054422,
+      "end": 177.3354875283447
+    },
+    "Bir işi başkasına yaptırmak için have/get + nesne + V3 kullan: I had my car repaired. Bu cümle arabayı kendim tamir ettim demez.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 0,
+      "end": 12.552902494331066
+    },
+    "The bridge is being repaired.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 13.202902494331067,
+      "end": 14.62764172335601
+    },
+    "The work has been completed.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 15.277641723356009,
+      "end": 16.96360544217687
+    },
+    "I had my hair cut.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 17.61360544217687,
+      "end": 18.933854875283444
+    },
+    "Before enrolling in a course, I contacted the organiser to enquire about its requirements. I asked whether previous experience was necessary and whether the sessions would be recorded. The reply was friendly but did not clarify the cancellation policy. Instead of making an assumption, I asked a further question: “Could you tell me what happens if I miss a class?” Clear questions are not a sign of distrust. They help both sides develop realistic expectations and avoid misunderstandings later.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 19.583854875283446,
+      "end": 56.665736961451245
+    },
+    "Dolaylı soru daha kibar duyulur: Could you tell me where the station is? İçteki bölümde özne önce gelir; where is the station sırasını kullanma.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 57.31573696145125,
+      "end": 65.34945578231293
+    },
+    "Evet/hayır sorularını aktarırken if veya whether kullan. She asked if I was ready. Aktarılan sorularda do/does/did yardımcılarını koruma; zamanı ana fiilde ifade et.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 65.99945578231294,
+      "end": 84.37766439909298
+    },
+    "Could you tell me where he lives?": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 85.02766439909298,
+      "end": 87.26219954648528
+    },
+    "She asked whether I was ready.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 87.91219954648527,
+      "end": 89.57204081632653
+    },
+    "Do you know what time it starts?": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 90.22204081632654,
+      "end": 92.11698412698414
+    },
+    "The film, which had received mixed reviews, turned out to be surprisingly moving. Its central character, whose choices were not always admirable, felt believable rather than heroic. It was the quiet final conversation that stayed with me, not the dramatic opening. The director emphasised ordinary gestures instead of explaining every emotion. Although some viewers found the slow pace frustrating, I thought it allowed room for reflection. A work of art can be valuable even when its effect is difficult to summarise in a single rating.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 92.76698412698414,
+      "end": 130.9721315192744
+    },
+    "Kimden bahsettiğimiz zaten belliyse ek bilgi virgülle ayrılır: My sister, who lives in İzmir, is visiting. Bu bölüm çıkarılsa da kişi tanımlıdır.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 131.62213151927438,
+      "end": 141.71952380952382
+    },
+    "Ek bilgi veren bu cümlelerde that kullanma, bağıl zamiri düşürme. Vurgu için It was the ending that surprised me: beni şaşırtan şey sonuydu.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 142.3695238095238,
+      "end": 152.17956916099772
+    },
+    "My car, which is ten years old, still runs well.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 152.82956916099772,
+      "end": 156.4224716553288
+    },
+    "Elif, who lives next door, is a teacher.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 157.0724716553288,
+      "end": 160.37802721088434
+    },
+    "It was the ending that surprised me.": {
+      "src": "/audio/6eddd180722bb6b4c2351acd.mp3",
+      "start": 161.02802721088435,
+      "end": 163.54990929705215
+    },
+    "A town council is considering restricting cars in the centre. Supporters claim that the policy would improve air quality and make walking safer, whereas some shop owners worry about losing customers. Evidence from similar towns suggests that the impact may depend on public transport and delivery arrangements. Despite the potential benefits, a sudden change could disadvantage people with limited mobility. A trial period, accompanied by clear data collection and accessible alternatives, may provide a more sustainable approach. The question is not merely whether change is desirable, but how its costs and benefits are distributed.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 0,
+      "end": 45.85902494331066
+    },
+    "İddianı ölçülü ifade et: This may be useful; people tend to prefer… Bunlar kesin genellemeler yerine olasılık ve eğilim gösterir. Görüşünü örnek veya gerekçeyle destekle.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 46.509024943310656,
+      "end": 60.15907029478458
+    },
+    "Whereas iki durumu karşılaştırır. Nevertheless önceki cümleye rağmen gelen sonucu bağlar. Despite ardından isim/-ing, although ardından özne + fiil gelir.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 60.809070294784576,
+      "end": 78.06401360544217
+    },
+    "This approach may reduce costs.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 78.71401360544218,
+      "end": 81.1575283446712
+    },
+    "Some people prefer cities, whereas others enjoy villages.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 81.8075283446712,
+      "end": 86.49757369614512
+    },
+    "Despite the cost, it was worthwhile.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 87.14757369614512,
+      "end": 90.3486394557823
+    },
+    "My name is Deniz. I am from Turkey. I live in a small town. I am learning English. My friend is Emma. She speaks slowly. We have tea and talk every morning.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 90.99863945578231,
+      "end": 101.30501133786848
+    },
+    "Hello, my name is Deniz.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 101.95501133786848,
+      "end": 103.7977097505669
+    },
+    "Nice to meet you.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 104.4477097505669,
+      "end": 105.48061224489797
+    },
+    "How are you?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 106.13061224489796,
+      "end": 106.79780045351474
+    },
+    "I am fine, thank you.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 107.44780045351474,
+      "end": 109.08151927437642
+    },
+    "Could you speak slowly, please?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 109.73151927437642,
+      "end": 111.13013605442177
+    },
+    "I walk into a quiet café. I would like a coffee and a sandwich. The coffee is three pounds. I do not want sugar. I pay by card and sit near the window. It is a good morning.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 111.78013605442177,
+      "end": 122.13875283446713
+    },
+    "I'd like a coffee, please.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 122.78875283446713,
+      "end": 124.18736961451248
+    },
+    "Can I have some water?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 124.83736961451248,
+      "end": 126.00088435374151
+    },
+    "Without sugar, please.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 126.6508843537415,
+      "end": 127.99725623582768
+    },
+    "How much is it?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 128.64725623582768,
+      "end": 129.44505668934244
+    },
+    "Can I pay by card?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 130.0950566893424,
+      "end": 131.3891836734694
+    },
+    "That is all, thank you.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 132.0391836734694,
+      "end": 133.56841269841271
+    },
+    "I wake up at seven. My wife wakes up at eight. We have breakfast at home. I go to work by bus. In the evening, I walk in the park. I read a short story before bed.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 134.21841269841272,
+      "end": 144.4464172335601
+    },
+    "I wake up at seven.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 145.09641723356012,
+      "end": 146.41666666666669
+    },
+    "I usually have breakfast at home.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 147.0666666666667,
+      "end": 148.75263038548755
+    },
+    "I go to work by bus.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 149.40263038548756,
+      "end": 150.90573696145128
+    },
+    "I don't work on Sundays.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 151.55573696145126,
+      "end": 153.058843537415
+    },
+    "What do you do in the evening?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 153.70884353741496,
+      "end": 154.87235827664398
+    },
+    "I am looking for the station. A woman helps me. She says, “Go straight and turn left at the bank.” The station is next to a pharmacy. It is only five minutes away. I arrive in time for my train.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 155.52235827664398,
+      "end": 167.5266893424036
+    },
+    "Excuse me, where is the station?": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 168.17668934240362,
+      "end": 171.16877551020409
+    },
+    "Go straight ahead.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 171.81877551020406,
+      "end": 173.19126984126981
+    },
+    "Turn left at the bank.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 173.84126984126982,
+      "end": 175.94519274376415
+    },
+    "It is next to the pharmacy.": {
+      "src": "/audio/0df47dca6342a7fea8a0fe76.mp3",
+      "start": 176.59519274376416,
+      "end": 178.6991156462585
+    },
+    "Is it far from here?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 0,
+      "end": 1.8949433106575964
+    },
+    "Thank you for your help.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 2.5449433106575965,
+      "end": 3.55172335600907
+    },
+    "I need a jacket for my trip. I find a blue jacket in a small shop. I try it on, but it is too small. The assistant brings a larger size. It fits well. I buy it and thank her.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 4.2017233560090705,
+      "end": 14.743197278911564
+    },
+    "I am looking for a jacket.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 15.393197278911565,
+      "end": 16.896303854875285
+    },
+    "Do you have this in blue?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 17.546303854875283,
+      "end": 18.86655328798186
+    },
+    "Can I try it on?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 19.51655328798186,
+      "end": 20.758435374149663
+    },
+    "It is too small.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 21.40843537414966,
+      "end": 22.519705215419503
+    },
+    "Do you have a larger size?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 23.1697052154195,
+      "end": 24.489954648526076
+    },
+    "I'll take it.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 25.13995464852608,
+      "end": 25.937755102040818
+    },
+    "We arrive at the hotel in the evening. I have a reservation for two nights. The receptionist gives us our key. Breakfast starts at eight. Our room is quiet, but the shower does not work. I ask for help, and someone fixes it.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 26.587755102040816,
+      "end": 38.4353514739229
+    },
+    "I have a reservation.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 39.0853514739229,
+      "end": 40.875804988662125
+    },
+    "My name is on the booking.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 41.52580498866213,
+      "end": 43.081156462585035
+    },
+    "What time is breakfast?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 43.731156462585034,
+      "end": 45.469365079365076
+    },
+    "Could I have the Wi-Fi password?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 46.11936507936508,
+      "end": 48.48451247165533
+    },
+    "There is a problem with the shower.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 49.134512471655334,
+      "end": 51.39517006802722
+    },
+    "Could you help me, please?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 52.04517006802722,
+      "end": 53.88786848072563
+    },
+    "Yesterday, I visited my friend Ali. We went for a walk by the sea. Then we had lunch in a small restaurant. In the evening, we watched a film. I did not understand every word, but I enjoyed the story.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 54.53786848072563,
+      "end": 66.01975056689344
+    },
+    "Yesterday, I visited a friend.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 66.66975056689343,
+      "end": 68.48632653061225
+    },
+    "We went for a walk.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 69.13632653061225,
+      "end": 70.27371882086169
+    },
+    "I had a good time.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 70.92371882086168,
+      "end": 72.24396825396826
+    },
+    "What did you do yesterday?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 72.89396825396825,
+      "end": 74.86727891156463
+    },
+    "I didn't understand the film.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 75.51727891156463,
+      "end": 77.1771201814059
+    },
+    "Can you tell me more?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 77.8271201814059,
+      "end": 79.0951247165533
+    },
+    "I used to watch films with Turkish subtitles. Now I watch short scenes with English subtitles. I think this is helpful because I can hear and read the same words. Some scenes are difficult, but I watch them again. Small steps make a difference.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 79.74512471655329,
+      "end": 96.16414965986395
+    },
+    "I think this book is interesting.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 96.81414965986394,
+      "end": 99.4666439909297
+    },
+    "I prefer quiet places.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 100.1166439909297,
+      "end": 102.84750566893423
+    },
+    "I like it because it is relaxing.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 103.49750566893424,
+      "end": 106.17612244897958
+    },
+    "I agree with you.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 106.82612244897959,
+      "end": 108.09412698412699
+    },
+    "I'm not sure about that.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 108.74412698412698,
+      "end": 110.97866213151927
+    },
+    "What do you think?": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 111.62866213151926,
+      "end": 113.07952380952379
+    },
+    "Hello. Let’s learn English together.": {
+      "src": "/audio/a4c84fe30bfa956b20e853ae.mp3",
+      "start": 113.7295238095238,
+      "end": 116.29614512471655
+    }
+  },
+  "files": {
+    "/audio/5f230d502479fe13247ba3d0.mp3": {
+      "duration": 93.07049886621316,
+      "bytes": 1117563
+    },
+    "/audio/4bac1e50307e4ff6da4f6000.mp3": {
+      "duration": 82.28426303854874,
+      "bytes": 988100
+    },
+    "/audio/8ef0afd48f29cb98eea74fb0.mp3": {
+      "duration": 81.29160997732426,
+      "bytes": 976188
+    },
+    "/audio/9edffc5d3069b003a7002b8b.mp3": {
+      "duration": 84.19120181405899,
+      "bytes": 1010983
+    },
+    "/audio/a45de16452a5bb24a1a7af63.mp3": {
+      "duration": 86.3332426303855,
+      "bytes": 1036688
+    },
+    "/audio/24fb08097a620ad99597445c.mp3": {
+      "duration": 99.86467120181403,
+      "bytes": 1199065
+    },
+    "/audio/e68139cd1fcc9500a8c994bd.mp3": {
+      "duration": 94.37895691609975,
+      "bytes": 1133236
+    },
+    "/audio/c31ce980b671fae11d3f81e4.mp3": {
+      "duration": 102.99936507936508,
+      "bytes": 1236681
+    },
+    "/audio/4c706c4d17295d6b768848ea.mp3": {
+      "duration": 98.9765079365079,
+      "bytes": 1188407
+    },
+    "/audio/860dbbc546c16d63516b0172.mp3": {
+      "duration": 127.97242630385485,
+      "bytes": 1536358
+    },
+    "/audio/a09c21ec83e087e4011f083b.mp3": {
+      "duration": 174.78566893424033,
+      "bytes": 2098409
+    },
+    "/audio/529182bde9435ecd5bff24be.mp3": {
+      "duration": 175.4648526077098,
+      "bytes": 2106559
+    },
+    "/audio/c71d7aa5280bc37f316545e1.mp3": {
+      "duration": 175.31609977324266,
+      "bytes": 2104678
+    },
+    "/audio/b44f1531094a2f9d538f16b2.mp3": {
+      "duration": 169.64045351473922,
+      "bytes": 2036655
+    },
+    "/audio/eff94f6b5385aed74fe1769d.mp3": {
+      "duration": 173.03637188208617,
+      "bytes": 2077406
+    },
+    "/audio/a04ac84bdd5cf934b32ecfa0.mp3": {
+      "duration": 175.1412244897959,
+      "bytes": 2102484
+    },
+    "/audio/08c762d4c8cc50768a4ff1b2.mp3": {
+      "duration": 169.6856235827664,
+      "bytes": 2036969
+    },
+    "/audio/ffdb22ab08e78f96271d5f3f.mp3": {
+      "duration": 177.9854875283447,
+      "bytes": 2136652
+    },
+    "/audio/6eddd180722bb6b4c2351acd.mp3": {
+      "duration": 164.19990929705216,
+      "bytes": 1971140
+    },
+    "/audio/0df47dca6342a7fea8a0fe76.mp3": {
+      "duration": 179.3491156462585,
+      "bytes": 2152952
+    },
+    "/audio/a4c84fe30bfa956b20e853ae.mp3": {
+      "duration": 116.94614512471654,
+      "bytes": 1404074
+    }
+  }
+}

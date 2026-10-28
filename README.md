@@ -12,7 +12,7 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 - Dört ImageGen atlasında 16 özgün sahne; konu ve kartlarda görsel bağlam.
 - İlk sürümün 8 bölümü ve 48 kalıbı ile mevcut kayıtlar korunur.
 - Kart tekrarları 10 dakika–60 gün; aynı oturumda kartların tekrar dönmesi engellenir.
-- ElevenLabs statik MP3 desteği hazır. Kayıtlar henüz üretilmemişse bu açıkça belirtilir; kullanıcı isterse geçici cihaz sesini seçebilir.
+- Müfredattaki 636 metin için ElevenLabs kayıtları: kelimeler, örnekler, hikâyeler, rehberli diyaloglar ve Türkçe konu anlatımları. Normal/yavaş dinleme ve durdurma desteklenir.
 - 3 rehberli konuşma sahnesi ve API bağlandığında yazılı yapay zekâ öğretmeni.
 - Seviyeye göre başlangıç bölümü önerisi; kişisel ilerleme, günlük hedef ve notlar.
 - British Council video, dinleme ve okuma kütüphanesi; bağlantılar kaynağın kendi sitesinde açılır.
@@ -50,7 +50,7 @@ API anahtarı tarayıcıya veya GitHub'a gönderilmez. Yapay zekâ yalnızca yaz
 ## Gizlilik ve sınırlar
 
 - Ses kaydı sunucuya yüklenmez. “Konuşarak yaz” isteğe bağlı Web Speech özelliğidir; tarayıcı sağlayıcısının uzaktaki ses hizmetini kullanabilir.
-- ElevenLabs kaydı olmayan metinler eksik olarak işaretlenir. Geçici cihaz sesi isteğe bağlıdır; dinleme soruları atlanabilir.
+- Sesler statik MP3 kayıtlarıdır; her dinlemede ElevenLabs isteği veya kredi tüketimi olmaz. Dinleme soruları gerektiğinde atlanabilir. Cihaz sentez sesi kullanılmaz.
 - Mikrofon üretimde HTTPS gerektirir. Web Speech desteği tarayıcıya göre değişir; yazıyla devam her zaman mümkündür.
 - Hesaplar veritabanında ayrı tutulur. Parolalar rastgele salt + scrypt ile saklanır; oturum tokenlarının yalnızca SHA-256 özetleri veritabanına yazılır. Çerezler HttpOnly, SameSite=Strict ve üretimde Secure'dur.
 - Davet kodu ayarlanmadıkça yeni üyelik kapalıdır. Bu sürümde e-posta doğrulama, otomatik e-posta ile şifre kurtarma, ödeme veya yönetici paneli yoktur.
@@ -75,14 +75,14 @@ Ders metinleri ve çizim uygulama için özgün hazırlanmıştır. Haricî içe
 - [OpenAI Chat Completions API](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create)
 - [British Council Starting Out](https://learnenglish.britishcouncil.org/free-resources/general/video-series/starting-out)
 
-## ElevenLabs ses üretimi
+## ElevenLabs kayıtları
 
-`node scripts/generate-narration.mjs` yalnızca planı gösterir. Şu an 636 metin / yaklaşık 31 bin karakter vardır. Anahtar kaynakta, manifestte veya istemcide bulunmaz. Üretim için mevcut anahtarı yalnızca özel bir yerel dosyadan okuyun:
+636 müfredat metni ElevenLabs’in açık web hesabında üretildi; API anahtarı oluşturulmadı. İngilizce kayıtlar Max - Elearning and Documentary, Türkçe kayıtlar Seyfullah Kartal sesiyle, Eleven Multilingual v2 modeliyle hazırlandı. Üretilen MP3 dosyaları statik olarak sunulur; uygulama kullanılırken ElevenLabs kredisi harcanmaz.
 
-```sh
-node scripts/generate-narration.mjs --generate --key-file /private/path/elevenlabs-key.txt --voice EXISTING_VOICE_ID --limit 3
-```
+`public/audio/manifest.json` her özgün metni bir MP3 dosyası ve başlangıç/bitiş saniyesiyle eşler. Dosyalar en fazla yaklaşık üç dakikalık paketlerdir; oynatıcı yalnızca seçilen parçayı çalar. Paketler arasında sessiz pay bulunur. Seslerin metin kapsamı, dosya varlığı ve zaman aralıkları otomatik test edilir. Her kaydın insan tarafından baştan sona dinlendiği iddia edilmez.
 
-İlk üç kaydı dinleyip sesi doğrulayın; sonra `--limit` kaldırılarak devam edilebilir. Araç mevcut manifesti korur, yalnızca eksikleri üretir ve krediler yetmiyorsa durur. Satın alma veya plan yükseltmez. `public/audio/` MP3 dosyaları ve manifest yayımlanır. Boş manifest tamamlanmış ses üretimi anlamına gelmez. Türkçe ve İngilizce için `eleven_multilingual_v2` kullanılır.
+Kullanıcının kredi tasarrufu isteğiyle önceden üretilmiş kayıtlar yeniden üretilmedi. İlk Türkçe kayıtların bazılarında eğik çizgi gibi işaretler okunabilir. Sonraki üretimlerde formüller doğal konuşmaya çevrildi: örneğin “had + V3” yerine “had sözcüğünün ardından fiilin üçüncü biçimi”. Bu ayrım ekrandaki ders metnini değiştirmez.
+
+`node scripts/generate-narration.mjs` yalnızca eksik kayıt sayısını gösteren isteğe bağlı bakım aracıdır. Mevcut kayıtları yeniden üretmez; web hesabıyla yapılan bu çalışma için çalıştırılmasına veya API anahtarına gerek yoktur. Yeni içerik üretilecekse önce seslendirme metni hazırlanmalı, gösterim amaçlı işaretler doğrudan okutulmamalıdır. Yapay zekânın serbest sohbet yanıtları bu statik ses kataloğuna dahil değildir.
 
 Bu müfredat A1–B2 yapılarından seçilmiş bir çalışma rotasıdır; kapsamlı bir dil okulunun tüm kelime havuzu veya CEFR belgelendirmesi değildir. Yazma/konuşmada kayıt ve öz değerlendirme vardır; otomatik değerlendirme olduğu iddia edilmez.

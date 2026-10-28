@@ -6,7 +6,7 @@ const root=new URL('../public/audio/',import.meta.url);await mkdir(root,{recursi
 let manifest={provider:'ElevenLabs',clips:{}};try{manifest=JSON.parse(await readFile(new URL('manifest.json',root),'utf8'));}catch{}
 const pending=audioTexts.filter(t=>!manifest.clips[t]);
 console.log(JSON.stringify({total:audioTexts.length,ready:audioTexts.length-pending.length,pending:pending.length,characters:pending.reduce((s,t)=>s+t.length,0)}));
-if(!process.argv.includes('--generate'))process.exit(0);
+if(!process.argv.includes('--generate')||!pending.length)process.exit(0);
 const keyFile=flag('--key-file');if(!process.argv.includes('--key-file')||!keyFile)throw Error('Use --key-file with a private local text file. Do not put the key in a command argument.');
 const key=(await readFile(keyFile,'utf8')).trim();const voice=flag('--voice');if(!process.argv.includes('--voice')||!voice)throw Error('An existing ElevenLabs voice ID is required.');
 const request=async(path,options={})=>{const r=await fetch('https://api.elevenlabs.io/v1/'+path,{...options,headers:{'xi-api-key':key,...options.headers},signal:AbortSignal.timeout(90000)});if(!r.ok)throw Error(`ElevenLabs returned HTTP ${r.status}; generation stopped, completed files are preserved.`);return r;};
