@@ -1,14 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {topics,words,grammar,exercises,exerciseById,levels,placementV2,optionsFor} from '../src/academy/catalog.js';
+import {legacyWords} from '../src/academy/words.js';
 import {recordAnswer,mistakeQueue,placementResult,markStage} from '../src/academy/engine.js';
 import {freshProgress} from '../src/learning.js';
 import {validProgress} from '../src/state.js';
 
 test('all four levels have complete curriculum and unique question identities',()=>{
- assert.equal(topics.length,32);assert.equal(words.length,192);
+ assert.equal(topics.length,32);assert.equal(legacyWords.length,192);assert.ok(words.length>=1100);
  assert.equal(new Set(exercises.map(q=>q.id)).size,exercises.length);
- for(const l of levels){assert.equal(topics.filter(t=>t.level===l).length,8);assert.equal(words.filter(w=>w.level===l).length,48);}
+ for(const l of levels){assert.equal(topics.filter(t=>t.level===l).length,8);assert.equal(legacyWords.filter(w=>w.level===l).length,48);}
  for(const t of topics){assert.equal(t.words.length,6);assert.equal(t.exercises.length,4);assert.equal(t.examples.length,3);assert.equal(t.checks.length,2);assert.ok(t.reading.text.length>90);assert.ok(t.reading.translation);assert.ok(t.speaking);}
  for(const w of words)assert.ok(w.en&&w.tr&&w.example&&w.translation);
  for(const q of exercises){assert.ok(q.prompt&&q.answer&&q.why,q.id);assert.ok(q.options.includes(q.answer),q.id);assert.equal(new Set(optionsFor(q)).size,3,q.id);}
@@ -39,5 +40,5 @@ test('placement respects foundations and separately counts skipped listening',()
 });
 test('complete new state fits the server payload limit',()=>{
  let p=freshProgress();for(const q of exercises)p=recordAnswer(p,q.id,'x'.repeat(500));for(const t of topics)p.writing[t.id]='x'.repeat(3000);
- assert.ok(validProgress(p));assert.ok(Buffer.byteLength(JSON.stringify({state:p,revision:1}))<512*1024);
+ assert.ok(validProgress(p));assert.ok(Buffer.byteLength(JSON.stringify({state:p,revision:1}))<4*1024*1024);
 });

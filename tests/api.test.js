@@ -11,3 +11,14 @@ test('invitation is required and changing password revokes old sessions',async t
 test('AI is authenticated, capped per user/day, and never exposes key',async t=>{const {call}=await fixture(t,{AI_API_KEY:'test-secret',AI_MODEL:'configured-model',AI_DAILY_LIMIT:'1'});const body={scenario:'cafe',level:'A1',messages:[{role:'user',content:'Hello'}]};assert.equal((await call('/tutor',body)).status,401);const login=await call('/login',{email:'owner@example.test',password:'test-password-123'});assert.equal((await call('/tutor',body,login.cookie)).body.reply,'Hello! How are you?');assert.equal((await call('/tutor',body,login.cookie)).status,429);assert.ok(!JSON.stringify((await call('/config')).body).includes('test-secret'));});
 test('unconfigured deployment remains demo-only; production cookies require HTTPS',async t=>{const {call}=await fixture(t,{NODE_ENV:'production'});const login=await call('/login',{email:'owner@example.test',password:'test-password-123'});assert.match(login.headers.get('set-cookie'),/Secure/);});
 test('malformed states and invalid card IDs are rejected',()=>{assert.equal(validProgress(freshProgress()),true);assert.equal(validProgress({...freshProgress(),completed:['unknown']}),false);assert.equal(validProgress({...freshProgress(),cards:{unknown:{due:1,repetitions:1}}}),false);assert.equal(validProgress({...freshProgress(),goal:-1}),false);});
+
+test('large vocabulary progress crosses the old payload ceiling and round-trips intact',async t=>{
+ const {call}=await fixture(t);const {exercises,words}=await import('../src/academy/catalog.js');
+ const state=freshProgress();
+ for(const q of exercises){state.attempts[q.id]={count:1,correct:false,last:1};state.mistakes[q.id]={count:1,wrong:'x'.repeat(200),last:1,due:1,correctDays:[],resolved:false};}
+ for(const w of words)state.wordCards[w.id]={due:1,last:0,days:0,repetitions:0};
+ assert.ok(Buffer.byteLength(JSON.stringify(state))>512*1024);
+ const login=await call('/login',{email:'owner@example.test',password:'test-password-123'});
+ assert.equal((await call('/progress',{state,revision:0},login.cookie,'PUT')).status,200);
+ const saved=await call('/progress',null,login.cookie);assert.deepEqual(saved.body.state,state);
+});

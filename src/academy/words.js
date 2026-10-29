@@ -1,3 +1,4 @@
+import {enrichWords} from './vocabulary/data.js';
 import {grammar} from './grammar.js';
 // Each block follows the corresponding topic; each entry includes an original usage example.
 const blocks = [
@@ -194,4 +195,6 @@ trade-off|bir kazanım için verilen ödün|There is a trade-off between cost an
 claim|iddia|The claim needs evidence.|İddia kanıt gerektirir.
 tend to|eğiliminde olmak|People tend to choose familiar things.|İnsanlar tanıdık şeyleri seçme eğilimindedir.`
 ];
-export const words = blocks.flatMap((block,topicIndex)=>block.split('\n').map((line,i)=>{const [en,tr,example,translation]=line.split('|');const topic=grammar[topicIndex];return {id:`w-${topic.id}-${i}`,topic:topic.id,level:topic.level,en,tr,example,translation};}));
+export const legacyWords = blocks.flatMap((block,topicIndex)=>block.split('\n').map((line,i)=>{const [en,tr,example,translation]=line.split('|');const topic=grammar[topicIndex];return {id:`w-${topic.id}-${i}`,topic:topic.id,level:topic.level,en,tr,example,translation};}));
+
+export const words = enrichWords(legacyWords);

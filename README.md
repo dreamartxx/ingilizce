@@ -6,18 +6,24 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 
 - A1–B2 için 24 soruluk seviye taraması; atlanan dinleme soruları ayrı sayılır.
 - 32 konu: Türkçe anlatım, adım adım cümle kurma, 96 örnek ve 128 gramer sorusu.
-- 192 kelime/ifade: arama, seviye/konu filtresi, favoriler, kişisel kart kutusu, yazılı hatırlama.
+- 1.153 kelime ve kullanım, 44 tematik başlık: ev eşyaları, akrabalar, mutfak, ulaşım, iş hayatı, çevre, tartışma ve daha fazlası. Her kayıtta Türkçe anlam ve çevrilmiş örnek cümle.
+- 9 sözcük türü için açıklama ve örnekler; zamir/sahiplik tablosu, sıfat karşılaştırmaları, 38 açıklamalı sözcük türü sorusu.
+- 203 fiil: 122 düzenli, 81 düzensiz. V1/V2/V3 tablosu; kabul edilen İngiliz/Amerikan biçimleri ve V2/V3 alıştırmaları.
+- 2.662 kelime ve fiil alıştırması: 1.153 anlamdan hatırlama, 1.103 cümle tamamlama ve 406 fiil çekimi sorusu. Seçenekli veya yazarak 10/20 soruluk turlar.
+- Konu/seviye/sözcük türü ve fiil çekimiyle arama; grup hâlinde kart ekleme, favoriler, filtreli kart çalışması. Az çalışılan sorulara öncelik verilir.
 - 32 özgün okuma metni, 64 okuma sorusu, 32 dinleme sorusu, 32 konuşma/yazma görevi.
 - Yanlışlar otomatik birikir; beceri/seviye filtreli ayrı çalışma ve üç farklı günde doğru hatırlama takibi.
-- Dört ImageGen atlasında 16 özgün sahne; konu ve kartlarda görsel bağlam.
+- Dört ImageGen atlasında 16 özgün ders sahnesi; kelime bankasında tematik simgeler ve renklerle bölümleme.
 - İlk sürümün 8 bölümü ve 48 kalıbı ile mevcut kayıtlar korunur.
 - Kart tekrarları 10 dakika–60 gün; aynı oturumda kartların tekrar dönmesi engellenir.
-- Müfredattaki 636 metin için ElevenLabs kayıtları: kelimeler, örnekler, hikâyeler, rehberli diyaloglar ve Türkçe konu anlatımları. Normal/yavaş dinleme ve durdurma desteklenir.
+- Önceki müfredattaki 636 metin için ElevenLabs kayıtları: kelimeler, örnekler, hikâyeler, rehberli diyaloglar ve Türkçe konu anlatımları. Normal/yavaş dinleme ve durdurma desteklenir.
 - 3 rehberli konuşma sahnesi ve API bağlandığında yazılı yapay zekâ öğretmeni.
 - Seviyeye göre başlangıç bölümü önerisi; kişisel ilerleme, günlük hedef ve notlar.
 - British Council video, dinleme ve okuma kütüphanesi; bağlantılar kaynağın kendi sitesinde açılır.
 - Mobil arayüz, büyütülebilir metin, klavye erişimi ve hareket azaltma tercihi.
 - E-posta/şifre girişi, davetli kayıt, şifre değiştirme, MySQL kayıtları ve JSON dışa aktarma.
+
+Yeni kelime içeriği için ses veya API üretimi yapılmadı. Önceden kaydedilen sesler korunur; yeni kartlar kaydı olmayan bir ses düğmesi göstermez. Kelime sayısı farklı sözcük türlerindeki kullanımları ayrı sayar, fiil çekimlerini ek kelime saymaz. A1–B2 etiketleri yaklaşık çalışma sırasıdır.
 
 ## Hızlı başlat
 
@@ -37,7 +43,7 @@ Geliştirme için `dist/` yokken `npm run dev` Vite middleware kullanır. Derlen
 
 ## Teknoloji
 
-React + Vite istemci, Express 5 Node.js sunucu, `mysql2` ile MySQL. Tek Node süreci derlenmiş arayüzü ve `/api` uçlarını sunar. Ayrı frontend hosting gerekmez. Veri tabloları ilk bağlantıda oluşturulur; mevcut veriler silinmez. Sürüm kontrolü eski sekmenin yeni ilerlemeyi ezmesini önler.
+React + Vite istemci, Express 5 Node.js sunucu, `mysql2` ile MySQL. Tek Node süreci derlenmiş arayüzü ve `/api` uçlarını sunar. Ayrı frontend hosting gerekmez. Veri tabloları ilk bağlantıda oluşturulur; mevcut veriler silinmez. Sürüm kontrolü eski sekmenin yeni ilerlemeyi ezmesini önler. Büyüyen kelime ve yanlış kayıtları için JSON gövde sınırı 4 MiB; kimlik ve alan doğrulaması korunur.
 
 ## Yapay zekâ
 

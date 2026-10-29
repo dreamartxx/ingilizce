@@ -1,5 +1,7 @@
 import {grammar} from './grammar.js';
-import {words} from './words.js';
+import {words,legacyWords} from './words.js';
+import {createVocabularyExercises} from './vocabulary/practice.js';
+import {guideExercises} from './vocabulary/guides.js';
 import {readings} from './stories.js';
 import {units,allPhrases,scenarios} from '../content.js';
 export {grammar,words};
@@ -14,9 +16,9 @@ const speakingTasks=[
 ];
 const readingExercise=(text,id,topic,level,kind)=>{const [prompt,answer,wrong,why]=text.split('|');return {id,topic,level,kind,prompt,answer,options:[answer,...wrong.split('/')],why};};
 export const topics=grammar.map((g,i)=>{const [title,text,translation,q1,q2]=readings[i];return {...g,panel:panels[i],words:words.filter(w=>w.topic===g.id),reading:{title,text,translation},speaking:speakingTasks[i],checks:[{...readingExercise(q1,`r-${g.id}-0`,g.id,g.level,'reading'),context:text},{...readingExercise(q2,`r-${g.id}-1`,g.id,g.level,'reading'),context:text}]};});
-const wordExercises=words.map((w,i)=>({id:`v-${w.id}`,kind:'vocabulary',topic:w.topic,level:w.level,prompt:`İngilizcesini yaz: ${w.tr}`,answer:w.en,options:[w.en,...words.filter(x=>x.level===w.level&&x.en!==w.en).slice((i%20),i%20+2).map(x=>x.en)],why:`${w.en} = ${w.tr}. ${w.example} (${w.translation})`,word:w.id}));
+export const wordExercises=createVocabularyExercises(words);
 const legacyExercises=units.flatMap(u=>[...u.quiz.map((q,i)=>({id:`old-${u.id}-${i}`,kind:'reading',level:u.level,topic:u.id,prompt:q.q,answer:q.options[q.answer],options:q.options,why:q.why})),...u.phrases.map(p=>({id:`phrase-${p.id}`,kind:'vocabulary',level:u.level,topic:u.id,prompt:p.tr,answer:p.en,why:p.hint,options:[p.en,...u.phrases.filter(c=>c.id!==p.id).slice(0,2).map(c=>c.en)]}))]);
-export const exercises=[...grammar.flatMap(g=>g.exercises),...topics.flatMap(t=>[...t.checks,{...t.checks[0],id:`l-${t.id}`,kind:'listening',context:undefined,audio:t.reading.text}]),...wordExercises,...legacyExercises];
+export const exercises=[...grammar.flatMap(g=>g.exercises),...topics.flatMap(t=>[...t.checks,{...t.checks[0],id:`l-${t.id}`,kind:'listening',context:undefined,audio:t.reading.text}]),...wordExercises,...guideExercises,...legacyExercises];
 export const exerciseById=Object.fromEntries(exercises.map(e=>[e.id,e]));
 export const wordById=Object.fromEntries(words.map(w=>[w.id,w]));
 export const topicById=Object.fromEntries(topics.map(t=>[t.id,t]));
@@ -28,7 +30,7 @@ export const placementV2=levels.flatMap(level=>{
 });
 export const audioTexts=[...new Set([
  ...Object.values(scenarios).flatMap(s=>[s.intro,...s.replies]),
- ...words.flatMap(w=>[w.en,w.example]),
+ ...legacyWords.flatMap(w=>[w.en,w.example]),
  ...topics.flatMap(t=>[t.reading.text,t.explanation,t.detail,...t.examples.map(e=>e.en)]),
  ...units.flatMap(u=>[u.story,...u.phrases.map(p=>p.en)]),
  'Hello. Let’s learn English together.'

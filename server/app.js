@@ -10,7 +10,7 @@ import {validProgress} from '../src/state.js';
 export function createApp({store=null,env=process.env,fetchImpl=fetch}={}) {
  const app=express();app.disable('x-powered-by');app.set('trust proxy',1);
  app.use((req,res,next)=>{res.set({'X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','X-Frame-Options':'DENY','Permissions-Policy':'microphone=(self), camera=()','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"});next();});
- app.use('/api',express.json({limit:'512kb'}));app.use('/api',(req,res,next)=>{res.set('Cache-Control','no-store');next();});
+ app.use('/api',express.json({limit:'4mb'}));app.use('/api',(req,res,next)=>{res.set('Cache-Control','no-store');next();});
  const buckets=new Map();
  const limited=(key,limit,ms)=>{const now=Date.now();if(buckets.size>10000)for(const [k,v] of buckets)if(v.until<now)buckets.delete(k);let b=buckets.get(key);if(!b||b.until<now){b={n:0,until:now+ms};buckets.set(key,b);}return ++b.n>limit;};
  app.use('/api',(req,res,next)=>{if(req.method==='GET')return next();const origin=req.get('origin');const expected=env.APP_ORIGIN||`http://${req.get('host')}`;if(origin!==expected||req.get('sec-fetch-site')==='cross-site')return res.status(403).json({error:'Bu isteğin kaynağı doğrulanamadı. Sayfayı kendi adresinden aç.'});if(!req.is('application/json'))return res.status(415).json({error:'JSON gerekli.'});next();});
