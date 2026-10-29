@@ -61,12 +61,12 @@ const extraForms={
  'clarify':['regular','clarified','clarified']
 };
 export function enrichWords(legacy){
- const result=legacy.map(w=>({...w,pos:Object.entries(sets).find(([,set])=>set.has(w.en))?.[0]||'noun',categories:['course-core'],hasAudio:true}));
+ const result=legacy.map(w=>({...w,pos:Object.entries(sets).find(([,set])=>set.has(w.en))?.[0]||'noun',categories:['course-core']}));
  const byKey=new Map(result.map(w=>[`${w.en.toLowerCase()}|${w.pos}|${w.domain||''}`,w]));
  for(const entry of entries){
   const key=`${entry.en.toLowerCase()}|${entry.pos}|${entry.domain||''}`,existing=byKey.get(key);
   if(existing){existing.categories=[...new Set([...existing.categories,...entry.categories])];if(entry.forms)existing.forms=entry.forms;if(entry.comparison)existing.comparison=entry.comparison;}
-  else {const w={...entry,hasAudio:false};result.push(w);byKey.set(key,w);}
+  else {const w={...entry};result.push(w);byKey.set(key,w);}
  }
  for(const w of result){
   const f=extraForms[w.en];if(w.pos==='verb'&&!w.forms&&f)w.forms={type:f[0],past:[f[1]],participle:[f[2]]};

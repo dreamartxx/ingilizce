@@ -16,6 +16,7 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 - Dört ImageGen atlasında 16 özgün ders sahnesi; kelime bankasında tematik simgeler ve renklerle bölümleme.
 - İlk sürümün 8 bölümü ve 48 kalıbı ile mevcut kayıtlar korunur.
 - Kart tekrarları 10 dakika–60 gün; aynı oturumda kartların tekrar dönmesi engellenir.
+- Kelime bankasındaki 1.518 kelime/kullanımın tamamında kelime sesi; Muayene bölümündeki bütün örnekler ve 8 görüşmenin tüm satırlarında normal/yavaş dinleme. Genel bankanın henüz kaydı olmayan örnekleri yazılı çalışılır.
 - Önceki müfredattaki 636 metin için ElevenLabs kayıtları: kelimeler, örnekler, hikâyeler, rehberli diyaloglar ve Türkçe konu anlatımları. Normal/yavaş dinleme ve durdurma desteklenir.
 - 3 rehberli konuşma sahnesi ve API bağlandığında yazılı yapay zekâ öğretmeni.
 - Seviyeye göre başlangıç bölümü önerisi; kişisel ilerleme, günlük hedef ve notlar.
@@ -23,7 +24,7 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 - Mobil arayüz, büyütülebilir metin, klavye erişimi ve hareket azaltma tercihi.
 - E-posta/şifre girişi, davetli kayıt, şifre değiştirme, MySQL kayıtları ve JSON dışa aktarma.
 
-Yeni kelime içeriği için ses veya API üretimi yapılmadı. Önceden kaydedilen sesler korunur; yeni kartlar kaydı olmayan bir ses düğmesi göstermez. Kelime sayısı farklı sözcük türlerindeki kullanımları ayrı sayar, fiil çekimlerini ek kelime saymaz. A1–B2 etiketleri yaklaşık çalışma sırasıdır.
+Kelime sesleri ve Muayene örnekleri ElevenLabs kayıtlarıyla genişletilir. Önceden kaydedilen sesler korunur; kartlar yalnızca kaydı bulunan kelime ve örnekler için ses düğmesi gösterir. Kelime sayısı farklı sözcük türlerindeki kullanımları ayrı sayar, fiil çekimlerini ek kelime saymaz. A1–B2 etiketleri yaklaşık çalışma sırasıdır.
 
 ## Muayene
 
@@ -91,12 +92,14 @@ Ders metinleri ve çizim uygulama için özgün hazırlanmıştır. Haricî içe
 
 ## ElevenLabs kayıtları
 
-636 müfredat metni ElevenLabs’in açık web hesabında üretildi; API anahtarı oluşturulmadı. İngilizce kayıtlar Max - Elearning and Documentary, Türkçe kayıtlar Seyfullah Kartal sesiyle, Eleven Multilingual v2 modeliyle hazırlandı. Üretilen MP3 dosyaları statik olarak sunulur; uygulama kullanılırken ElevenLabs kredisi harcanmaz.
+Toplam 2.271 metin kaydı: korunmuş 636 müfredat kaydı, 705 yeni Muayene kaydı ve 930 yeni genel kelime kaydı. ElevenLabs’in açık web hesabında üretildi; API anahtarı oluşturulmadı. İngilizce kayıtlar Max - Elearning and Documentary, Türkçe kayıtlar Seyfullah Kartal sesiyle, Eleven Multilingual v2 modeliyle hazırlandı. Üretilen MP3 dosyaları statik olarak sunulur; uygulama kullanılırken ElevenLabs kredisi harcanmaz.
+
+`node scripts/index-narration.mjs`, sevkiyata hazır ses manifestinden arayüzün kayıt dizinini üretir; manifest değiştiğinde çalıştırılır. Kelime, örnek ve diyalog satırlarının ses uygunluğu ayrı ayrı kontrol edilir.
 
 `public/audio/manifest.json` her özgün metni bir MP3 dosyası ve başlangıç/bitiş saniyesiyle eşler. Dosyalar en fazla yaklaşık üç dakikalık paketlerdir; oynatıcı yalnızca seçilen parçayı çalar. Paketler arasında sessiz pay bulunur. Seslerin metin kapsamı, dosya varlığı ve zaman aralıkları otomatik test edilir. Her kaydın insan tarafından baştan sona dinlendiği iddia edilmez.
 
 Kullanıcının kredi tasarrufu isteğiyle önceden üretilmiş kayıtlar yeniden üretilmedi. İlk Türkçe kayıtların bazılarında eğik çizgi gibi işaretler okunabilir. Sonraki üretimlerde formüller doğal konuşmaya çevrildi: örneğin “had + V3” yerine “had sözcüğünün ardından fiilin üçüncü biçimi”. Bu ayrım ekrandaki ders metnini değiştirmez.
 
-`node scripts/generate-narration.mjs` yalnızca eksik kayıt sayısını gösteren isteğe bağlı bakım aracıdır. Mevcut kayıtları yeniden üretmez; web hesabıyla yapılan bu çalışma için çalıştırılmasına veya API anahtarına gerek yoktur. Yeni içerik üretilecekse önce seslendirme metni hazırlanmalı, gösterim amaçlı işaretler doğrudan okutulmamalıdır. Yapay zekânın serbest sohbet yanıtları bu statik ses kataloğuna dahil değildir.
+`node scripts/generate-narration.mjs` yalnızca eksik kayıt sayısını gösteren isteğe bağlı bakım aracıdır. Mevcut kayıtları yeniden üretmez; web hesabıyla yapılan bu çalışma için çalıştırılmasına veya API anahtarına gerek yoktur. Yeni içerik üretilecekse önce seslendirme metni hazırlanmalı, gösterim amaçlı işaretler doğrudan okutulmamalıdır. Bu genişlemenin özgün metin → konuşma metni eşlemesi `docs/narration-english-script.json` içindedir. İngilizce dil ayarı sabitlenir; Türkçe fonetik yazım kullanılmaz. Tireler boşluğa, Dr unvanı Doctor sözcüğüne çevrilir; normal cümle noktalaması duraklama için korunur. Uzun erken paketlerde hızlı çıkan 175 parça yeniden üretilmeden, perdeyi koruyan yerel hız ayarıyla yavaşlatılmıştır. Yapay zekânın serbest sohbet yanıtları bu statik ses kataloğuna dahil değildir.
 
 Bu müfredat A1–B2 yapılarından seçilmiş bir çalışma rotasıdır; kapsamlı bir dil okulunun tüm kelime havuzu veya CEFR belgelendirmesi değildir. Yazma/konuşmada kayıt ve öz değerlendirme vardır; otomatik değerlendirme olduğu iddia edilmez.

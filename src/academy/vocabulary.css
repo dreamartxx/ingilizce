@@ -7,3 +7,5 @@
 @media(max-width:640px){.medical-hub{padding:19px}.medical-intro h2{font-size:23px}.medical-intro>span{display:none}.medical-sections{grid-template-columns:1fr}.medical-category{padding:18px}.medical-category .category-icon{min-width:48px;height:48px;font-size:28px}.medical-category h3{font-size:21px}.category-description{font-size:12px}.dialogue-line{width:95%;padding:15px}.dialogue-line p{font-size:16px}}
 
 .bank-count{scroll-margin-top:90px}
+
+.recorded-sound{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:8px 0}.recorded-sound .sound{font-size:.78rem}.dialogue-line .recorded-sound{margin-top:10px}

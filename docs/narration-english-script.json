@@ -1,0 +1,6549 @@
+{
+  "provider": "ElevenLabs",
+  "voice": "Max - Elearning and Documentary",
+  "model": "Eleven Multilingual v2",
+  "language": "en",
+  "speed": 0.86,
+  "entries": [
+    {
+      "text": "Hello, I am Dr Yener. How would you like me to address you?",
+      "spokenText": "Hello, I am Doctor Yener. How would you like me to address you?"
+    },
+    {
+      "text": "Please call me Alex.",
+      "spokenText": "Please call me Alex."
+    },
+    {
+      "text": "What brings you in today?",
+      "spokenText": "What brings you in today?"
+    },
+    {
+      "text": "I have been feeling unusually tired.",
+      "spokenText": "I have been feeling unusually tired."
+    },
+    {
+      "text": "When did you first notice this?",
+      "spokenText": "When did you first notice this?"
+    },
+    {
+      "text": "About two weeks ago. It is affecting my work.",
+      "spokenText": "About two weeks ago. It is affecting my work."
+    },
+    {
+      "text": "Could you tell me more about how it affects your day?",
+      "spokenText": "Could you tell me more about how it affects your day?"
+    },
+    {
+      "text": "Can you point to where it hurts?",
+      "spokenText": "Can you point to where it hurts?"
+    },
+    {
+      "text": "It hurts here, in my lower back.",
+      "spokenText": "It hurts here, in my lower back."
+    },
+    {
+      "text": "How would you describe the pain?",
+      "spokenText": "How would you describe the pain?"
+    },
+    {
+      "text": "It is a dull ache most of the time.",
+      "spokenText": "It is a dull ache most of the time."
+    },
+    {
+      "text": "Does the pain spread anywhere?",
+      "spokenText": "Does the pain spread anywhere?"
+    },
+    {
+      "text": "Sometimes it goes down my right leg.",
+      "spokenText": "Sometimes it goes down my right leg."
+    },
+    {
+      "text": "What makes it better or worse?",
+      "spokenText": "What makes it better or worse?"
+    },
+    {
+      "text": "Please tell me what you mean by feeling breathless.",
+      "spokenText": "Please tell me what you mean by feeling breathless."
+    },
+    {
+      "text": "I get out of breath when I walk upstairs.",
+      "spokenText": "I get out of breath when I walk upstairs."
+    },
+    {
+      "text": "Does it also happen when you are resting?",
+      "spokenText": "Does it also happen when you are resting?"
+    },
+    {
+      "text": "Sometimes, but mostly when I move around.",
+      "spokenText": "Sometimes, but mostly when I move around."
+    },
+    {
+      "text": "Have you noticed a cough or wheezing?",
+      "spokenText": "Have you noticed a cough or wheezing?"
+    },
+    {
+      "text": "I have a dry cough.",
+      "spokenText": "I have a dry cough."
+    },
+    {
+      "text": "I would like to examine you and check your breathing.",
+      "spokenText": "I would like to examine you and check your breathing."
+    },
+    {
+      "text": "Are you taking any medicines, including supplements?",
+      "spokenText": "Are you taking any medicines, including supplements?"
+    },
+    {
+      "text": "I take a tablet every day, but I cannot remember its name.",
+      "spokenText": "I take a tablet every day, but I cannot remember its name."
+    },
+    {
+      "text": "Do you have the packet or a photograph of it?",
+      "spokenText": "Do you have the packet or a photograph of it?"
+    },
+    {
+      "text": "Yes, I have a photograph on my phone.",
+      "spokenText": "Yes, I have a photograph on my phone."
+    },
+    {
+      "text": "Do you have any medicine allergies?",
+      "spokenText": "Do you have any medicine allergies?"
+    },
+    {
+      "text": "I once developed a rash after taking a medicine.",
+      "spokenText": "I once developed a rash after taking a medicine."
+    },
+    {
+      "text": "Which medicine was it, and how soon did the rash appear?",
+      "spokenText": "Which medicine was it, and how soon did the rash appear?"
+    },
+    {
+      "text": "I would like to examine your abdomen. May I proceed?",
+      "spokenText": "I would like to examine your abdomen. May I proceed?"
+    },
+    {
+      "text": "Yes. Will it hurt?",
+      "spokenText": "Yes. Will it hurt?"
+    },
+    {
+      "text": "I will press gently. Please tell me if it hurts.",
+      "spokenText": "I will press gently. Please tell me if it hurts."
+    },
+    {
+      "text": "All right.",
+      "spokenText": "All right."
+    },
+    {
+      "text": "You can ask me to stop at any time.",
+      "spokenText": "You can ask me to stop at any time."
+    },
+    {
+      "text": "This area is tender.",
+      "spokenText": "This area is tender."
+    },
+    {
+      "text": "Thank you for telling me. I will pause.",
+      "spokenText": "Thank you for telling me. I will pause."
+    },
+    {
+      "text": "I would like to arrange some tests. Let me explain why.",
+      "spokenText": "I would like to arrange some tests. Let me explain why."
+    },
+    {
+      "text": "Will I need to prepare for them?",
+      "spokenText": "Will I need to prepare for them?"
+    },
+    {
+      "text": "We will give you instructions for each test.",
+      "spokenText": "We will give you instructions for each test."
+    },
+    {
+      "text": "When will I hear about the results?",
+      "spokenText": "When will I hear about the results?"
+    },
+    {
+      "text": "We will confirm how and when the results will be shared.",
+      "spokenText": "We will confirm how and when the results will be shared."
+    },
+    {
+      "text": "Does the test tell us exactly what is wrong?",
+      "spokenText": "Does the test tell us exactly what is wrong?"
+    },
+    {
+      "text": "It gives us more information. We will discuss it alongside your symptoms.",
+      "spokenText": "It gives us more information. We will discuss it alongside your symptoms."
+    },
+    {
+      "text": "I would like to ask some personal questions. Is that all right?",
+      "spokenText": "I would like to ask some personal questions. Is that all right?"
+    },
+    {
+      "text": "I would prefer to speak without my relative here.",
+      "spokenText": "I would prefer to speak without my relative here."
+    },
+    {
+      "text": "Of course. We can speak privately.",
+      "spokenText": "Of course. We can speak privately."
+    },
+    {
+      "text": "I may need help with some English words.",
+      "spokenText": "I may need help with some English words."
+    },
+    {
+      "text": "Would you like a professional interpreter?",
+      "spokenText": "Would you like a professional interpreter?"
+    },
+    {
+      "text": "Yes, please.",
+      "spokenText": "Yes, please."
+    },
+    {
+      "text": "We can arrange that before we continue.",
+      "spokenText": "We can arrange that before we continue."
+    },
+    {
+      "text": "Let us go through the plan once more.",
+      "spokenText": "Let us go through the plan once more."
+    },
+    {
+      "text": "Could you write it down for me?",
+      "spokenText": "Could you write it down for me?"
+    },
+    {
+      "text": "Yes. I will include the follow-up arrangements.",
+      "spokenText": "Yes. I will include the follow up arrangements."
+    },
+    {
+      "text": "What should I do if things change?",
+      "spokenText": "What should I do if things change?"
+    },
+    {
+      "text": "I will explain what to watch for and who to contact.",
+      "spokenText": "I will explain what to watch for and who to contact."
+    },
+    {
+      "text": "Thank you. I want to make sure I understand.",
+      "spokenText": "Thank you. I want to make sure I understand."
+    },
+    {
+      "text": "Could you tell me the plan in your own words?",
+      "spokenText": "Could you tell me the plan in your own words?"
+    },
+    {
+      "text": "consultation",
+      "spokenText": "consultation"
+    },
+    {
+      "text": "This is our first consultation.",
+      "spokenText": "This is our first consultation."
+    },
+    {
+      "text": "appointment",
+      "spokenText": "appointment"
+    },
+    {
+      "text": "Do you have an appointment today?",
+      "spokenText": "Do you have an appointment today?"
+    },
+    {
+      "text": "patient",
+      "spokenText": "patient"
+    },
+    {
+      "text": "The patient would like an interpreter.",
+      "spokenText": "The patient would like an interpreter."
+    },
+    {
+      "text": "clinician",
+      "spokenText": "clinician"
+    },
+    {
+      "text": "A clinician will speak with you.",
+      "spokenText": "A clinician will speak with you."
+    },
+    {
+      "text": "general practitioner",
+      "spokenText": "general practitioner"
+    },
+    {
+      "text": "Your general practitioner sent us a letter.",
+      "spokenText": "Your general practitioner sent us a letter."
+    },
+    {
+      "text": "specialist",
+      "spokenText": "specialist"
+    },
+    {
+      "text": "You have an appointment with a specialist.",
+      "spokenText": "You have an appointment with a specialist."
+    },
+    {
+      "text": "interpreter",
+      "spokenText": "interpreter"
+    },
+    {
+      "text": "chaperone",
+      "spokenText": "chaperone"
+    },
+    {
+      "text": "You can ask for a chaperone during the examination.",
+      "spokenText": "You can ask for a chaperone during the examination."
+    },
+    {
+      "text": "consent",
+      "spokenText": "consent"
+    },
+    {
+      "text": "I will ask for your consent before we begin.",
+      "spokenText": "I will ask for your consent before we begin."
+    },
+    {
+      "text": "privacy",
+      "spokenText": "privacy"
+    },
+    {
+      "text": "We can close the curtain for your privacy.",
+      "spokenText": "We can close the curtain for your privacy."
+    },
+    {
+      "text": "confidentiality",
+      "spokenText": "confidentiality"
+    },
+    {
+      "text": "We can discuss confidentiality before you share this.",
+      "spokenText": "We can discuss confidentiality before you share this."
+    },
+    {
+      "text": "concern",
+      "spokenText": "concern"
+    },
+    {
+      "text": "What is your main concern today?",
+      "spokenText": "What is your main concern today?"
+    },
+    {
+      "text": "What is your expectation for this visit?",
+      "spokenText": "What is your expectation for this visit?"
+    },
+    {
+      "text": "preferred name",
+      "spokenText": "preferred name"
+    },
+    {
+      "text": "What is your preferred name?",
+      "spokenText": "What is your preferred name?"
+    },
+    {
+      "text": "pronunciation",
+      "spokenText": "pronunciation"
+    },
+    {
+      "text": "Could you help me with the pronunciation of your name?",
+      "spokenText": "Could you help me with the pronunciation of your name?"
+    },
+    {
+      "text": "communication aid",
+      "spokenText": "communication aid"
+    },
+    {
+      "text": "Do you use a communication aid?",
+      "spokenText": "Do you use a communication aid?"
+    },
+    {
+      "text": "hearing aid",
+      "spokenText": "hearing aid"
+    },
+    {
+      "text": "Do you need your hearing aid for our conversation?",
+      "spokenText": "Do you need your hearing aid for our conversation?"
+    },
+    {
+      "text": "carer",
+      "spokenText": "carer"
+    },
+    {
+      "text": "Would you like your carer to join us?",
+      "spokenText": "Would you like your carer to join us?"
+    },
+    {
+      "text": "next of kin",
+      "spokenText": "next of kin"
+    },
+    {
+      "text": "Who have you listed as your next of kin?",
+      "spokenText": "Who have you listed as your next of kin?"
+    },
+    {
+      "text": "medical record",
+      "spokenText": "medical record"
+    },
+    {
+      "text": "May I check your medical record?",
+      "spokenText": "May I check your medical record?"
+    },
+    {
+      "text": "presenting complaint",
+      "spokenText": "presenting complaint"
+    },
+    {
+      "text": "The presenting complaint is dizziness.",
+      "spokenText": "The presenting complaint is dizziness."
+    },
+    {
+      "text": "medical history",
+      "spokenText": "medical history"
+    },
+    {
+      "text": "I would like to ask about your medical history.",
+      "spokenText": "I would like to ask about your medical history."
+    },
+    {
+      "text": "family history",
+      "spokenText": "family history"
+    },
+    {
+      "text": "Is there a family history of diabetes?",
+      "spokenText": "Is there a family history of diabetes?"
+    },
+    {
+      "text": "surgical history",
+      "spokenText": "surgical history"
+    },
+    {
+      "text": "Could you tell me about your surgical history?",
+      "spokenText": "Could you tell me about your surgical history?"
+    },
+    {
+      "text": "previous episode",
+      "spokenText": "previous episode"
+    },
+    {
+      "text": "Was the previous episode similar to this one?",
+      "spokenText": "Was the previous episode similar to this one?"
+    },
+    {
+      "text": "onset",
+      "spokenText": "onset"
+    },
+    {
+      "text": "Was the onset sudden or gradual?",
+      "spokenText": "Was the onset sudden or gradual?"
+    },
+    {
+      "text": "duration",
+      "spokenText": "duration"
+    },
+    {
+      "text": "What was the duration of each episode?",
+      "spokenText": "What was the duration of each episode?"
+    },
+    {
+      "text": "frequency",
+      "spokenText": "frequency"
+    },
+    {
+      "text": "Has the frequency changed?",
+      "spokenText": "Has the frequency changed?"
+    },
+    {
+      "text": "trigger",
+      "spokenText": "trigger"
+    },
+    {
+      "text": "Have you noticed a trigger?",
+      "spokenText": "Have you noticed a trigger?"
+    },
+    {
+      "text": "allergy",
+      "spokenText": "allergy"
+    },
+    {
+      "text": "Do you have a medicine allergy?",
+      "spokenText": "Do you have a medicine allergy?"
+    },
+    {
+      "text": "allergic reaction",
+      "spokenText": "allergic reaction"
+    },
+    {
+      "text": "What happened during the allergic reaction?",
+      "spokenText": "What happened during the allergic reaction?"
+    },
+    {
+      "text": "current medication",
+      "spokenText": "current medication"
+    },
+    {
+      "text": "Please tell me about your current medication.",
+      "spokenText": "Please tell me about your current medication."
+    },
+    {
+      "text": "over-the-counter medicine",
+      "spokenText": "over the counter medicine"
+    },
+    {
+      "text": "Do you take any over-the-counter medicine?",
+      "spokenText": "Do you take any over the counter medicine?"
+    },
+    {
+      "text": "herbal supplement",
+      "spokenText": "herbal supplement"
+    },
+    {
+      "text": "Do you use a herbal supplement?",
+      "spokenText": "Do you use a herbal supplement?"
+    },
+    {
+      "text": "vaccination history",
+      "spokenText": "vaccination history"
+    },
+    {
+      "text": "Do you have a copy of your vaccination history?",
+      "spokenText": "Do you have a copy of your vaccination history?"
+    },
+    {
+      "text": "smoking history",
+      "spokenText": "smoking history"
+    },
+    {
+      "text": "May I ask about your smoking history?",
+      "spokenText": "May I ask about your smoking history?"
+    },
+    {
+      "text": "alcohol intake",
+      "spokenText": "alcohol intake"
+    },
+    {
+      "text": "Has your alcohol intake changed recently?",
+      "spokenText": "Has your alcohol intake changed recently?"
+    },
+    {
+      "text": "occupational exposure",
+      "spokenText": "occupational exposure"
+    },
+    {
+      "text": "We discussed possible occupational exposure.",
+      "spokenText": "We discussed possible occupational exposure."
+    },
+    {
+      "text": "recent travel",
+      "spokenText": "recent travel"
+    },
+    {
+      "text": "Have you had any recent travel abroad?",
+      "spokenText": "Have you had any recent travel abroad?"
+    },
+    {
+      "text": "daily activities",
+      "spokenText": "daily activities"
+    },
+    {
+      "text": "How does this affect your daily activities?",
+      "spokenText": "How does this affect your daily activities?"
+    },
+    {
+      "text": "sharp",
+      "spokenText": "sharp"
+    },
+    {
+      "text": "Is the pain sharp?",
+      "spokenText": "Is the pain sharp?"
+    },
+    {
+      "text": "dull",
+      "spokenText": "dull"
+    },
+    {
+      "text": "It feels like a dull ache.",
+      "spokenText": "It feels like a dull ache."
+    },
+    {
+      "text": "burning",
+      "spokenText": "burning"
+    },
+    {
+      "text": "Is it a burning pain?",
+      "spokenText": "Is it a burning pain?"
+    },
+    {
+      "text": "throbbing",
+      "spokenText": "throbbing"
+    },
+    {
+      "text": "I have a throbbing headache.",
+      "spokenText": "I have a throbbing headache."
+    },
+    {
+      "text": "stabbing",
+      "spokenText": "stabbing"
+    },
+    {
+      "text": "The pain is stabbing rather than dull.",
+      "spokenText": "The pain is stabbing rather than dull."
+    },
+    {
+      "text": "cramping",
+      "spokenText": "cramping"
+    },
+    {
+      "text": "Do you have cramping pain?",
+      "spokenText": "Do you have cramping pain?"
+    },
+    {
+      "text": "aching",
+      "spokenText": "aching"
+    },
+    {
+      "text": "It is an aching pain in my shoulder.",
+      "spokenText": "It is an aching pain in my shoulder."
+    },
+    {
+      "text": "shooting",
+      "spokenText": "shooting"
+    },
+    {
+      "text": "Is there a shooting pain down your leg?",
+      "spokenText": "Is there a shooting pain down your leg?"
+    },
+    {
+      "text": "radiating",
+      "spokenText": "radiating"
+    },
+    {
+      "text": "The pain is radiating to my back.",
+      "spokenText": "The pain is radiating to my back."
+    },
+    {
+      "text": "localised",
+      "spokenText": "localised"
+    },
+    {
+      "text": "Is the pain localised to one spot?",
+      "spokenText": "Is the pain localised to one spot?"
+    },
+    {
+      "text": "widespread",
+      "spokenText": "widespread"
+    },
+    {
+      "text": "The discomfort is widespread.",
+      "spokenText": "The discomfort is widespread."
+    },
+    {
+      "text": "intermittent",
+      "spokenText": "intermittent"
+    },
+    {
+      "text": "The pain is intermittent.",
+      "spokenText": "The pain is intermittent."
+    },
+    {
+      "text": "constant",
+      "spokenText": "constant"
+    },
+    {
+      "text": "Is the pain constant throughout the day?",
+      "spokenText": "Is the pain constant throughout the day?"
+    },
+    {
+      "text": "mild",
+      "spokenText": "mild"
+    },
+    {
+      "text": "The pain was mild at first.",
+      "spokenText": "The pain was mild at first."
+    },
+    {
+      "text": "moderate",
+      "spokenText": "moderate"
+    },
+    {
+      "text": "Would you describe it as moderate pain?",
+      "spokenText": "Would you describe it as moderate pain?"
+    },
+    {
+      "text": "severe",
+      "spokenText": "severe"
+    },
+    {
+      "text": "The pain became severe last night.",
+      "spokenText": "The pain became severe last night."
+    },
+    {
+      "text": "acute",
+      "spokenText": "acute"
+    },
+    {
+      "text": "The referral mentions acute back pain.",
+      "spokenText": "The referral mentions acute back pain."
+    },
+    {
+      "text": "chronic",
+      "spokenText": "chronic"
+    },
+    {
+      "text": "We discussed my chronic pain.",
+      "spokenText": "We discussed my chronic pain."
+    },
+    {
+      "text": "tender",
+      "spokenText": "tender"
+    },
+    {
+      "text": "Is this area tender when I press gently?",
+      "spokenText": "Is this area tender when I press gently?"
+    },
+    {
+      "text": "painless",
+      "spokenText": "painless"
+    },
+    {
+      "text": "I noticed a painless lump.",
+      "spokenText": "I noticed a painless lump."
+    },
+    {
+      "text": "fever",
+      "spokenText": "fever"
+    },
+    {
+      "text": "Have you had a fever?",
+      "spokenText": "Have you had a fever?"
+    },
+    {
+      "text": "chills",
+      "spokenText": "chills"
+    },
+    {
+      "text": "Did you have chills last night?",
+      "spokenText": "Did you have chills last night?"
+    },
+    {
+      "text": "fatigue",
+      "spokenText": "fatigue"
+    },
+    {
+      "text": "How long have you had this fatigue?",
+      "spokenText": "How long have you had this fatigue?"
+    },
+    {
+      "text": "weakness",
+      "spokenText": "weakness"
+    },
+    {
+      "text": "Is the weakness general or only in one limb?",
+      "spokenText": "Is the weakness general or only in one limb?"
+    },
+    {
+      "text": "weight loss",
+      "spokenText": "weight loss"
+    },
+    {
+      "text": "Was the weight loss intentional?",
+      "spokenText": "Was the weight loss intentional?"
+    },
+    {
+      "text": "weight gain",
+      "spokenText": "weight gain"
+    },
+    {
+      "text": "When did you notice the weight gain?",
+      "spokenText": "When did you notice the weight gain?"
+    },
+    {
+      "text": "loss of appetite",
+      "spokenText": "loss of appetite"
+    },
+    {
+      "text": "Have you noticed a loss of appetite?",
+      "spokenText": "Have you noticed a loss of appetite?"
+    },
+    {
+      "text": "night sweats",
+      "spokenText": "night sweats"
+    },
+    {
+      "text": "How often do you have night sweats?",
+      "spokenText": "How often do you have night sweats?"
+    },
+    {
+      "text": "rash",
+      "spokenText": "rash"
+    },
+    {
+      "text": "When did the rash first appear?",
+      "spokenText": "When did the rash first appear?"
+    },
+    {
+      "text": "itching",
+      "spokenText": "itching"
+    },
+    {
+      "text": "Is the itching worse at night?",
+      "spokenText": "Is the itching worse at night?"
+    },
+    {
+      "text": "swelling",
+      "spokenText": "swelling"
+    },
+    {
+      "text": "Has the swelling increased?",
+      "spokenText": "Has the swelling increased?"
+    },
+    {
+      "text": "redness",
+      "spokenText": "redness"
+    },
+    {
+      "text": "The redness started this morning.",
+      "spokenText": "The redness started this morning."
+    },
+    {
+      "text": "bruise",
+      "spokenText": "bruise"
+    },
+    {
+      "text": "Do you remember how you got this bruise?",
+      "spokenText": "Do you remember how you got this bruise?"
+    },
+    {
+      "text": "blister",
+      "spokenText": "blister"
+    },
+    {
+      "text": "There is a blister on my heel.",
+      "spokenText": "There is a blister on my heel."
+    },
+    {
+      "text": "wound",
+      "spokenText": "wound"
+    },
+    {
+      "text": "When did you first notice the wound?",
+      "spokenText": "When did you first notice the wound?"
+    },
+    {
+      "text": "scar",
+      "spokenText": "scar"
+    },
+    {
+      "text": "Is this scar from an operation?",
+      "spokenText": "Is this scar from an operation?"
+    },
+    {
+      "text": "lump",
+      "spokenText": "lump"
+    },
+    {
+      "text": "Has the lump changed in size?",
+      "spokenText": "Has the lump changed in size?"
+    },
+    {
+      "text": "lesion",
+      "spokenText": "lesion"
+    },
+    {
+      "text": "I will describe the skin lesion in the record.",
+      "spokenText": "I will describe the skin lesion in the record."
+    },
+    {
+      "text": "ulcer",
+      "spokenText": "ulcer"
+    },
+    {
+      "text": "How long has this ulcer been present?",
+      "spokenText": "How long has this ulcer been present?"
+    },
+    {
+      "text": "bleeding",
+      "spokenText": "bleeding"
+    },
+    {
+      "text": "When did the bleeding start?",
+      "spokenText": "When did the bleeding start?"
+    },
+    {
+      "text": "shortness of breath",
+      "spokenText": "shortness of breath"
+    },
+    {
+      "text": "Do you have shortness of breath at rest?",
+      "spokenText": "Do you have shortness of breath at rest?"
+    },
+    {
+      "text": "cough",
+      "spokenText": "cough"
+    },
+    {
+      "text": "How long have you had this cough?",
+      "spokenText": "How long have you had this cough?"
+    },
+    {
+      "text": "dry cough",
+      "spokenText": "dry cough"
+    },
+    {
+      "text": "Is it a dry cough?",
+      "spokenText": "Is it a dry cough?"
+    },
+    {
+      "text": "productive cough",
+      "spokenText": "productive cough"
+    },
+    {
+      "text": "Do you have a productive cough?",
+      "spokenText": "Do you have a productive cough?"
+    },
+    {
+      "text": "sputum",
+      "spokenText": "sputum"
+    },
+    {
+      "text": "What colour is the sputum?",
+      "spokenText": "What colour is the sputum?"
+    },
+    {
+      "text": "wheezing",
+      "spokenText": "wheezing"
+    },
+    {
+      "text": "Have you noticed any wheezing?",
+      "spokenText": "Have you noticed any wheezing?"
+    },
+    {
+      "text": "chest tightness",
+      "spokenText": "chest tightness"
+    },
+    {
+      "text": "When does the chest tightness occur?",
+      "spokenText": "When does the chest tightness occur?"
+    },
+    {
+      "text": "chest pain",
+      "spokenText": "chest pain"
+    },
+    {
+      "text": "When did the chest pain begin?",
+      "spokenText": "When did the chest pain begin?"
+    },
+    {
+      "text": "palpitations",
+      "spokenText": "palpitations"
+    },
+    {
+      "text": "How long do the palpitations last?",
+      "spokenText": "How long do the palpitations last?"
+    },
+    {
+      "text": "heartbeat",
+      "spokenText": "heartbeat"
+    },
+    {
+      "text": "Does your heartbeat feel irregular?",
+      "spokenText": "Does your heartbeat feel irregular?"
+    },
+    {
+      "text": "pulse",
+      "spokenText": "pulse"
+    },
+    {
+      "text": "I would like to check your pulse.",
+      "spokenText": "I would like to check your pulse."
+    },
+    {
+      "text": "blood pressure",
+      "spokenText": "blood pressure"
+    },
+    {
+      "text": "May I measure your blood pressure?",
+      "spokenText": "May I measure your blood pressure?"
+    },
+    {
+      "text": "heart rate",
+      "spokenText": "heart rate"
+    },
+    {
+      "text": "We have recorded your heart rate.",
+      "spokenText": "We have recorded your heart rate."
+    },
+    {
+      "text": "respiratory rate",
+      "spokenText": "respiratory rate"
+    },
+    {
+      "text": "The nurse counted the respiratory rate.",
+      "spokenText": "The nurse counted the respiratory rate."
+    },
+    {
+      "text": "oxygen saturation",
+      "spokenText": "oxygen saturation"
+    },
+    {
+      "text": "This device measures oxygen saturation.",
+      "spokenText": "This device measures oxygen saturation."
+    },
+    {
+      "text": "breath",
+      "spokenText": "breath"
+    },
+    {
+      "text": "Please take a slow breath.",
+      "spokenText": "Please take a slow breath."
+    },
+    {
+      "text": "runny nose",
+      "spokenText": "runny nose"
+    },
+    {
+      "text": "Do you also have a runny nose?",
+      "spokenText": "Do you also have a runny nose?"
+    },
+    {
+      "text": "blocked nose",
+      "spokenText": "blocked nose"
+    },
+    {
+      "text": "How long have you had a blocked nose?",
+      "spokenText": "How long have you had a blocked nose?"
+    },
+    {
+      "text": "sore throat",
+      "spokenText": "sore throat"
+    },
+    {
+      "text": "Is your sore throat affecting swallowing?",
+      "spokenText": "Is your sore throat affecting swallowing?"
+    },
+    {
+      "text": "hoarseness",
+      "spokenText": "hoarseness"
+    },
+    {
+      "text": "When did the hoarseness start?",
+      "spokenText": "When did the hoarseness start?"
+    },
+    {
+      "text": "abdominal pain",
+      "spokenText": "abdominal pain"
+    },
+    {
+      "text": "Can you point to the abdominal pain?",
+      "spokenText": "Can you point to the abdominal pain?"
+    },
+    {
+      "text": "nausea",
+      "spokenText": "nausea"
+    },
+    {
+      "text": "Do you have nausea after meals?",
+      "spokenText": "Do you have nausea after meals?"
+    },
+    {
+      "text": "vomiting",
+      "spokenText": "vomiting"
+    },
+    {
+      "text": "When did the vomiting begin?",
+      "spokenText": "When did the vomiting begin?"
+    },
+    {
+      "text": "heartburn",
+      "spokenText": "heartburn"
+    },
+    {
+      "text": "Do you get heartburn after eating?",
+      "spokenText": "Do you get heartburn after eating?"
+    },
+    {
+      "text": "indigestion",
+      "spokenText": "indigestion"
+    },
+    {
+      "text": "What do you mean by indigestion?",
+      "spokenText": "What do you mean by indigestion?"
+    },
+    {
+      "text": "bloating",
+      "spokenText": "bloating"
+    },
+    {
+      "text": "Is the bloating related to meals?",
+      "spokenText": "Is the bloating related to meals?"
+    },
+    {
+      "text": "diarrhoea",
+      "spokenText": "diarrhoea"
+    },
+    {
+      "text": "How long have you had diarrhoea?",
+      "spokenText": "How long have you had diarrhoea?"
+    },
+    {
+      "text": "constipation",
+      "spokenText": "constipation"
+    },
+    {
+      "text": "Is constipation usual for you?",
+      "spokenText": "Is constipation usual for you?"
+    },
+    {
+      "text": "bowel movement",
+      "spokenText": "bowel movement"
+    },
+    {
+      "text": "When was your last bowel movement?",
+      "spokenText": "When was your last bowel movement?"
+    },
+    {
+      "text": "stool",
+      "spokenText": "stool"
+    },
+    {
+      "text": "Have you noticed any change in your stool?",
+      "spokenText": "Have you noticed any change in your stool?"
+    },
+    {
+      "text": "blood in the stool",
+      "spokenText": "blood in the stool"
+    },
+    {
+      "text": "Have you seen blood in the stool?",
+      "spokenText": "Have you seen blood in the stool?"
+    },
+    {
+      "text": "black stool",
+      "spokenText": "black stool"
+    },
+    {
+      "text": "When did you first notice black stool?",
+      "spokenText": "When did you first notice black stool?"
+    },
+    {
+      "text": "difficulty swallowing",
+      "spokenText": "difficulty swallowing"
+    },
+    {
+      "text": "Do you have difficulty swallowing liquids?",
+      "spokenText": "Do you have difficulty swallowing liquids?"
+    },
+    {
+      "text": "reflux",
+      "spokenText": "reflux"
+    },
+    {
+      "text": "Have you been diagnosed with reflux before?",
+      "spokenText": "Have you been diagnosed with reflux before?"
+    },
+    {
+      "text": "jaundice",
+      "spokenText": "jaundice"
+    },
+    {
+      "text": "The referral mentions jaundice.",
+      "spokenText": "The referral mentions jaundice."
+    },
+    {
+      "text": "hernia",
+      "spokenText": "hernia"
+    },
+    {
+      "text": "Have you had surgery for a hernia?",
+      "spokenText": "Have you had surgery for a hernia?"
+    },
+    {
+      "text": "abdominal cramps",
+      "spokenText": "abdominal cramps"
+    },
+    {
+      "text": "Do the abdominal cramps come and go?",
+      "spokenText": "Do the abdominal cramps come and go?"
+    },
+    {
+      "text": "food intolerance",
+      "spokenText": "food intolerance"
+    },
+    {
+      "text": "Have you been told you have a food intolerance?",
+      "spokenText": "Have you been told you have a food intolerance?"
+    },
+    {
+      "text": "fluid intake",
+      "spokenText": "fluid intake"
+    },
+    {
+      "text": "Has your fluid intake changed?",
+      "spokenText": "Has your fluid intake changed?"
+    },
+    {
+      "text": "dehydration",
+      "spokenText": "dehydration"
+    },
+    {
+      "text": "The doctor assessed me for dehydration.",
+      "spokenText": "The doctor assessed me for dehydration."
+    },
+    {
+      "text": "urine",
+      "spokenText": "urine"
+    },
+    {
+      "text": "Have you noticed a change in your urine?",
+      "spokenText": "Have you noticed a change in your urine?"
+    },
+    {
+      "text": "painful urination",
+      "spokenText": "painful urination"
+    },
+    {
+      "text": "When did the painful urination start?",
+      "spokenText": "When did the painful urination start?"
+    },
+    {
+      "text": "urinary frequency",
+      "spokenText": "urinary frequency"
+    },
+    {
+      "text": "Is the urinary frequency new?",
+      "spokenText": "Is the urinary frequency new?"
+    },
+    {
+      "text": "urinary urgency",
+      "spokenText": "urinary urgency"
+    },
+    {
+      "text": "Do you have urinary urgency?",
+      "spokenText": "Do you have urinary urgency?"
+    },
+    {
+      "text": "blood in the urine",
+      "spokenText": "blood in the urine"
+    },
+    {
+      "text": "Have you seen blood in the urine?",
+      "spokenText": "Have you seen blood in the urine?"
+    },
+    {
+      "text": "incontinence",
+      "spokenText": "incontinence"
+    },
+    {
+      "text": "Are you referring to urinary incontinence?",
+      "spokenText": "Are you referring to urinary incontinence?"
+    },
+    {
+      "text": "urinary retention",
+      "spokenText": "urinary retention"
+    },
+    {
+      "text": "The record mentions urinary retention.",
+      "spokenText": "The record mentions urinary retention."
+    },
+    {
+      "text": "flank pain",
+      "spokenText": "flank pain"
+    },
+    {
+      "text": "Is the flank pain on one side?",
+      "spokenText": "Is the flank pain on one side?"
+    },
+    {
+      "text": "kidney stone",
+      "spokenText": "kidney stone"
+    },
+    {
+      "text": "Have you had a kidney stone before?",
+      "spokenText": "Have you had a kidney stone before?"
+    },
+    {
+      "text": "menstrual period",
+      "spokenText": "menstrual period"
+    },
+    {
+      "text": "When was your last menstrual period?",
+      "spokenText": "When was your last menstrual period?"
+    },
+    {
+      "text": "menstrual cycle",
+      "spokenText": "menstrual cycle"
+    },
+    {
+      "text": "Is your menstrual cycle regular?",
+      "spokenText": "Is your menstrual cycle regular?"
+    },
+    {
+      "text": "heavy bleeding",
+      "spokenText": "heavy bleeding"
+    },
+    {
+      "text": "How long has the heavy bleeding lasted?",
+      "spokenText": "How long has the heavy bleeding lasted?"
+    },
+    {
+      "text": "pelvic pain",
+      "spokenText": "pelvic pain"
+    },
+    {
+      "text": "Can you describe the pelvic pain?",
+      "spokenText": "Can you describe the pelvic pain?"
+    },
+    {
+      "text": "pregnancy",
+      "spokenText": "pregnancy"
+    },
+    {
+      "text": "Is there a possibility of pregnancy?",
+      "spokenText": "Is there a possibility of pregnancy?"
+    },
+    {
+      "text": "contraception",
+      "spokenText": "contraception"
+    },
+    {
+      "text": "Would you like to discuss contraception?",
+      "spokenText": "Would you like to discuss contraception?"
+    },
+    {
+      "text": "breastfeeding",
+      "spokenText": "breastfeeding"
+    },
+    {
+      "text": "Are you currently breastfeeding?",
+      "spokenText": "Are you currently breastfeeding?"
+    },
+    {
+      "text": "menopause",
+      "spokenText": "menopause"
+    },
+    {
+      "text": "Would you like to talk about menopause symptoms?",
+      "spokenText": "Would you like to talk about menopause symptoms?"
+    },
+    {
+      "text": "vaginal discharge",
+      "spokenText": "vaginal discharge"
+    },
+    {
+      "text": "Has the vaginal discharge changed?",
+      "spokenText": "Has the vaginal discharge changed?"
+    },
+    {
+      "text": "sexual health",
+      "spokenText": "sexual health"
+    },
+    {
+      "text": "May I ask some questions about sexual health?",
+      "spokenText": "May I ask some questions about sexual health?"
+    },
+    {
+      "text": "testicular pain",
+      "spokenText": "testicular pain"
+    },
+    {
+      "text": "When did the testicular pain begin?",
+      "spokenText": "When did the testicular pain begin?"
+    },
+    {
+      "text": "headache",
+      "spokenText": "headache"
+    },
+    {
+      "text": "Is this headache different from your usual headaches?",
+      "spokenText": "Is this headache different from your usual headaches?"
+    },
+    {
+      "text": "dizziness",
+      "spokenText": "dizziness"
+    },
+    {
+      "text": "Can you describe the dizziness?",
+      "spokenText": "Can you describe the dizziness?"
+    },
+    {
+      "text": "vertigo",
+      "spokenText": "vertigo"
+    },
+    {
+      "text": "Do you mean a spinning sensation, like vertigo?",
+      "spokenText": "Do you mean a spinning sensation, like vertigo?"
+    },
+    {
+      "text": "light-headedness",
+      "spokenText": "light headedness"
+    },
+    {
+      "text": "Does the light-headedness occur when you stand up?",
+      "spokenText": "Does the light headedness occur when you stand up?"
+    },
+    {
+      "text": "fainting",
+      "spokenText": "fainting"
+    },
+    {
+      "text": "Has anyone seen the fainting episode?",
+      "spokenText": "Has anyone seen the fainting episode?"
+    },
+    {
+      "text": "loss of consciousness",
+      "spokenText": "loss of consciousness"
+    },
+    {
+      "text": "Was there any loss of consciousness?",
+      "spokenText": "Was there any loss of consciousness?"
+    },
+    {
+      "text": "numbness",
+      "spokenText": "numbness"
+    },
+    {
+      "text": "Where do you feel the numbness?",
+      "spokenText": "Where do you feel the numbness?"
+    },
+    {
+      "text": "tingling",
+      "spokenText": "tingling"
+    },
+    {
+      "text": "Do you have tingling in your fingers?",
+      "spokenText": "Do you have tingling in your fingers?"
+    },
+    {
+      "text": "tremor",
+      "spokenText": "tremor"
+    },
+    {
+      "text": "When do you notice the tremor?",
+      "spokenText": "When do you notice the tremor?"
+    },
+    {
+      "text": "seizure",
+      "spokenText": "seizure"
+    },
+    {
+      "text": "Has a doctor diagnosed a seizure before?",
+      "spokenText": "Has a doctor diagnosed a seizure before?"
+    },
+    {
+      "text": "confusion",
+      "spokenText": "confusion"
+    },
+    {
+      "text": "When did the confusion begin?",
+      "spokenText": "When did the confusion begin?"
+    },
+    {
+      "text": "memory loss",
+      "spokenText": "memory loss"
+    },
+    {
+      "text": "What changes do you mean by memory loss?",
+      "spokenText": "What changes do you mean by memory loss?"
+    },
+    {
+      "text": "blurred vision",
+      "spokenText": "blurred vision"
+    },
+    {
+      "text": "Is the blurred vision in one eye or both?",
+      "spokenText": "Is the blurred vision in one eye or both?"
+    },
+    {
+      "text": "double vision",
+      "spokenText": "double vision"
+    },
+    {
+      "text": "When did the double vision start?",
+      "spokenText": "When did the double vision start?"
+    },
+    {
+      "text": "hearing loss",
+      "spokenText": "hearing loss"
+    },
+    {
+      "text": "Is the hearing loss sudden or gradual?",
+      "spokenText": "Is the hearing loss sudden or gradual?"
+    },
+    {
+      "text": "tinnitus",
+      "spokenText": "tinnitus"
+    },
+    {
+      "text": "How would you describe the tinnitus?",
+      "spokenText": "How would you describe the tinnitus?"
+    },
+    {
+      "text": "anxiety",
+      "spokenText": "anxiety"
+    },
+    {
+      "text": "How is anxiety affecting your day?",
+      "spokenText": "How is anxiety affecting your day?"
+    },
+    {
+      "text": "low mood",
+      "spokenText": "low mood"
+    },
+    {
+      "text": "How long have you had this low mood?",
+      "spokenText": "How long have you had this low mood?"
+    },
+    {
+      "text": "sleep disturbance",
+      "spokenText": "sleep disturbance"
+    },
+    {
+      "text": "Could you describe the sleep disturbance?",
+      "spokenText": "Could you describe the sleep disturbance?"
+    },
+    {
+      "text": "panic attack",
+      "spokenText": "panic attack"
+    },
+    {
+      "text": "Have you been assessed for a panic attack before?",
+      "spokenText": "Have you been assessed for a panic attack before?"
+    },
+    {
+      "text": "abdomen",
+      "spokenText": "abdomen"
+    },
+    {
+      "text": "Please show me where on your abdomen it hurts.",
+      "spokenText": "Please show me where on your abdomen it hurts."
+    },
+    {
+      "text": "chest",
+      "spokenText": "chest"
+    },
+    {
+      "text": "Does your chest hurt when you breathe?",
+      "spokenText": "Does your chest hurt when you breathe?"
+    },
+    {
+      "text": "lower back",
+      "spokenText": "lower back"
+    },
+    {
+      "text": "Does the pain stay in your lower back?",
+      "spokenText": "Does the pain stay in your lower back?"
+    },
+    {
+      "text": "neck",
+      "spokenText": "neck"
+    },
+    {
+      "text": "Can you gently turn your neck?",
+      "spokenText": "Can you gently turn your neck?"
+    },
+    {
+      "text": "shoulder",
+      "spokenText": "shoulder"
+    },
+    {
+      "text": "Which shoulder is affected?",
+      "spokenText": "Which shoulder is affected?"
+    },
+    {
+      "text": "elbow",
+      "spokenText": "elbow"
+    },
+    {
+      "text": "Can you bend your elbow?",
+      "spokenText": "Can you bend your elbow?"
+    },
+    {
+      "text": "wrist",
+      "spokenText": "wrist"
+    },
+    {
+      "text": "Is your wrist swollen?",
+      "spokenText": "Is your wrist swollen?"
+    },
+    {
+      "text": "hip",
+      "spokenText": "hip"
+    },
+    {
+      "text": "Where exactly is the pain in your hip?",
+      "spokenText": "Where exactly is the pain in your hip?"
+    },
+    {
+      "text": "knee",
+      "spokenText": "knee"
+    },
+    {
+      "text": "Can you straighten your knee?",
+      "spokenText": "Can you straighten your knee?"
+    },
+    {
+      "text": "ankle",
+      "spokenText": "ankle"
+    },
+    {
+      "text": "Did you twist your ankle?",
+      "spokenText": "Did you twist your ankle?"
+    },
+    {
+      "text": "calf",
+      "spokenText": "calf"
+    },
+    {
+      "text": "Is one calf more swollen than the other?",
+      "spokenText": "Is one calf more swollen than the other?"
+    },
+    {
+      "text": "groin",
+      "spokenText": "groin"
+    },
+    {
+      "text": "Is the pain in your groin?",
+      "spokenText": "Is the pain in your groin?"
+    },
+    {
+      "text": "joint",
+      "spokenText": "joint"
+    },
+    {
+      "text": "Which joint feels stiff?",
+      "spokenText": "Which joint feels stiff?"
+    },
+    {
+      "text": "muscle",
+      "spokenText": "muscle"
+    },
+    {
+      "text": "Does this muscle feel sore?",
+      "spokenText": "Does this muscle feel sore?"
+    },
+    {
+      "text": "tendon",
+      "spokenText": "tendon"
+    },
+    {
+      "text": "The report describes an injury to a tendon.",
+      "spokenText": "The report describes an injury to a tendon."
+    },
+    {
+      "text": "ligament",
+      "spokenText": "ligament"
+    },
+    {
+      "text": "The scan shows the ligament clearly.",
+      "spokenText": "The scan shows the ligament clearly."
+    },
+    {
+      "text": "bone",
+      "spokenText": "bone"
+    },
+    {
+      "text": "I will explain which bone is affected.",
+      "spokenText": "I will explain which bone is affected."
+    },
+    {
+      "text": "lung",
+      "spokenText": "lung"
+    },
+    {
+      "text": "The image shows the right lung.",
+      "spokenText": "The image shows the right lung."
+    },
+    {
+      "text": "heart",
+      "spokenText": "heart"
+    },
+    {
+      "text": "I would like to listen to your heart.",
+      "spokenText": "I would like to listen to your heart."
+    },
+    {
+      "text": "liver",
+      "spokenText": "liver"
+    },
+    {
+      "text": "Have you had a liver condition before?",
+      "spokenText": "Have you had a liver condition before?"
+    },
+    {
+      "text": "kidney",
+      "spokenText": "kidney"
+    },
+    {
+      "text": "The left kidney is shown on this image.",
+      "spokenText": "The left kidney is shown on this image."
+    },
+    {
+      "text": "bladder",
+      "spokenText": "bladder"
+    },
+    {
+      "text": "Do you feel that your bladder empties fully?",
+      "spokenText": "Do you feel that your bladder empties fully?"
+    },
+    {
+      "text": "stomach",
+      "spokenText": "stomach"
+    },
+    {
+      "text": "When you say stomach, can you point to the area?",
+      "spokenText": "When you say stomach, can you point to the area?"
+    },
+    {
+      "text": "bowel",
+      "spokenText": "bowel"
+    },
+    {
+      "text": "Have your bowel habits changed?",
+      "spokenText": "Have your bowel habits changed?"
+    },
+    {
+      "text": "lymph node",
+      "spokenText": "lymph node"
+    },
+    {
+      "text": "I can feel a lymph node here.",
+      "spokenText": "I can feel a lymph node here."
+    },
+    {
+      "text": "physical examination",
+      "spokenText": "physical examination"
+    },
+    {
+      "text": "May I begin the physical examination?",
+      "spokenText": "May I begin the physical examination?"
+    },
+    {
+      "text": "vital signs",
+      "spokenText": "vital signs"
+    },
+    {
+      "text": "The nurse will record your vital signs.",
+      "spokenText": "The nurse will record your vital signs."
+    },
+    {
+      "text": "body temperature",
+      "spokenText": "body temperature"
+    },
+    {
+      "text": "We will measure your body temperature.",
+      "spokenText": "We will measure your body temperature."
+    },
+    {
+      "text": "stethoscope",
+      "spokenText": "stethoscope"
+    },
+    {
+      "text": "I will use a stethoscope to listen to your chest.",
+      "spokenText": "I will use a stethoscope to listen to your chest."
+    },
+    {
+      "text": "thermometer",
+      "spokenText": "thermometer"
+    },
+    {
+      "text": "This is an ear thermometer.",
+      "spokenText": "This is an ear thermometer."
+    },
+    {
+      "text": "blood pressure cuff",
+      "spokenText": "blood pressure cuff"
+    },
+    {
+      "text": "The blood pressure cuff will feel tight briefly.",
+      "spokenText": "The blood pressure cuff will feel tight briefly."
+    },
+    {
+      "text": "pulse oximeter",
+      "spokenText": "pulse oximeter"
+    },
+    {
+      "text": "May I place the pulse oximeter on your finger?",
+      "spokenText": "May I place the pulse oximeter on your finger?"
+    },
+    {
+      "text": "otoscope",
+      "spokenText": "otoscope"
+    },
+    {
+      "text": "I will look in your ear with an otoscope.",
+      "spokenText": "I will look in your ear with an otoscope."
+    },
+    {
+      "text": "tongue depressor",
+      "spokenText": "tongue depressor"
+    },
+    {
+      "text": "I will gently use a tongue depressor.",
+      "spokenText": "I will gently use a tongue depressor."
+    },
+    {
+      "text": "reflex hammer",
+      "spokenText": "reflex hammer"
+    },
+    {
+      "text": "This reflex hammer helps me check your reflexes.",
+      "spokenText": "This reflex hammer helps me check your reflexes."
+    },
+    {
+      "text": "examination couch",
+      "spokenText": "examination couch"
+    },
+    {
+      "text": "Please sit on the examination couch.",
+      "spokenText": "Please sit on the examination couch."
+    },
+    {
+      "text": "hospital gown",
+      "spokenText": "hospital gown"
+    },
+    {
+      "text": "You can change into this hospital gown in private.",
+      "spokenText": "You can change into this hospital gown in private."
+    },
+    {
+      "text": "range of motion",
+      "spokenText": "range of motion"
+    },
+    {
+      "text": "I would like to check your range of motion.",
+      "spokenText": "I would like to check your range of motion."
+    },
+    {
+      "text": "muscle strength",
+      "spokenText": "muscle strength"
+    },
+    {
+      "text": "I will compare the muscle strength on both sides.",
+      "spokenText": "I will compare the muscle strength on both sides."
+    },
+    {
+      "text": "sensation",
+      "spokenText": "sensation"
+    },
+    {
+      "text": "Is the sensation the same on both sides?",
+      "spokenText": "Is the sensation the same on both sides?"
+    },
+    {
+      "text": "reflex",
+      "spokenText": "reflex"
+    },
+    {
+      "text": "I would like to check this reflex.",
+      "spokenText": "I would like to check this reflex."
+    },
+    {
+      "text": "tenderness",
+      "spokenText": "tenderness"
+    },
+    {
+      "text": "Is there tenderness in this area?",
+      "spokenText": "Is there tenderness in this area?"
+    },
+    {
+      "text": "palpation",
+      "spokenText": "palpation"
+    },
+    {
+      "text": "Palpation means examining an area by touch.",
+      "spokenText": "Palpation means examining an area by touch."
+    },
+    {
+      "text": "auscultation",
+      "spokenText": "auscultation"
+    },
+    {
+      "text": "Auscultation means listening to sounds inside the body.",
+      "spokenText": "Auscultation means listening to sounds inside the body."
+    },
+    {
+      "text": "gait",
+      "spokenText": "gait"
+    },
+    {
+      "text": "I would like to observe your gait.",
+      "spokenText": "I would like to observe your gait."
+    },
+    {
+      "text": "blood test",
+      "spokenText": "blood test"
+    },
+    {
+      "text": "I will explain the purpose of this blood test.",
+      "spokenText": "I will explain the purpose of this blood test."
+    },
+    {
+      "text": "urine sample",
+      "spokenText": "urine sample"
+    },
+    {
+      "text": "The laboratory needs a urine sample.",
+      "spokenText": "The laboratory needs a urine sample."
+    },
+    {
+      "text": "stool sample",
+      "spokenText": "stool sample"
+    },
+    {
+      "text": "Have you received instructions for the stool sample?",
+      "spokenText": "Have you received instructions for the stool sample?"
+    },
+    {
+      "text": "swab",
+      "spokenText": "swab"
+    },
+    {
+      "text": "May I take a throat swab?",
+      "spokenText": "May I take a throat swab?"
+    },
+    {
+      "text": "culture",
+      "spokenText": "culture"
+    },
+    {
+      "text": "The sample has been sent for culture.",
+      "spokenText": "The sample has been sent for culture."
+    },
+    {
+      "text": "complete blood count",
+      "spokenText": "complete blood count"
+    },
+    {
+      "text": "The complete blood count is one of the tests requested.",
+      "spokenText": "The complete blood count is one of the tests requested."
+    },
+    {
+      "text": "blood glucose",
+      "spokenText": "blood glucose"
+    },
+    {
+      "text": "This test measures blood glucose.",
+      "spokenText": "This test measures blood glucose."
+    },
+    {
+      "text": "cholesterol",
+      "spokenText": "cholesterol"
+    },
+    {
+      "text": "We will discuss your cholesterol results.",
+      "spokenText": "We will discuss your cholesterol results."
+    },
+    {
+      "text": "kidney function",
+      "spokenText": "kidney function"
+    },
+    {
+      "text": "These tests help us assess kidney function.",
+      "spokenText": "These tests help us assess kidney function."
+    },
+    {
+      "text": "liver function tests",
+      "spokenText": "liver function tests"
+    },
+    {
+      "text": "The liver function tests are listed here.",
+      "spokenText": "The liver function tests are listed here."
+    },
+    {
+      "text": "thyroid function",
+      "spokenText": "thyroid function"
+    },
+    {
+      "text": "Have you had thyroid function checked before?",
+      "spokenText": "Have you had thyroid function checked before?"
+    },
+    {
+      "text": "X-ray",
+      "spokenText": "x ray"
+    },
+    {
+      "text": "Have you had an X-ray of this area?",
+      "spokenText": "Have you had an x ray of this area?"
+    },
+    {
+      "text": "ultrasound",
+      "spokenText": "ultrasound"
+    },
+    {
+      "text": "I will explain what happens during an ultrasound.",
+      "spokenText": "I will explain what happens during an ultrasound."
+    },
+    {
+      "text": "CT scan",
+      "spokenText": "C T scan"
+    },
+    {
+      "text": "The appointment is for a CT scan.",
+      "spokenText": "The appointment is for a C T scan."
+    },
+    {
+      "text": "MRI scan",
+      "spokenText": "M R I scan"
+    },
+    {
+      "text": "Have you had an MRI scan before?",
+      "spokenText": "Have you had an M R I scan before?"
+    },
+    {
+      "text": "electrocardiogram",
+      "spokenText": "electrocardiogram"
+    },
+    {
+      "text": "An electrocardiogram records the heart's electrical activity.",
+      "spokenText": "An electrocardiogram records the heart's electrical activity."
+    },
+    {
+      "text": "biopsy",
+      "spokenText": "biopsy"
+    },
+    {
+      "text": "A biopsy involves taking a tissue sample.",
+      "spokenText": "A biopsy involves taking a tissue sample."
+    },
+    {
+      "text": "endoscopy",
+      "spokenText": "endoscopy"
+    },
+    {
+      "text": "The team will explain the endoscopy procedure.",
+      "spokenText": "The team will explain the endoscopy procedure."
+    },
+    {
+      "text": "lung function test",
+      "spokenText": "lung function test"
+    },
+    {
+      "text": "Have you had a lung function test?",
+      "spokenText": "Have you had a lung function test?"
+    },
+    {
+      "text": "test result",
+      "spokenText": "test result"
+    },
+    {
+      "text": "When can we discuss the test result?",
+      "spokenText": "When can we discuss the test result?"
+    },
+    {
+      "text": "reference range",
+      "spokenText": "reference range"
+    },
+    {
+      "text": "The reference range is printed beside the result.",
+      "spokenText": "The reference range is printed beside the result."
+    },
+    {
+      "text": "false positive",
+      "spokenText": "false positive"
+    },
+    {
+      "text": "We discussed what a false positive means.",
+      "spokenText": "We discussed what a false positive means."
+    },
+    {
+      "text": "false negative",
+      "spokenText": "false negative"
+    },
+    {
+      "text": "The leaflet explains the term false negative.",
+      "spokenText": "The leaflet explains the term false negative."
+    },
+    {
+      "text": "fasting",
+      "spokenText": "fasting"
+    },
+    {
+      "text": "Will fasting be required for this test?",
+      "spokenText": "Will fasting be required for this test?"
+    },
+    {
+      "text": "contrast agent",
+      "spokenText": "contrast agent"
+    },
+    {
+      "text": "Have you ever reacted to a contrast agent?",
+      "spokenText": "Have you ever reacted to a contrast agent?"
+    },
+    {
+      "text": "diagnosis",
+      "spokenText": "diagnosis"
+    },
+    {
+      "text": "I will explain the diagnosis in plain language.",
+      "spokenText": "I will explain the diagnosis in plain language."
+    },
+    {
+      "text": "treatment plan",
+      "spokenText": "treatment plan"
+    },
+    {
+      "text": "Let us discuss the treatment plan together.",
+      "spokenText": "Let us discuss the treatment plan together."
+    },
+    {
+      "text": "treatment option",
+      "spokenText": "treatment option"
+    },
+    {
+      "text": "We can compare each treatment option.",
+      "spokenText": "We can compare each treatment option."
+    },
+    {
+      "text": "What benefit matters most to you?",
+      "spokenText": "What benefit matters most to you?"
+    },
+    {
+      "text": "risk",
+      "spokenText": "risk"
+    },
+    {
+      "text": "We should discuss the risk before deciding.",
+      "spokenText": "We should discuss the risk before deciding."
+    },
+    {
+      "text": "side effect",
+      "spokenText": "side effect"
+    },
+    {
+      "text": "Have you noticed a side effect?",
+      "spokenText": "Have you noticed a side effect?"
+    },
+    {
+      "text": "prescription",
+      "spokenText": "prescription"
+    },
+    {
+      "text": "Would you like me to explain the prescription?",
+      "spokenText": "Would you like me to explain the prescription?"
+    },
+    {
+      "text": "dose",
+      "spokenText": "dose"
+    },
+    {
+      "text": "Could you tell me the dose you take?",
+      "spokenText": "Could you tell me the dose you take?"
+    },
+    {
+      "text": "dosage",
+      "spokenText": "dosage"
+    },
+    {
+      "text": "The pharmacist explained the dosage.",
+      "spokenText": "The pharmacist explained the dosage."
+    },
+    {
+      "text": "tablet",
+      "spokenText": "tablet"
+    },
+    {
+      "text": "Do you have trouble swallowing a tablet?",
+      "spokenText": "Do you have trouble swallowing a tablet?"
+    },
+    {
+      "text": "capsule",
+      "spokenText": "capsule"
+    },
+    {
+      "text": "Is your medicine a capsule or a tablet?",
+      "spokenText": "Is your medicine a capsule or a tablet?"
+    },
+    {
+      "text": "ointment",
+      "spokenText": "ointment"
+    },
+    {
+      "text": "Can you show me the ointment you use?",
+      "spokenText": "Can you show me the ointment you use?"
+    },
+    {
+      "text": "eye drops",
+      "spokenText": "eye drops"
+    },
+    {
+      "text": "What are the names of your eye drops?",
+      "spokenText": "What are the names of your eye drops?"
+    },
+    {
+      "text": "inhaler",
+      "spokenText": "inhaler"
+    },
+    {
+      "text": "Could you show me how you use your inhaler?",
+      "spokenText": "Could you show me how you use your inhaler?"
+    },
+    {
+      "text": "injection",
+      "spokenText": "injection"
+    },
+    {
+      "text": "Have you had a reaction to an injection before?",
+      "spokenText": "Have you had a reaction to an injection before?"
+    },
+    {
+      "text": "dressing",
+      "spokenText": "dressing"
+    },
+    {
+      "text": "When was the dressing last changed?",
+      "spokenText": "When was the dressing last changed?"
+    },
+    {
+      "text": "suture",
+      "spokenText": "suture"
+    },
+    {
+      "text": "The nurse checked each suture.",
+      "spokenText": "The nurse checked each suture."
+    },
+    {
+      "text": "physiotherapy",
+      "spokenText": "physiotherapy"
+    },
+    {
+      "text": "Have you had physiotherapy before?",
+      "spokenText": "Have you had physiotherapy before?"
+    },
+    {
+      "text": "referral",
+      "spokenText": "referral"
+    },
+    {
+      "text": "I will explain the reason for the referral.",
+      "spokenText": "I will explain the reason for the referral."
+    },
+    {
+      "text": "follow-up appointment",
+      "spokenText": "follow up appointment"
+    },
+    {
+      "text": "Have you booked the follow-up appointment?",
+      "spokenText": "Have you booked the follow up appointment?"
+    },
+    {
+      "text": "discharge summary",
+      "spokenText": "discharge summary"
+    },
+    {
+      "text": "Please bring your discharge summary.",
+      "spokenText": "Please bring your discharge summary."
+    },
+    {
+      "text": "recovery",
+      "spokenText": "recovery"
+    },
+    {
+      "text": "How has your recovery been so far?",
+      "spokenText": "How has your recovery been so far?"
+    },
+    {
+      "text": "warning sign",
+      "spokenText": "warning sign"
+    },
+    {
+      "text": "I will explain each warning sign and what to do.",
+      "spokenText": "I will explain each warning sign and what to do."
+    },
+    {
+      "text": "shared decision",
+      "spokenText": "shared decision"
+    },
+    {
+      "text": "Our aim is to reach a shared decision.",
+      "spokenText": "Our aim is to reach a shared decision."
+    },
+    {
+      "text": "written instructions",
+      "spokenText": "written instructions"
+    },
+    {
+      "text": "Would written instructions be helpful?",
+      "spokenText": "Would written instructions be helpful?"
+    },
+    {
+      "text": "How would you like me to address you?",
+      "spokenText": "How would you like me to address you?"
+    },
+    {
+      "text": "Could you confirm your date of birth?",
+      "spokenText": "Could you confirm your date of birth?"
+    },
+    {
+      "text": "Please tell me in your own words.",
+      "spokenText": "Please tell me in your own words."
+    },
+    {
+      "text": "When did it start?",
+      "spokenText": "When did it start?"
+    },
+    {
+      "text": "Has this happened before?",
+      "spokenText": "Has this happened before?"
+    },
+    {
+      "text": "Does it come and go?",
+      "spokenText": "Does it come and go?"
+    },
+    {
+      "text": "How long does it last?",
+      "spokenText": "How long does it last?"
+    },
+    {
+      "text": "How severe is the pain from zero to ten?",
+      "spokenText": "How severe is the pain from zero to ten?"
+    },
+    {
+      "text": "Is it getting better or worse?",
+      "spokenText": "Is it getting better or worse?"
+    },
+    {
+      "text": "Are you taking any medicines?",
+      "spokenText": "Are you taking any medicines?"
+    },
+    {
+      "text": "Do you have any allergies?",
+      "spokenText": "Do you have any allergies?"
+    },
+    {
+      "text": "What happened when you took it?",
+      "spokenText": "What happened when you took it?"
+    },
+    {
+      "text": "Have you had any operations?",
+      "spokenText": "Have you had any operations?"
+    },
+    {
+      "text": "May I examine you now?",
+      "spokenText": "May I examine you now?"
+    },
+    {
+      "text": "Would you like a chaperone present?",
+      "spokenText": "Would you like a chaperone present?"
+    },
+    {
+      "text": "Please lie on your back.",
+      "spokenText": "Please lie on your back."
+    },
+    {
+      "text": "Please turn onto your side.",
+      "spokenText": "Please turn onto your side."
+    },
+    {
+      "text": "Please take a deep breath.",
+      "spokenText": "Please take a deep breath."
+    },
+    {
+      "text": "Breathe in and out slowly.",
+      "spokenText": "Breathe in and out slowly."
+    },
+    {
+      "text": "Let me know if this hurts.",
+      "spokenText": "Let me know if this hurts."
+    },
+    {
+      "text": "Please open your mouth.",
+      "spokenText": "Please open your mouth."
+    },
+    {
+      "text": "Please relax your arm.",
+      "spokenText": "Please relax your arm."
+    },
+    {
+      "text": "Please bend your knee.",
+      "spokenText": "Please bend your knee."
+    },
+    {
+      "text": "Please push against my hand.",
+      "spokenText": "Please push against my hand."
+    },
+    {
+      "text": "You can get dressed now.",
+      "spokenText": "You can get dressed now."
+    },
+    {
+      "text": "I would like to arrange some tests.",
+      "spokenText": "I would like to arrange some tests."
+    },
+    {
+      "text": "Let me explain what this test is for.",
+      "spokenText": "Let me explain what this test is for."
+    },
+    {
+      "text": "We do not have all the results yet.",
+      "spokenText": "We do not have all the results yet."
+    },
+    {
+      "text": "There are several possible explanations.",
+      "spokenText": "There are several possible explanations."
+    },
+    {
+      "text": "Let us discuss the options together.",
+      "spokenText": "Let us discuss the options together."
+    },
+    {
+      "text": "What worries you most about this?",
+      "spokenText": "What worries you most about this?"
+    },
+    {
+      "text": "What questions would you like to ask?",
+      "spokenText": "What questions would you like to ask?"
+    },
+    {
+      "text": "Is there anything else you would like to discuss?",
+      "spokenText": "Is there anything else you would like to discuss?"
+    },
+    {
+      "text": "I will explain when to seek urgent help.",
+      "spokenText": "I will explain when to seek urgent help."
+    },
+    {
+      "text": "I feel sick.",
+      "spokenText": "I feel sick."
+    },
+    {
+      "text": "I threw up.",
+      "spokenText": "I threw up."
+    },
+    {
+      "text": "I feel faint.",
+      "spokenText": "I feel faint."
+    },
+    {
+      "text": "The room is spinning.",
+      "spokenText": "The room is spinning."
+    },
+    {
+      "text": "I am short of breath.",
+      "spokenText": "I am short of breath."
+    },
+    {
+      "text": "My chest feels tight.",
+      "spokenText": "My chest feels tight."
+    },
+    {
+      "text": "My heart is racing.",
+      "spokenText": "My heart is racing."
+    },
+    {
+      "text": "I have pins and needles.",
+      "spokenText": "I have pins and needles."
+    },
+    {
+      "text": "My hand feels numb.",
+      "spokenText": "My hand feels numb."
+    },
+    {
+      "text": "It hurts when I swallow.",
+      "spokenText": "It hurts when I swallow."
+    },
+    {
+      "text": "I cannot keep food down.",
+      "spokenText": "I cannot keep food down."
+    },
+    {
+      "text": "I have an upset stomach.",
+      "spokenText": "I have an upset stomach."
+    },
+    {
+      "text": "It burns when I pass urine.",
+      "spokenText": "It burns when I pass urine."
+    },
+    {
+      "text": "I have trouble sleeping.",
+      "spokenText": "I have trouble sleeping."
+    },
+    {
+      "text": "I feel low.",
+      "spokenText": "I feel low."
+    },
+    {
+      "text": "It started all of a sudden.",
+      "spokenText": "It started all of a sudden."
+    },
+    {
+      "text": "It has been getting worse.",
+      "spokenText": "It has been getting worse."
+    },
+    {
+      "text": "It comes and goes.",
+      "spokenText": "It comes and goes."
+    },
+    {
+      "text": "It wakes me up at night.",
+      "spokenText": "It wakes me up at night."
+    },
+    {
+      "text": "It feels like pressure.",
+      "spokenText": "It feels like pressure."
+    },
+    {
+      "text": "I have had it for three days.",
+      "spokenText": "I have had it for three days."
+    },
+    {
+      "text": "I am not sure how to describe it.",
+      "spokenText": "I am not sure how to describe it."
+    },
+    {
+      "text": "Could you say that more slowly?",
+      "spokenText": "Could you say that more slowly?"
+    },
+    {
+      "text": "What does that word mean?",
+      "spokenText": "What does that word mean?"
+    },
+    {
+      "text": "Could you write that down for me?",
+      "spokenText": "Could you write that down for me?"
+    },
+    {
+      "text": "examine",
+      "spokenText": "examine"
+    },
+    {
+      "text": "May I examine your abdomen?",
+      "spokenText": "May I examine your abdomen?"
+    },
+    {
+      "text": "assess",
+      "spokenText": "assess"
+    },
+    {
+      "text": "I would like to assess your balance.",
+      "spokenText": "I would like to assess your balance."
+    },
+    {
+      "text": "check",
+      "spokenText": "check"
+    },
+    {
+      "text": "May I check your pulse?",
+      "spokenText": "May I check your pulse?"
+    },
+    {
+      "text": "measure",
+      "spokenText": "measure"
+    },
+    {
+      "text": "I will measure your blood pressure.",
+      "spokenText": "I will measure your blood pressure."
+    },
+    {
+      "text": "monitor",
+      "spokenText": "monitor"
+    },
+    {
+      "text": "We will monitor your symptoms.",
+      "spokenText": "We will monitor your symptoms."
+    },
+    {
+      "text": "diagnose",
+      "spokenText": "diagnose"
+    },
+    {
+      "text": "Has anyone diagnosed this condition before?",
+      "spokenText": "Has anyone diagnosed this condition before?"
+    },
+    {
+      "text": "treat",
+      "spokenText": "treat"
+    },
+    {
+      "text": "We discussed how to treat the condition.",
+      "spokenText": "We discussed how to treat the condition."
+    },
+    {
+      "text": "prescribe",
+      "spokenText": "prescribe"
+    },
+    {
+      "text": "Who prescribed this medicine?",
+      "spokenText": "Who prescribed this medicine?"
+    },
+    {
+      "text": "refer",
+      "spokenText": "refer"
+    },
+    {
+      "text": "I would like to refer you to a specialist.",
+      "spokenText": "I would like to refer you to a specialist."
+    },
+    {
+      "text": "Let me explain the examination first.",
+      "spokenText": "Let me explain the examination first."
+    },
+    {
+      "text": "describe",
+      "spokenText": "describe"
+    },
+    {
+      "text": "Can you describe the pain?",
+      "spokenText": "Can you describe the pain?"
+    },
+    {
+      "text": "Could you confirm your medication list?",
+      "spokenText": "Could you confirm your medication list?"
+    },
+    {
+      "text": "May I clarify what you mean by dizzy?",
+      "spokenText": "May I clarify what you mean by dizzy?"
+    },
+    {
+      "text": "Do you consent to this examination?",
+      "spokenText": "Do you consent to this examination?"
+    },
+    {
+      "text": "undress",
+      "spokenText": "undress"
+    },
+    {
+      "text": "You can undress behind the curtain.",
+      "spokenText": "You can undress behind the curtain."
+    },
+    {
+      "text": "lie down",
+      "spokenText": "lie down"
+    },
+    {
+      "text": "Please lie down on the couch.",
+      "spokenText": "Please lie down on the couch."
+    },
+    {
+      "text": "sit up",
+      "spokenText": "sit up"
+    },
+    {
+      "text": "You can sit up now.",
+      "spokenText": "You can sit up now."
+    },
+    {
+      "text": "stand up",
+      "spokenText": "stand up"
+    },
+    {
+      "text": "Please stand up when you feel ready.",
+      "spokenText": "Please stand up when you feel ready."
+    },
+    {
+      "text": "breathe",
+      "spokenText": "breathe"
+    },
+    {
+      "text": "Please breathe normally.",
+      "spokenText": "Please breathe normally."
+    },
+    {
+      "text": "inhale",
+      "spokenText": "inhale"
+    },
+    {
+      "text": "Please inhale slowly.",
+      "spokenText": "Please inhale slowly."
+    },
+    {
+      "text": "exhale",
+      "spokenText": "exhale"
+    },
+    {
+      "text": "Now exhale slowly.",
+      "spokenText": "Now exhale slowly."
+    },
+    {
+      "text": "Does it hurt when you cough?",
+      "spokenText": "Does it hurt when you cough?"
+    },
+    {
+      "text": "swallow",
+      "spokenText": "swallow"
+    },
+    {
+      "text": "Does it hurt to swallow?",
+      "spokenText": "Does it hurt to swallow?"
+    },
+    {
+      "text": "bleed",
+      "spokenText": "bleed"
+    },
+    {
+      "text": "Did the wound bleed?",
+      "spokenText": "Did the wound bleed?"
+    },
+    {
+      "text": "swell",
+      "spokenText": "swell"
+    },
+    {
+      "text": "Did your ankle swell after the injury?",
+      "spokenText": "Did your ankle swell after the injury?"
+    },
+    {
+      "text": "faint",
+      "spokenText": "faint"
+    },
+    {
+      "text": "Did you faint or just feel dizzy?",
+      "spokenText": "Did you faint or just feel dizzy?"
+    },
+    {
+      "text": "vomit",
+      "spokenText": "vomit"
+    },
+    {
+      "text": "How often did you vomit?",
+      "spokenText": "How often did you vomit?"
+    },
+    {
+      "text": "pass urine",
+      "spokenText": "pass urine"
+    },
+    {
+      "text": "When did you last pass urine?",
+      "spokenText": "When did you last pass urine?"
+    },
+    {
+      "text": "bend",
+      "spokenText": "bend"
+    },
+    {
+      "text": "Please bend your elbow gently.",
+      "spokenText": "Please bend your elbow gently."
+    },
+    {
+      "text": "straighten",
+      "spokenText": "straighten"
+    },
+    {
+      "text": "Can you straighten your leg?",
+      "spokenText": "Can you straighten your leg?"
+    },
+    {
+      "text": "relax",
+      "spokenText": "relax"
+    },
+    {
+      "text": "Please relax your shoulder.",
+      "spokenText": "Please relax your shoulder."
+    },
+    {
+      "text": "press",
+      "spokenText": "press"
+    },
+    {
+      "text": "I will press gently here.",
+      "spokenText": "I will press gently here."
+    },
+    {
+      "text": "feel",
+      "spokenText": "feel"
+    },
+    {
+      "text": "Can you feel me touching your foot?",
+      "spokenText": "Can you feel me touching your foot?"
+    },
+    {
+      "text": "I would like to listen to your lungs.",
+      "spokenText": "I would like to listen to your lungs."
+    },
+    {
+      "text": "spread",
+      "spokenText": "spread"
+    },
+    {
+      "text": "Did the pain spread to your arm?",
+      "spokenText": "Did the pain spread to your arm?"
+    },
+    {
+      "text": "relieve",
+      "spokenText": "relieve"
+    },
+    {
+      "text": "Does changing position relieve the pain?",
+      "spokenText": "Does changing position relieve the pain?"
+    },
+    {
+      "text": "worsen",
+      "spokenText": "worsen"
+    },
+    {
+      "text": "Did the symptoms worsen overnight?",
+      "spokenText": "Did the symptoms worsen overnight?"
+    },
+    {
+      "text": "Did your breathing improve?",
+      "spokenText": "Did your breathing improve?"
+    },
+    {
+      "text": "recover",
+      "spokenText": "recover"
+    },
+    {
+      "text": "How long did it take you to recover?",
+      "spokenText": "How long did it take you to recover?"
+    },
+    {
+      "text": "heal",
+      "spokenText": "heal"
+    },
+    {
+      "text": "Has the wound healed?",
+      "spokenText": "Has the wound healed?"
+    },
+    {
+      "text": "rule out",
+      "spokenText": "rule out"
+    },
+    {
+      "text": "We need more information to rule out that possibility.",
+      "spokenText": "We need more information to rule out that possibility."
+    },
+    {
+      "text": "follow up",
+      "spokenText": "follow up"
+    },
+    {
+      "text": "We will follow up on these results.",
+      "spokenText": "We will follow up on these results."
+    },
+    {
+      "text": "admit",
+      "spokenText": "admit"
+    },
+    {
+      "text": "The team decided to admit the patient.",
+      "spokenText": "The team decided to admit the patient."
+    },
+    {
+      "text": "discharge",
+      "spokenText": "discharge"
+    },
+    {
+      "text": "The team will discuss when to discharge you.",
+      "spokenText": "The team will discuss when to discharge you."
+    },
+    {
+      "text": "take a sample",
+      "spokenText": "take a sample"
+    },
+    {
+      "text": "May I take a sample now?",
+      "spokenText": "May I take a sample now?"
+    },
+    {
+      "text": "house",
+      "spokenText": "house"
+    },
+    {
+      "text": "home",
+      "spokenText": "home"
+    },
+    {
+      "text": "apartment",
+      "spokenText": "apartment"
+    },
+    {
+      "text": "living room",
+      "spokenText": "living room"
+    },
+    {
+      "text": "bedroom",
+      "spokenText": "bedroom"
+    },
+    {
+      "text": "kitchen",
+      "spokenText": "kitchen"
+    },
+    {
+      "text": "bathroom",
+      "spokenText": "bathroom"
+    },
+    {
+      "text": "hallway",
+      "spokenText": "hallway"
+    },
+    {
+      "text": "balcony",
+      "spokenText": "balcony"
+    },
+    {
+      "text": "garden",
+      "spokenText": "garden"
+    },
+    {
+      "text": "garage",
+      "spokenText": "garage"
+    },
+    {
+      "text": "roof",
+      "spokenText": "roof"
+    },
+    {
+      "text": "ceiling",
+      "spokenText": "ceiling"
+    },
+    {
+      "text": "floor",
+      "spokenText": "floor"
+    },
+    {
+      "text": "wall",
+      "spokenText": "wall"
+    },
+    {
+      "text": "door",
+      "spokenText": "door"
+    },
+    {
+      "text": "stairs",
+      "spokenText": "stairs"
+    },
+    {
+      "text": "entrance",
+      "spokenText": "entrance"
+    },
+    {
+      "text": "basement",
+      "spokenText": "basement"
+    },
+    {
+      "text": "attic",
+      "spokenText": "attic"
+    },
+    {
+      "text": "sofa",
+      "spokenText": "sofa"
+    },
+    {
+      "text": "armchair",
+      "spokenText": "armchair"
+    },
+    {
+      "text": "bed",
+      "spokenText": "bed"
+    },
+    {
+      "text": "wardrobe",
+      "spokenText": "wardrobe"
+    },
+    {
+      "text": "bookshelf",
+      "spokenText": "bookshelf"
+    },
+    {
+      "text": "desk",
+      "spokenText": "desk"
+    },
+    {
+      "text": "drawer",
+      "spokenText": "drawer"
+    },
+    {
+      "text": "shelf",
+      "spokenText": "shelf"
+    },
+    {
+      "text": "cupboard",
+      "spokenText": "cupboard"
+    },
+    {
+      "text": "carpet",
+      "spokenText": "carpet"
+    },
+    {
+      "text": "rug",
+      "spokenText": "rug"
+    },
+    {
+      "text": "curtain",
+      "spokenText": "curtain"
+    },
+    {
+      "text": "pillow",
+      "spokenText": "pillow"
+    },
+    {
+      "text": "blanket",
+      "spokenText": "blanket"
+    },
+    {
+      "text": "sheet",
+      "spokenText": "sheet"
+    },
+    {
+      "text": "mirror",
+      "spokenText": "mirror"
+    },
+    {
+      "text": "lamp",
+      "spokenText": "lamp"
+    },
+    {
+      "text": "cushion",
+      "spokenText": "cushion"
+    },
+    {
+      "text": "coffee table",
+      "spokenText": "coffee table"
+    },
+    {
+      "text": "coat rack",
+      "spokenText": "coat rack"
+    },
+    {
+      "text": "plate",
+      "spokenText": "plate"
+    },
+    {
+      "text": "bowl",
+      "spokenText": "bowl"
+    },
+    {
+      "text": "glass",
+      "spokenText": "glass"
+    },
+    {
+      "text": "mug",
+      "spokenText": "mug"
+    },
+    {
+      "text": "fork",
+      "spokenText": "fork"
+    },
+    {
+      "text": "knife",
+      "spokenText": "knife"
+    },
+    {
+      "text": "spoon",
+      "spokenText": "spoon"
+    },
+    {
+      "text": "teaspoon",
+      "spokenText": "teaspoon"
+    },
+    {
+      "text": "saucepan",
+      "spokenText": "saucepan"
+    },
+    {
+      "text": "frying pan",
+      "spokenText": "frying pan"
+    },
+    {
+      "text": "lid",
+      "spokenText": "lid"
+    },
+    {
+      "text": "chopping board",
+      "spokenText": "chopping board"
+    },
+    {
+      "text": "tray",
+      "spokenText": "tray"
+    },
+    {
+      "text": "napkin",
+      "spokenText": "napkin"
+    },
+    {
+      "text": "bottle",
+      "spokenText": "bottle"
+    },
+    {
+      "text": "jar",
+      "spokenText": "jar"
+    },
+    {
+      "text": "container",
+      "spokenText": "container"
+    },
+    {
+      "text": "colander",
+      "spokenText": "colander"
+    },
+    {
+      "text": "grater",
+      "spokenText": "grater"
+    },
+    {
+      "text": "ladle",
+      "spokenText": "ladle"
+    },
+    {
+      "text": "fridge",
+      "spokenText": "fridge"
+    },
+    {
+      "text": "freezer",
+      "spokenText": "freezer"
+    },
+    {
+      "text": "oven",
+      "spokenText": "oven"
+    },
+    {
+      "text": "stove",
+      "spokenText": "stove"
+    },
+    {
+      "text": "microwave",
+      "spokenText": "microwave"
+    },
+    {
+      "text": "dishwasher",
+      "spokenText": "dishwasher"
+    },
+    {
+      "text": "washing machine",
+      "spokenText": "washing machine"
+    },
+    {
+      "text": "vacuum cleaner",
+      "spokenText": "vacuum cleaner"
+    },
+    {
+      "text": "kettle",
+      "spokenText": "kettle"
+    },
+    {
+      "text": "toaster",
+      "spokenText": "toaster"
+    },
+    {
+      "text": "iron",
+      "spokenText": "iron"
+    },
+    {
+      "text": "hairdryer",
+      "spokenText": "hairdryer"
+    },
+    {
+      "text": "heater",
+      "spokenText": "heater"
+    },
+    {
+      "text": "air conditioner",
+      "spokenText": "air conditioner"
+    },
+    {
+      "text": "fan",
+      "spokenText": "fan"
+    },
+    {
+      "text": "plug",
+      "spokenText": "plug"
+    },
+    {
+      "text": "socket",
+      "spokenText": "socket"
+    },
+    {
+      "text": "switch",
+      "spokenText": "switch"
+    },
+    {
+      "text": "remote control",
+      "spokenText": "remote control"
+    },
+    {
+      "text": "light bulb",
+      "spokenText": "light bulb"
+    },
+    {
+      "text": "soap",
+      "spokenText": "soap"
+    },
+    {
+      "text": "shampoo",
+      "spokenText": "shampoo"
+    },
+    {
+      "text": "towel",
+      "spokenText": "towel"
+    },
+    {
+      "text": "toothbrush",
+      "spokenText": "toothbrush"
+    },
+    {
+      "text": "toothpaste",
+      "spokenText": "toothpaste"
+    },
+    {
+      "text": "shower",
+      "spokenText": "shower"
+    },
+    {
+      "text": "bathtub",
+      "spokenText": "bathtub"
+    },
+    {
+      "text": "sink",
+      "spokenText": "sink"
+    },
+    {
+      "text": "tap",
+      "spokenText": "tap"
+    },
+    {
+      "text": "toilet",
+      "spokenText": "toilet"
+    },
+    {
+      "text": "toilet paper",
+      "spokenText": "toilet paper"
+    },
+    {
+      "text": "comb",
+      "spokenText": "comb"
+    },
+    {
+      "text": "razor",
+      "spokenText": "razor"
+    },
+    {
+      "text": "sponge",
+      "spokenText": "sponge"
+    },
+    {
+      "text": "bucket",
+      "spokenText": "bucket"
+    },
+    {
+      "text": "mop",
+      "spokenText": "mop"
+    },
+    {
+      "text": "broom",
+      "spokenText": "broom"
+    },
+    {
+      "text": "detergent",
+      "spokenText": "detergent"
+    },
+    {
+      "text": "rubbish bin",
+      "spokenText": "rubbish bin"
+    },
+    {
+      "text": "laundry",
+      "spokenText": "laundry"
+    },
+    {
+      "text": "mother",
+      "spokenText": "mother"
+    },
+    {
+      "text": "father",
+      "spokenText": "father"
+    },
+    {
+      "text": "sister",
+      "spokenText": "sister"
+    },
+    {
+      "text": "brother",
+      "spokenText": "brother"
+    },
+    {
+      "text": "grandmother",
+      "spokenText": "grandmother"
+    },
+    {
+      "text": "grandfather",
+      "spokenText": "grandfather"
+    },
+    {
+      "text": "grandparents",
+      "spokenText": "grandparents"
+    },
+    {
+      "text": "granddaughter",
+      "spokenText": "granddaughter"
+    },
+    {
+      "text": "grandson",
+      "spokenText": "grandson"
+    },
+    {
+      "text": "aunt",
+      "spokenText": "aunt"
+    },
+    {
+      "text": "uncle",
+      "spokenText": "uncle"
+    },
+    {
+      "text": "cousin",
+      "spokenText": "cousin"
+    },
+    {
+      "text": "niece",
+      "spokenText": "niece"
+    },
+    {
+      "text": "nephew",
+      "spokenText": "nephew"
+    },
+    {
+      "text": "husband",
+      "spokenText": "husband"
+    },
+    {
+      "text": "wife",
+      "spokenText": "wife"
+    },
+    {
+      "text": "child",
+      "spokenText": "child"
+    },
+    {
+      "text": "children",
+      "spokenText": "children"
+    },
+    {
+      "text": "relative",
+      "spokenText": "relative"
+    },
+    {
+      "text": "twins",
+      "spokenText": "twins"
+    },
+    {
+      "text": "partner",
+      "spokenText": "partner"
+    },
+    {
+      "text": "classmate",
+      "spokenText": "classmate"
+    },
+    {
+      "text": "flatmate",
+      "spokenText": "flatmate"
+    },
+    {
+      "text": "friendship",
+      "spokenText": "friendship"
+    },
+    {
+      "text": "couple",
+      "spokenText": "couple"
+    },
+    {
+      "text": "marriage",
+      "spokenText": "marriage"
+    },
+    {
+      "text": "wedding",
+      "spokenText": "wedding"
+    },
+    {
+      "text": "engagement",
+      "spokenText": "engagement"
+    },
+    {
+      "text": "mother-in-law",
+      "spokenText": "mother in law"
+    },
+    {
+      "text": "father-in-law",
+      "spokenText": "father in law"
+    },
+    {
+      "text": "sister-in-law",
+      "spokenText": "sister in law"
+    },
+    {
+      "text": "brother-in-law",
+      "spokenText": "brother in law"
+    },
+    {
+      "text": "stepmother",
+      "spokenText": "stepmother"
+    },
+    {
+      "text": "stepfather",
+      "spokenText": "stepfather"
+    },
+    {
+      "text": "stepsister",
+      "spokenText": "stepsister"
+    },
+    {
+      "text": "only child",
+      "spokenText": "only child"
+    },
+    {
+      "text": "generation",
+      "spokenText": "generation"
+    },
+    {
+      "text": "ancestor",
+      "spokenText": "ancestor"
+    },
+    {
+      "text": "shirt",
+      "spokenText": "shirt"
+    },
+    {
+      "text": "T-shirt",
+      "spokenText": "T shirt"
+    },
+    {
+      "text": "trousers",
+      "spokenText": "trousers"
+    },
+    {
+      "text": "jeans",
+      "spokenText": "jeans"
+    },
+    {
+      "text": "skirt",
+      "spokenText": "skirt"
+    },
+    {
+      "text": "dress",
+      "spokenText": "dress"
+    },
+    {
+      "text": "sweater",
+      "spokenText": "sweater"
+    },
+    {
+      "text": "coat",
+      "spokenText": "coat"
+    },
+    {
+      "text": "jacket",
+      "spokenText": "jacket"
+    },
+    {
+      "text": "socks",
+      "spokenText": "socks"
+    },
+    {
+      "text": "shoes",
+      "spokenText": "shoes"
+    },
+    {
+      "text": "boots",
+      "spokenText": "boots"
+    },
+    {
+      "text": "slippers",
+      "spokenText": "slippers"
+    },
+    {
+      "text": "hat",
+      "spokenText": "hat"
+    },
+    {
+      "text": "scarf",
+      "spokenText": "scarf"
+    },
+    {
+      "text": "gloves",
+      "spokenText": "gloves"
+    },
+    {
+      "text": "belt",
+      "spokenText": "belt"
+    },
+    {
+      "text": "tie",
+      "spokenText": "tie"
+    },
+    {
+      "text": "watch",
+      "spokenText": "watch"
+    },
+    {
+      "text": "necklace",
+      "spokenText": "necklace"
+    },
+    {
+      "text": "head",
+      "spokenText": "head"
+    },
+    {
+      "text": "hair",
+      "spokenText": "hair"
+    },
+    {
+      "text": "face",
+      "spokenText": "face"
+    },
+    {
+      "text": "eye",
+      "spokenText": "eye"
+    },
+    {
+      "text": "ear",
+      "spokenText": "ear"
+    },
+    {
+      "text": "nose",
+      "spokenText": "nose"
+    },
+    {
+      "text": "mouth",
+      "spokenText": "mouth"
+    },
+    {
+      "text": "tooth",
+      "spokenText": "tooth"
+    },
+    {
+      "text": "arm",
+      "spokenText": "arm"
+    },
+    {
+      "text": "hand",
+      "spokenText": "hand"
+    },
+    {
+      "text": "finger",
+      "spokenText": "finger"
+    },
+    {
+      "text": "thumb",
+      "spokenText": "thumb"
+    },
+    {
+      "text": "back",
+      "spokenText": "back"
+    },
+    {
+      "text": "leg",
+      "spokenText": "leg"
+    },
+    {
+      "text": "foot",
+      "spokenText": "foot"
+    },
+    {
+      "text": "banana",
+      "spokenText": "banana"
+    },
+    {
+      "text": "orange",
+      "spokenText": "orange"
+    },
+    {
+      "text": "lemon",
+      "spokenText": "lemon"
+    },
+    {
+      "text": "pear",
+      "spokenText": "pear"
+    },
+    {
+      "text": "peach",
+      "spokenText": "peach"
+    },
+    {
+      "text": "apricot",
+      "spokenText": "apricot"
+    },
+    {
+      "text": "cherry",
+      "spokenText": "cherry"
+    },
+    {
+      "text": "strawberry",
+      "spokenText": "strawberry"
+    },
+    {
+      "text": "grape",
+      "spokenText": "grape"
+    },
+    {
+      "text": "watermelon",
+      "spokenText": "watermelon"
+    },
+    {
+      "text": "melon",
+      "spokenText": "melon"
+    },
+    {
+      "text": "plum",
+      "spokenText": "plum"
+    },
+    {
+      "text": "tomato",
+      "spokenText": "tomato"
+    },
+    {
+      "text": "potato",
+      "spokenText": "potato"
+    },
+    {
+      "text": "onion",
+      "spokenText": "onion"
+    },
+    {
+      "text": "garlic",
+      "spokenText": "garlic"
+    },
+    {
+      "text": "carrot",
+      "spokenText": "carrot"
+    },
+    {
+      "text": "cucumber",
+      "spokenText": "cucumber"
+    },
+    {
+      "text": "pepper",
+      "spokenText": "pepper"
+    },
+    {
+      "text": "aubergine",
+      "spokenText": "aubergine"
+    },
+    {
+      "text": "bread",
+      "spokenText": "bread"
+    },
+    {
+      "text": "pasta",
+      "spokenText": "pasta"
+    },
+    {
+      "text": "flour",
+      "spokenText": "flour"
+    },
+    {
+      "text": "sugar",
+      "spokenText": "sugar"
+    },
+    {
+      "text": "salt",
+      "spokenText": "salt"
+    },
+    {
+      "text": "egg",
+      "spokenText": "egg"
+    },
+    {
+      "text": "cheese",
+      "spokenText": "cheese"
+    },
+    {
+      "text": "butter",
+      "spokenText": "butter"
+    },
+    {
+      "text": "yoghurt",
+      "spokenText": "yoghurt"
+    },
+    {
+      "text": "meat",
+      "spokenText": "meat"
+    },
+    {
+      "text": "chicken",
+      "spokenText": "chicken"
+    },
+    {
+      "text": "beef",
+      "spokenText": "beef"
+    },
+    {
+      "text": "fish",
+      "spokenText": "fish"
+    },
+    {
+      "text": "lentil",
+      "spokenText": "lentil"
+    },
+    {
+      "text": "bean",
+      "spokenText": "bean"
+    },
+    {
+      "text": "olive",
+      "spokenText": "olive"
+    },
+    {
+      "text": "honey",
+      "spokenText": "honey"
+    },
+    {
+      "text": "jam",
+      "spokenText": "jam"
+    },
+    {
+      "text": "nut",
+      "spokenText": "nut"
+    },
+    {
+      "text": "tea",
+      "spokenText": "tea"
+    },
+    {
+      "text": "coffee",
+      "spokenText": "coffee"
+    },
+    {
+      "text": "milk",
+      "spokenText": "milk"
+    },
+    {
+      "text": "juice",
+      "spokenText": "juice"
+    },
+    {
+      "text": "sparkling water",
+      "spokenText": "sparkling water"
+    },
+    {
+      "text": "soup",
+      "spokenText": "soup"
+    },
+    {
+      "text": "salad",
+      "spokenText": "salad"
+    },
+    {
+      "text": "sandwich",
+      "spokenText": "sandwich"
+    },
+    {
+      "text": "cake",
+      "spokenText": "cake"
+    },
+    {
+      "text": "biscuit",
+      "spokenText": "biscuit"
+    },
+    {
+      "text": "dessert",
+      "spokenText": "dessert"
+    },
+    {
+      "text": "lunch",
+      "spokenText": "lunch"
+    },
+    {
+      "text": "dinner",
+      "spokenText": "dinner"
+    },
+    {
+      "text": "snack",
+      "spokenText": "snack"
+    },
+    {
+      "text": "meal",
+      "spokenText": "meal"
+    },
+    {
+      "text": "portion",
+      "spokenText": "portion"
+    },
+    {
+      "text": "ingredient",
+      "spokenText": "ingredient"
+    },
+    {
+      "text": "recipe",
+      "spokenText": "recipe"
+    },
+    {
+      "text": "waiter",
+      "spokenText": "waiter"
+    },
+    {
+      "text": "tip",
+      "spokenText": "tip"
+    },
+    {
+      "text": "shop",
+      "spokenText": "shop"
+    },
+    {
+      "text": "supermarket",
+      "spokenText": "supermarket"
+    },
+    {
+      "text": "market",
+      "spokenText": "market"
+    },
+    {
+      "text": "bakery",
+      "spokenText": "bakery"
+    },
+    {
+      "text": "butcher",
+      "spokenText": "butcher"
+    },
+    {
+      "text": "pharmacy",
+      "spokenText": "pharmacy"
+    },
+    {
+      "text": "customer",
+      "spokenText": "customer"
+    },
+    {
+      "text": "cashier",
+      "spokenText": "cashier"
+    },
+    {
+      "text": "checkout",
+      "spokenText": "checkout"
+    },
+    {
+      "text": "basket",
+      "spokenText": "basket"
+    },
+    {
+      "text": "trolley",
+      "spokenText": "trolley"
+    },
+    {
+      "text": "discount",
+      "spokenText": "discount"
+    },
+    {
+      "text": "receipt",
+      "spokenText": "receipt"
+    },
+    {
+      "text": "refund",
+      "spokenText": "refund"
+    },
+    {
+      "text": "size",
+      "spokenText": "size"
+    },
+    {
+      "text": "fitting room",
+      "spokenText": "fitting room"
+    },
+    {
+      "text": "label",
+      "spokenText": "label"
+    },
+    {
+      "text": "brand",
+      "spokenText": "brand"
+    },
+    {
+      "text": "bargain",
+      "spokenText": "bargain"
+    },
+    {
+      "text": "money",
+      "spokenText": "money"
+    },
+    {
+      "text": "cash",
+      "spokenText": "cash"
+    },
+    {
+      "text": "coin",
+      "spokenText": "coin"
+    },
+    {
+      "text": "banknote",
+      "spokenText": "banknote"
+    },
+    {
+      "text": "wallet",
+      "spokenText": "wallet"
+    },
+    {
+      "text": "bank",
+      "spokenText": "bank"
+    },
+    {
+      "text": "bank account",
+      "spokenText": "bank account"
+    },
+    {
+      "text": "credit card",
+      "spokenText": "credit card"
+    },
+    {
+      "text": "debit card",
+      "spokenText": "debit card"
+    },
+    {
+      "text": "ATM",
+      "spokenText": "ATM"
+    },
+    {
+      "text": "change",
+      "spokenText": "change"
+    },
+    {
+      "text": "payment",
+      "spokenText": "payment"
+    },
+    {
+      "text": "salary",
+      "spokenText": "salary"
+    },
+    {
+      "text": "budget",
+      "spokenText": "budget"
+    },
+    {
+      "text": "savings",
+      "spokenText": "savings"
+    },
+    {
+      "text": "debt",
+      "spokenText": "debt"
+    },
+    {
+      "text": "loan",
+      "spokenText": "loan"
+    },
+    {
+      "text": "fee",
+      "spokenText": "fee"
+    },
+    {
+      "text": "income",
+      "spokenText": "income"
+    },
+    {
+      "text": "expense",
+      "spokenText": "expense"
+    },
+    {
+      "text": "street",
+      "spokenText": "street"
+    },
+    {
+      "text": "road",
+      "spokenText": "road"
+    },
+    {
+      "text": "square",
+      "spokenText": "square"
+    },
+    {
+      "text": "park",
+      "spokenText": "park"
+    },
+    {
+      "text": "library",
+      "spokenText": "library"
+    },
+    {
+      "text": "museum",
+      "spokenText": "museum"
+    },
+    {
+      "text": "hospital",
+      "spokenText": "hospital"
+    },
+    {
+      "text": "school",
+      "spokenText": "school"
+    },
+    {
+      "text": "university",
+      "spokenText": "university"
+    },
+    {
+      "text": "post office",
+      "spokenText": "post office"
+    },
+    {
+      "text": "police station",
+      "spokenText": "police station"
+    },
+    {
+      "text": "fire station",
+      "spokenText": "fire station"
+    },
+    {
+      "text": "bridge",
+      "spokenText": "bridge"
+    },
+    {
+      "text": "pavement",
+      "spokenText": "pavement"
+    },
+    {
+      "text": "traffic lights",
+      "spokenText": "traffic lights"
+    },
+    {
+      "text": "crossing",
+      "spokenText": "crossing"
+    },
+    {
+      "text": "roundabout",
+      "spokenText": "roundabout"
+    },
+    {
+      "text": "corner",
+      "spokenText": "corner"
+    },
+    {
+      "text": "neighbourhood",
+      "spokenText": "neighbourhood"
+    },
+    {
+      "text": "building",
+      "spokenText": "building"
+    },
+    {
+      "text": "car",
+      "spokenText": "car"
+    },
+    {
+      "text": "bus",
+      "spokenText": "bus"
+    },
+    {
+      "text": "train",
+      "spokenText": "train"
+    },
+    {
+      "text": "tram",
+      "spokenText": "tram"
+    },
+    {
+      "text": "underground",
+      "spokenText": "underground"
+    },
+    {
+      "text": "taxi",
+      "spokenText": "taxi"
+    },
+    {
+      "text": "bicycle",
+      "spokenText": "bicycle"
+    },
+    {
+      "text": "motorcycle",
+      "spokenText": "motorcycle"
+    },
+    {
+      "text": "plane",
+      "spokenText": "plane"
+    },
+    {
+      "text": "ferry",
+      "spokenText": "ferry"
+    },
+    {
+      "text": "boat",
+      "spokenText": "boat"
+    },
+    {
+      "text": "truck",
+      "spokenText": "truck"
+    },
+    {
+      "text": "passenger",
+      "spokenText": "passenger"
+    },
+    {
+      "text": "driver",
+      "spokenText": "driver"
+    },
+    {
+      "text": "ticket",
+      "spokenText": "ticket"
+    },
+    {
+      "text": "bus stop",
+      "spokenText": "bus stop"
+    },
+    {
+      "text": "platform",
+      "spokenText": "platform"
+    },
+    {
+      "text": "seat",
+      "spokenText": "seat"
+    },
+    {
+      "text": "traffic",
+      "spokenText": "traffic"
+    },
+    {
+      "text": "passport",
+      "spokenText": "passport"
+    },
+    {
+      "text": "visa",
+      "spokenText": "visa"
+    },
+    {
+      "text": "suitcase",
+      "spokenText": "suitcase"
+    },
+    {
+      "text": "luggage",
+      "spokenText": "luggage"
+    },
+    {
+      "text": "boarding pass",
+      "spokenText": "boarding pass"
+    },
+    {
+      "text": "airport",
+      "spokenText": "airport"
+    },
+    {
+      "text": "gate",
+      "spokenText": "gate"
+    },
+    {
+      "text": "departure",
+      "spokenText": "departure"
+    },
+    {
+      "text": "arrival",
+      "spokenText": "arrival"
+    },
+    {
+      "text": "reservation",
+      "spokenText": "reservation"
+    },
+    {
+      "text": "reception",
+      "spokenText": "reception"
+    },
+    {
+      "text": "receptionist",
+      "spokenText": "receptionist"
+    },
+    {
+      "text": "checkout time",
+      "spokenText": "checkout time"
+    },
+    {
+      "text": "single room",
+      "spokenText": "single room"
+    },
+    {
+      "text": "double room",
+      "spokenText": "double room"
+    },
+    {
+      "text": "twin room",
+      "spokenText": "twin room"
+    },
+    {
+      "text": "hostel",
+      "spokenText": "hostel"
+    },
+    {
+      "text": "guidebook",
+      "spokenText": "guidebook"
+    },
+    {
+      "text": "souvenir",
+      "spokenText": "souvenir"
+    },
+    {
+      "text": "morning",
+      "spokenText": "morning"
+    },
+    {
+      "text": "afternoon",
+      "spokenText": "afternoon"
+    },
+    {
+      "text": "night",
+      "spokenText": "night"
+    },
+    {
+      "text": "noon",
+      "spokenText": "noon"
+    },
+    {
+      "text": "midnight",
+      "spokenText": "midnight"
+    },
+    {
+      "text": "hour",
+      "spokenText": "hour"
+    },
+    {
+      "text": "minute",
+      "spokenText": "minute"
+    },
+    {
+      "text": "second",
+      "spokenText": "second"
+    },
+    {
+      "text": "week",
+      "spokenText": "week"
+    },
+    {
+      "text": "month",
+      "spokenText": "month"
+    },
+    {
+      "text": "year",
+      "spokenText": "year"
+    },
+    {
+      "text": "weekend",
+      "spokenText": "weekend"
+    },
+    {
+      "text": "Monday",
+      "spokenText": "Monday"
+    },
+    {
+      "text": "Tuesday",
+      "spokenText": "Tuesday"
+    },
+    {
+      "text": "Wednesday",
+      "spokenText": "Wednesday"
+    },
+    {
+      "text": "Thursday",
+      "spokenText": "Thursday"
+    },
+    {
+      "text": "Friday",
+      "spokenText": "Friday"
+    },
+    {
+      "text": "Saturday",
+      "spokenText": "Saturday"
+    },
+    {
+      "text": "Sunday",
+      "spokenText": "Sunday"
+    },
+    {
+      "text": "date",
+      "spokenText": "date"
+    },
+    {
+      "text": "January",
+      "spokenText": "January"
+    },
+    {
+      "text": "February",
+      "spokenText": "February"
+    },
+    {
+      "text": "March",
+      "spokenText": "March"
+    },
+    {
+      "text": "April",
+      "spokenText": "April"
+    },
+    {
+      "text": "May",
+      "spokenText": "May"
+    },
+    {
+      "text": "June",
+      "spokenText": "June"
+    },
+    {
+      "text": "July",
+      "spokenText": "July"
+    },
+    {
+      "text": "August",
+      "spokenText": "August"
+    },
+    {
+      "text": "September",
+      "spokenText": "September"
+    },
+    {
+      "text": "October",
+      "spokenText": "October"
+    },
+    {
+      "text": "November",
+      "spokenText": "November"
+    },
+    {
+      "text": "December",
+      "spokenText": "December"
+    },
+    {
+      "text": "spring",
+      "spokenText": "spring"
+    },
+    {
+      "text": "summer",
+      "spokenText": "summer"
+    },
+    {
+      "text": "autumn",
+      "spokenText": "autumn"
+    },
+    {
+      "text": "winter",
+      "spokenText": "winter"
+    },
+    {
+      "text": "season",
+      "spokenText": "season"
+    },
+    {
+      "text": "holiday",
+      "spokenText": "holiday"
+    },
+    {
+      "text": "anniversary",
+      "spokenText": "anniversary"
+    },
+    {
+      "text": "birthday",
+      "spokenText": "birthday"
+    },
+    {
+      "text": "weather",
+      "spokenText": "weather"
+    },
+    {
+      "text": "snow",
+      "spokenText": "snow"
+    },
+    {
+      "text": "wind",
+      "spokenText": "wind"
+    },
+    {
+      "text": "cloud",
+      "spokenText": "cloud"
+    },
+    {
+      "text": "sunshine",
+      "spokenText": "sunshine"
+    },
+    {
+      "text": "storm",
+      "spokenText": "storm"
+    },
+    {
+      "text": "thunder",
+      "spokenText": "thunder"
+    },
+    {
+      "text": "lightning",
+      "spokenText": "lightning"
+    },
+    {
+      "text": "fog",
+      "spokenText": "fog"
+    },
+    {
+      "text": "ice",
+      "spokenText": "ice"
+    },
+    {
+      "text": "frost",
+      "spokenText": "frost"
+    },
+    {
+      "text": "rainbow",
+      "spokenText": "rainbow"
+    },
+    {
+      "text": "temperature",
+      "spokenText": "temperature"
+    },
+    {
+      "text": "forecast",
+      "spokenText": "forecast"
+    },
+    {
+      "text": "heatwave",
+      "spokenText": "heatwave"
+    },
+    {
+      "text": "drought",
+      "spokenText": "drought"
+    },
+    {
+      "text": "flood",
+      "spokenText": "flood"
+    },
+    {
+      "text": "earthquake",
+      "spokenText": "earthquake"
+    },
+    {
+      "text": "breeze",
+      "spokenText": "breeze"
+    },
+    {
+      "text": "doctor",
+      "spokenText": "doctor"
+    },
+    {
+      "text": "nurse",
+      "spokenText": "nurse"
+    },
+    {
+      "text": "dentist",
+      "spokenText": "dentist"
+    },
+    {
+      "text": "clinic",
+      "spokenText": "clinic"
+    },
+    {
+      "text": "medicine",
+      "spokenText": "medicine"
+    },
+    {
+      "text": "pain",
+      "spokenText": "pain"
+    },
+    {
+      "text": "cold",
+      "spokenText": "cold"
+    },
+    {
+      "text": "symptom",
+      "spokenText": "symptom"
+    },
+    {
+      "text": "injury",
+      "spokenText": "injury"
+    },
+    {
+      "text": "bandage",
+      "spokenText": "bandage"
+    },
+    {
+      "text": "ambulance",
+      "spokenText": "ambulance"
+    },
+    {
+      "text": "check-up",
+      "spokenText": "check up"
+    },
+    {
+      "text": "engineer",
+      "spokenText": "engineer"
+    },
+    {
+      "text": "lawyer",
+      "spokenText": "lawyer"
+    },
+    {
+      "text": "accountant",
+      "spokenText": "accountant"
+    },
+    {
+      "text": "architect",
+      "spokenText": "architect"
+    },
+    {
+      "text": "chef",
+      "spokenText": "chef"
+    },
+    {
+      "text": "baker",
+      "spokenText": "baker"
+    },
+    {
+      "text": "farmer",
+      "spokenText": "farmer"
+    },
+    {
+      "text": "plumber",
+      "spokenText": "plumber"
+    },
+    {
+      "text": "electrician",
+      "spokenText": "electrician"
+    },
+    {
+      "text": "mechanic",
+      "spokenText": "mechanic"
+    },
+    {
+      "text": "carpenter",
+      "spokenText": "carpenter"
+    },
+    {
+      "text": "hairdresser",
+      "spokenText": "hairdresser"
+    },
+    {
+      "text": "cleaner",
+      "spokenText": "cleaner"
+    },
+    {
+      "text": "firefighter",
+      "spokenText": "firefighter"
+    },
+    {
+      "text": "police officer",
+      "spokenText": "police officer"
+    },
+    {
+      "text": "journalist",
+      "spokenText": "journalist"
+    },
+    {
+      "text": "photographer",
+      "spokenText": "photographer"
+    },
+    {
+      "text": "actor",
+      "spokenText": "actor"
+    },
+    {
+      "text": "musician",
+      "spokenText": "musician"
+    },
+    {
+      "text": "scientist",
+      "spokenText": "scientist"
+    },
+    {
+      "text": "job",
+      "spokenText": "job"
+    },
+    {
+      "text": "career",
+      "spokenText": "career"
+    },
+    {
+      "text": "company",
+      "spokenText": "company"
+    },
+    {
+      "text": "office",
+      "spokenText": "office"
+    },
+    {
+      "text": "manager",
+      "spokenText": "manager"
+    },
+    {
+      "text": "employee",
+      "spokenText": "employee"
+    },
+    {
+      "text": "employer",
+      "spokenText": "employer"
+    },
+    {
+      "text": "meeting",
+      "spokenText": "meeting"
+    },
+    {
+      "text": "interview",
+      "spokenText": "interview"
+    },
+    {
+      "text": "application",
+      "spokenText": "application"
+    },
+    {
+      "text": "CV",
+      "spokenText": "CV"
+    },
+    {
+      "text": "contract",
+      "spokenText": "contract"
+    },
+    {
+      "text": "deadline",
+      "spokenText": "deadline"
+    },
+    {
+      "text": "task",
+      "spokenText": "task"
+    },
+    {
+      "text": "project",
+      "spokenText": "project"
+    },
+    {
+      "text": "presentation",
+      "spokenText": "presentation"
+    },
+    {
+      "text": "shift",
+      "spokenText": "shift"
+    },
+    {
+      "text": "promotion",
+      "spokenText": "promotion"
+    },
+    {
+      "text": "workload",
+      "spokenText": "workload"
+    },
+    {
+      "text": "computer",
+      "spokenText": "computer"
+    },
+    {
+      "text": "laptop",
+      "spokenText": "laptop"
+    },
+    {
+      "text": "keyboard",
+      "spokenText": "keyboard"
+    },
+    {
+      "text": "mouse",
+      "spokenText": "mouse"
+    },
+    {
+      "text": "screen",
+      "spokenText": "screen"
+    },
+    {
+      "text": "printer",
+      "spokenText": "printer"
+    },
+    {
+      "text": "phone",
+      "spokenText": "phone"
+    },
+    {
+      "text": "charger",
+      "spokenText": "charger"
+    },
+    {
+      "text": "battery",
+      "spokenText": "battery"
+    },
+    {
+      "text": "headphones",
+      "spokenText": "headphones"
+    },
+    {
+      "text": "website",
+      "spokenText": "website"
+    },
+    {
+      "text": "password",
+      "spokenText": "password"
+    },
+    {
+      "text": "username",
+      "spokenText": "username"
+    },
+    {
+      "text": "email",
+      "spokenText": "email"
+    },
+    {
+      "text": "file",
+      "spokenText": "file"
+    },
+    {
+      "text": "folder",
+      "spokenText": "folder"
+    },
+    {
+      "text": "link",
+      "spokenText": "link"
+    },
+    {
+      "text": "connection",
+      "spokenText": "connection"
+    },
+    {
+      "text": "software",
+      "spokenText": "software"
+    },
+    {
+      "text": "lesson",
+      "spokenText": "lesson"
+    },
+    {
+      "text": "course",
+      "spokenText": "course"
+    },
+    {
+      "text": "subject",
+      "spokenText": "subject"
+    },
+    {
+      "text": "homework",
+      "spokenText": "homework"
+    },
+    {
+      "text": "exam",
+      "spokenText": "exam"
+    },
+    {
+      "text": "question",
+      "spokenText": "question"
+    },
+    {
+      "text": "answer",
+      "spokenText": "answer"
+    },
+    {
+      "text": "notebook",
+      "spokenText": "notebook"
+    },
+    {
+      "text": "dictionary",
+      "spokenText": "dictionary"
+    },
+    {
+      "text": "vocabulary",
+      "spokenText": "vocabulary"
+    },
+    {
+      "text": "grammar",
+      "spokenText": "grammar"
+    },
+    {
+      "text": "spelling",
+      "spokenText": "spelling"
+    },
+    {
+      "text": "meaning",
+      "spokenText": "meaning"
+    },
+    {
+      "text": "example",
+      "spokenText": "example"
+    },
+    {
+      "text": "exercise",
+      "spokenText": "exercise"
+    },
+    {
+      "text": "skill",
+      "spokenText": "skill"
+    },
+    {
+      "text": "knowledge",
+      "spokenText": "knowledge"
+    },
+    {
+      "text": "music",
+      "spokenText": "music"
+    },
+    {
+      "text": "song",
+      "spokenText": "song"
+    },
+    {
+      "text": "concert",
+      "spokenText": "concert"
+    },
+    {
+      "text": "guitar",
+      "spokenText": "guitar"
+    },
+    {
+      "text": "piano",
+      "spokenText": "piano"
+    },
+    {
+      "text": "painting",
+      "spokenText": "painting"
+    },
+    {
+      "text": "drawing",
+      "spokenText": "drawing"
+    },
+    {
+      "text": "photography",
+      "spokenText": "photography"
+    },
+    {
+      "text": "film",
+      "spokenText": "film"
+    },
+    {
+      "text": "novel",
+      "spokenText": "novel"
+    },
+    {
+      "text": "poem",
+      "spokenText": "poem"
+    },
+    {
+      "text": "theatre",
+      "spokenText": "theatre"
+    },
+    {
+      "text": "exhibition",
+      "spokenText": "exhibition"
+    },
+    {
+      "text": "football",
+      "spokenText": "football"
+    },
+    {
+      "text": "basketball",
+      "spokenText": "basketball"
+    },
+    {
+      "text": "tennis",
+      "spokenText": "tennis"
+    },
+    {
+      "text": "yoga",
+      "spokenText": "yoga"
+    },
+    {
+      "text": "chess",
+      "spokenText": "chess"
+    },
+    {
+      "text": "gardening",
+      "spokenText": "gardening"
+    },
+    {
+      "text": "tree",
+      "spokenText": "tree"
+    },
+    {
+      "text": "flower",
+      "spokenText": "flower"
+    },
+    {
+      "text": "leaf",
+      "spokenText": "leaf"
+    },
+    {
+      "text": "grass",
+      "spokenText": "grass"
+    },
+    {
+      "text": "forest",
+      "spokenText": "forest"
+    },
+    {
+      "text": "mountain",
+      "spokenText": "mountain"
+    },
+    {
+      "text": "hill",
+      "spokenText": "hill"
+    },
+    {
+      "text": "river",
+      "spokenText": "river"
+    },
+    {
+      "text": "lake",
+      "spokenText": "lake"
+    },
+    {
+      "text": "sea",
+      "spokenText": "sea"
+    },
+    {
+      "text": "beach",
+      "spokenText": "beach"
+    },
+    {
+      "text": "island",
+      "spokenText": "island"
+    },
+    {
+      "text": "valley",
+      "spokenText": "valley"
+    },
+    {
+      "text": "dog",
+      "spokenText": "dog"
+    },
+    {
+      "text": "cat",
+      "spokenText": "cat"
+    },
+    {
+      "text": "bird",
+      "spokenText": "bird"
+    },
+    {
+      "text": "horse",
+      "spokenText": "horse"
+    },
+    {
+      "text": "sheep",
+      "spokenText": "sheep"
+    },
+    {
+      "text": "bee",
+      "spokenText": "bee"
+    },
+    {
+      "text": "butterfly",
+      "spokenText": "butterfly"
+    },
+    {
+      "text": "environment",
+      "spokenText": "environment"
+    },
+    {
+      "text": "pollution",
+      "spokenText": "pollution"
+    },
+    {
+      "text": "waste",
+      "spokenText": "waste"
+    },
+    {
+      "text": "recycling",
+      "spokenText": "recycling"
+    },
+    {
+      "text": "climate",
+      "spokenText": "climate"
+    },
+    {
+      "text": "climate change",
+      "spokenText": "climate change"
+    },
+    {
+      "text": "emission",
+      "spokenText": "emission"
+    },
+    {
+      "text": "renewable energy",
+      "spokenText": "renewable energy"
+    },
+    {
+      "text": "solar panel",
+      "spokenText": "solar panel"
+    },
+    {
+      "text": "resource",
+      "spokenText": "resource"
+    },
+    {
+      "text": "wildlife",
+      "spokenText": "wildlife"
+    },
+    {
+      "text": "habitat",
+      "spokenText": "habitat"
+    },
+    {
+      "text": "species",
+      "spokenText": "species"
+    },
+    {
+      "text": "biodiversity",
+      "spokenText": "biodiversity"
+    },
+    {
+      "text": "conservation",
+      "spokenText": "conservation"
+    },
+    {
+      "text": "deforestation",
+      "spokenText": "deforestation"
+    },
+    {
+      "text": "carbon footprint",
+      "spokenText": "carbon footprint"
+    },
+    {
+      "text": "packaging",
+      "spokenText": "packaging"
+    },
+    {
+      "text": "landfill",
+      "spokenText": "landfill"
+    },
+    {
+      "text": "compost",
+      "spokenText": "compost"
+    },
+    {
+      "text": "community",
+      "spokenText": "community"
+    },
+    {
+      "text": "society",
+      "spokenText": "society"
+    },
+    {
+      "text": "citizen",
+      "spokenText": "citizen"
+    },
+    {
+      "text": "government",
+      "spokenText": "government"
+    },
+    {
+      "text": "election",
+      "spokenText": "election"
+    },
+    {
+      "text": "policy",
+      "spokenText": "policy"
+    },
+    {
+      "text": "law",
+      "spokenText": "law"
+    },
+    {
+      "text": "right",
+      "spokenText": "right"
+    },
+    {
+      "text": "responsibility",
+      "spokenText": "responsibility"
+    },
+    {
+      "text": "equality",
+      "spokenText": "equality"
+    },
+    {
+      "text": "poverty",
+      "spokenText": "poverty"
+    },
+    {
+      "text": "unemployment",
+      "spokenText": "unemployment"
+    },
+    {
+      "text": "housing",
+      "spokenText": "housing"
+    },
+    {
+      "text": "healthcare",
+      "spokenText": "healthcare"
+    },
+    {
+      "text": "volunteer",
+      "spokenText": "volunteer"
+    },
+    {
+      "text": "charity",
+      "spokenText": "charity"
+    },
+    {
+      "text": "diversity",
+      "spokenText": "diversity"
+    },
+    {
+      "text": "tradition",
+      "spokenText": "tradition"
+    },
+    {
+      "text": "identity",
+      "spokenText": "identity"
+    },
+    {
+      "text": "opinion",
+      "spokenText": "opinion"
+    },
+    {
+      "text": "argument",
+      "spokenText": "argument"
+    },
+    {
+      "text": "conclusion",
+      "spokenText": "conclusion"
+    },
+    {
+      "text": "assumption",
+      "spokenText": "assumption"
+    },
+    {
+      "text": "approach",
+      "spokenText": "approach"
+    },
+    {
+      "text": "solution",
+      "spokenText": "solution"
+    },
+    {
+      "text": "priority",
+      "spokenText": "priority"
+    },
+    {
+      "text": "alternative",
+      "spokenText": "alternative"
+    },
+    {
+      "text": "compromise",
+      "spokenText": "compromise"
+    },
+    {
+      "text": "strategy",
+      "spokenText": "strategy"
+    },
+    {
+      "text": "objective",
+      "spokenText": "objective"
+    },
+    {
+      "text": "insight",
+      "spokenText": "insight"
+    },
+    {
+      "text": "uncertainty",
+      "spokenText": "uncertainty"
+    },
+    {
+      "text": "consensus",
+      "spokenText": "consensus"
+    },
+    {
+      "text": "big",
+      "spokenText": "big"
+    },
+    {
+      "text": "small",
+      "spokenText": "small"
+    },
+    {
+      "text": "large",
+      "spokenText": "large"
+    },
+    {
+      "text": "long",
+      "spokenText": "long"
+    },
+    {
+      "text": "short",
+      "spokenText": "short"
+    },
+    {
+      "text": "tall",
+      "spokenText": "tall"
+    },
+    {
+      "text": "high",
+      "spokenText": "high"
+    },
+    {
+      "text": "low",
+      "spokenText": "low"
+    },
+    {
+      "text": "wide",
+      "spokenText": "wide"
+    },
+    {
+      "text": "narrow",
+      "spokenText": "narrow"
+    },
+    {
+      "text": "thick",
+      "spokenText": "thick"
+    },
+    {
+      "text": "thin",
+      "spokenText": "thin"
+    },
+    {
+      "text": "heavy",
+      "spokenText": "heavy"
+    },
+    {
+      "text": "light",
+      "spokenText": "light"
+    },
+    {
+      "text": "round",
+      "spokenText": "round"
+    },
+    {
+      "text": "straight",
+      "spokenText": "straight"
+    },
+    {
+      "text": "curly",
+      "spokenText": "curly"
+    },
+    {
+      "text": "beautiful",
+      "spokenText": "beautiful"
+    },
+    {
+      "text": "ugly",
+      "spokenText": "ugly"
+    },
+    {
+      "text": "good",
+      "spokenText": "good"
+    },
+    {
+      "text": "bad",
+      "spokenText": "bad"
+    },
+    {
+      "text": "new",
+      "spokenText": "new"
+    },
+    {
+      "text": "old",
+      "spokenText": "old"
+    },
+    {
+      "text": "young",
+      "spokenText": "young"
+    },
+    {
+      "text": "hot",
+      "spokenText": "hot"
+    },
+    {
+      "text": "warm",
+      "spokenText": "warm"
+    },
+    {
+      "text": "cool",
+      "spokenText": "cool"
+    },
+    {
+      "text": "easy",
+      "spokenText": "easy"
+    },
+    {
+      "text": "difficult",
+      "spokenText": "difficult"
+    },
+    {
+      "text": "cheap",
+      "spokenText": "cheap"
+    },
+    {
+      "text": "expensive",
+      "spokenText": "expensive"
+    },
+    {
+      "text": "fast",
+      "spokenText": "fast"
+    },
+    {
+      "text": "slow",
+      "spokenText": "slow"
+    },
+    {
+      "text": "clean",
+      "spokenText": "clean"
+    },
+    {
+      "text": "dirty",
+      "spokenText": "dirty"
+    },
+    {
+      "text": "wet",
+      "spokenText": "wet"
+    },
+    {
+      "text": "dry",
+      "spokenText": "dry"
+    },
+    {
+      "text": "full",
+      "spokenText": "full"
+    },
+    {
+      "text": "empty",
+      "spokenText": "empty"
+    },
+    {
+      "text": "strong",
+      "spokenText": "strong"
+    },
+    {
+      "text": "weak",
+      "spokenText": "weak"
+    },
+    {
+      "text": "soft",
+      "spokenText": "soft"
+    },
+    {
+      "text": "hard",
+      "spokenText": "hard"
+    },
+    {
+      "text": "bright",
+      "spokenText": "bright"
+    },
+    {
+      "text": "dark",
+      "spokenText": "dark"
+    },
+    {
+      "text": "quiet",
+      "spokenText": "quiet"
+    },
+    {
+      "text": "noisy",
+      "spokenText": "noisy"
+    },
+    {
+      "text": "happy",
+      "spokenText": "happy"
+    },
+    {
+      "text": "sad",
+      "spokenText": "sad"
+    },
+    {
+      "text": "angry",
+      "spokenText": "angry"
+    },
+    {
+      "text": "worried",
+      "spokenText": "worried"
+    },
+    {
+      "text": "excited",
+      "spokenText": "excited"
+    },
+    {
+      "text": "bored",
+      "spokenText": "bored"
+    },
+    {
+      "text": "boring",
+      "spokenText": "boring"
+    },
+    {
+      "text": "interested",
+      "spokenText": "interested"
+    },
+    {
+      "text": "interesting",
+      "spokenText": "interesting"
+    },
+    {
+      "text": "surprised",
+      "spokenText": "surprised"
+    },
+    {
+      "text": "proud",
+      "spokenText": "proud"
+    },
+    {
+      "text": "lonely",
+      "spokenText": "lonely"
+    },
+    {
+      "text": "calm",
+      "spokenText": "calm"
+    },
+    {
+      "text": "nervous",
+      "spokenText": "nervous"
+    },
+    {
+      "text": "confident",
+      "spokenText": "confident"
+    },
+    {
+      "text": "shy",
+      "spokenText": "shy"
+    },
+    {
+      "text": "friendly",
+      "spokenText": "friendly"
+    },
+    {
+      "text": "kind",
+      "spokenText": "kind"
+    },
+    {
+      "text": "honest",
+      "spokenText": "honest"
+    },
+    {
+      "text": "generous",
+      "spokenText": "generous"
+    },
+    {
+      "text": "polite",
+      "spokenText": "polite"
+    },
+    {
+      "text": "rude",
+      "spokenText": "rude"
+    },
+    {
+      "text": "lazy",
+      "spokenText": "lazy"
+    },
+    {
+      "text": "hard-working",
+      "spokenText": "hard working"
+    },
+    {
+      "text": "red",
+      "spokenText": "red"
+    },
+    {
+      "text": "blue",
+      "spokenText": "blue"
+    },
+    {
+      "text": "green",
+      "spokenText": "green"
+    },
+    {
+      "text": "yellow",
+      "spokenText": "yellow"
+    },
+    {
+      "text": "black",
+      "spokenText": "black"
+    },
+    {
+      "text": "white",
+      "spokenText": "white"
+    },
+    {
+      "text": "grey",
+      "spokenText": "grey"
+    },
+    {
+      "text": "brown",
+      "spokenText": "brown"
+    },
+    {
+      "text": "pink",
+      "spokenText": "pink"
+    },
+    {
+      "text": "purple",
+      "spokenText": "purple"
+    },
+    {
+      "text": "beige",
+      "spokenText": "beige"
+    },
+    {
+      "text": "striped",
+      "spokenText": "striped"
+    },
+    {
+      "text": "plain",
+      "spokenText": "plain"
+    },
+    {
+      "text": "checked",
+      "spokenText": "checked"
+    },
+    {
+      "text": "colourful",
+      "spokenText": "colourful"
+    },
+    {
+      "text": "accurate",
+      "spokenText": "accurate"
+    },
+    {
+      "text": "relevant",
+      "spokenText": "relevant"
+    },
+    {
+      "text": "significant",
+      "spokenText": "significant"
+    },
+    {
+      "text": "effective",
+      "spokenText": "effective"
+    },
+    {
+      "text": "flexible",
+      "spokenText": "flexible"
+    },
+    {
+      "text": "affordable",
+      "spokenText": "affordable"
+    },
+    {
+      "text": "accessible",
+      "spokenText": "accessible"
+    },
+    {
+      "text": "available",
+      "spokenText": "available"
+    },
+    {
+      "text": "essential",
+      "spokenText": "essential"
+    },
+    {
+      "text": "optional",
+      "spokenText": "optional"
+    },
+    {
+      "text": "temporary",
+      "spokenText": "temporary"
+    },
+    {
+      "text": "permanent",
+      "spokenText": "permanent"
+    },
+    {
+      "text": "unlikely",
+      "spokenText": "unlikely"
+    },
+    {
+      "text": "complex",
+      "spokenText": "complex"
+    },
+    {
+      "text": "straightforward",
+      "spokenText": "straightforward"
+    },
+    {
+      "text": "I",
+      "spokenText": "I"
+    },
+    {
+      "text": "you",
+      "spokenText": "you"
+    },
+    {
+      "text": "he",
+      "spokenText": "he"
+    },
+    {
+      "text": "she",
+      "spokenText": "she"
+    },
+    {
+      "text": "it",
+      "spokenText": "it"
+    },
+    {
+      "text": "we",
+      "spokenText": "we"
+    },
+    {
+      "text": "they",
+      "spokenText": "they"
+    },
+    {
+      "text": "me",
+      "spokenText": "me"
+    },
+    {
+      "text": "him",
+      "spokenText": "him"
+    },
+    {
+      "text": "her",
+      "spokenText": "her"
+    },
+    {
+      "text": "us",
+      "spokenText": "us"
+    },
+    {
+      "text": "them",
+      "spokenText": "them"
+    },
+    {
+      "text": "myself",
+      "spokenText": "myself"
+    },
+    {
+      "text": "yourself",
+      "spokenText": "yourself"
+    },
+    {
+      "text": "himself",
+      "spokenText": "himself"
+    },
+    {
+      "text": "herself",
+      "spokenText": "herself"
+    },
+    {
+      "text": "itself",
+      "spokenText": "itself"
+    },
+    {
+      "text": "ourselves",
+      "spokenText": "ourselves"
+    },
+    {
+      "text": "yourselves",
+      "spokenText": "yourselves"
+    },
+    {
+      "text": "themselves",
+      "spokenText": "themselves"
+    },
+    {
+      "text": "mine",
+      "spokenText": "mine"
+    },
+    {
+      "text": "yours",
+      "spokenText": "yours"
+    },
+    {
+      "text": "hers",
+      "spokenText": "hers"
+    },
+    {
+      "text": "ours",
+      "spokenText": "ours"
+    },
+    {
+      "text": "theirs",
+      "spokenText": "theirs"
+    },
+    {
+      "text": "someone",
+      "spokenText": "someone"
+    },
+    {
+      "text": "anyone",
+      "spokenText": "anyone"
+    },
+    {
+      "text": "everyone",
+      "spokenText": "everyone"
+    },
+    {
+      "text": "no one",
+      "spokenText": "no one"
+    },
+    {
+      "text": "something",
+      "spokenText": "something"
+    },
+    {
+      "text": "anything",
+      "spokenText": "anything"
+    },
+    {
+      "text": "everything",
+      "spokenText": "everything"
+    },
+    {
+      "text": "nothing",
+      "spokenText": "nothing"
+    },
+    {
+      "text": "each other",
+      "spokenText": "each other"
+    },
+    {
+      "text": "who",
+      "spokenText": "who"
+    },
+    {
+      "text": "which",
+      "spokenText": "which"
+    },
+    {
+      "text": "what",
+      "spokenText": "what"
+    },
+    {
+      "text": "my",
+      "spokenText": "my"
+    },
+    {
+      "text": "your",
+      "spokenText": "your"
+    },
+    {
+      "text": "his",
+      "spokenText": "his"
+    },
+    {
+      "text": "its",
+      "spokenText": "its"
+    },
+    {
+      "text": "our",
+      "spokenText": "our"
+    },
+    {
+      "text": "their",
+      "spokenText": "their"
+    },
+    {
+      "text": "this",
+      "spokenText": "this"
+    },
+    {
+      "text": "that",
+      "spokenText": "that"
+    },
+    {
+      "text": "these",
+      "spokenText": "these"
+    },
+    {
+      "text": "those",
+      "spokenText": "those"
+    },
+    {
+      "text": "some",
+      "spokenText": "some"
+    },
+    {
+      "text": "any",
+      "spokenText": "any"
+    },
+    {
+      "text": "much",
+      "spokenText": "much"
+    },
+    {
+      "text": "many",
+      "spokenText": "many"
+    },
+    {
+      "text": "a few",
+      "spokenText": "a few"
+    },
+    {
+      "text": "a little",
+      "spokenText": "a little"
+    },
+    {
+      "text": "each",
+      "spokenText": "each"
+    },
+    {
+      "text": "every",
+      "spokenText": "every"
+    },
+    {
+      "text": "all",
+      "spokenText": "all"
+    },
+    {
+      "text": "both",
+      "spokenText": "both"
+    },
+    {
+      "text": "either",
+      "spokenText": "either"
+    },
+    {
+      "text": "neither",
+      "spokenText": "neither"
+    },
+    {
+      "text": "several",
+      "spokenText": "several"
+    },
+    {
+      "text": "most",
+      "spokenText": "most"
+    },
+    {
+      "text": "another",
+      "spokenText": "another"
+    },
+    {
+      "text": "other",
+      "spokenText": "other"
+    },
+    {
+      "text": "always",
+      "spokenText": "always"
+    },
+    {
+      "text": "often",
+      "spokenText": "often"
+    },
+    {
+      "text": "sometimes",
+      "spokenText": "sometimes"
+    },
+    {
+      "text": "rarely",
+      "spokenText": "rarely"
+    },
+    {
+      "text": "never",
+      "spokenText": "never"
+    },
+    {
+      "text": "quickly",
+      "spokenText": "quickly"
+    },
+    {
+      "text": "carefully",
+      "spokenText": "carefully"
+    },
+    {
+      "text": "easily",
+      "spokenText": "easily"
+    },
+    {
+      "text": "well",
+      "spokenText": "well"
+    },
+    {
+      "text": "badly",
+      "spokenText": "badly"
+    },
+    {
+      "text": "quietly",
+      "spokenText": "quietly"
+    },
+    {
+      "text": "loudly",
+      "spokenText": "loudly"
+    },
+    {
+      "text": "still",
+      "spokenText": "still"
+    },
+    {
+      "text": "later",
+      "spokenText": "later"
+    },
+    {
+      "text": "probably",
+      "spokenText": "probably"
+    },
+    {
+      "text": "definitely",
+      "spokenText": "definitely"
+    },
+    {
+      "text": "especially",
+      "spokenText": "especially"
+    },
+    {
+      "text": "almost",
+      "spokenText": "almost"
+    },
+    {
+      "text": "quite",
+      "spokenText": "quite"
+    },
+    {
+      "text": "together",
+      "spokenText": "together"
+    },
+    {
+      "text": "in",
+      "spokenText": "in"
+    },
+    {
+      "text": "on",
+      "spokenText": "on"
+    },
+    {
+      "text": "at",
+      "spokenText": "at"
+    },
+    {
+      "text": "above",
+      "spokenText": "above"
+    },
+    {
+      "text": "below",
+      "spokenText": "below"
+    },
+    {
+      "text": "behind",
+      "spokenText": "behind"
+    },
+    {
+      "text": "in front of",
+      "spokenText": "in front of"
+    },
+    {
+      "text": "between",
+      "spokenText": "between"
+    },
+    {
+      "text": "among",
+      "spokenText": "among"
+    },
+    {
+      "text": "near",
+      "spokenText": "near"
+    },
+    {
+      "text": "opposite",
+      "spokenText": "opposite"
+    },
+    {
+      "text": "inside",
+      "spokenText": "inside"
+    },
+    {
+      "text": "across",
+      "spokenText": "across"
+    },
+    {
+      "text": "along",
+      "spokenText": "along"
+    },
+    {
+      "text": "towards",
+      "spokenText": "towards"
+    },
+    {
+      "text": "into",
+      "spokenText": "into"
+    },
+    {
+      "text": "out of",
+      "spokenText": "out of"
+    },
+    {
+      "text": "with",
+      "spokenText": "with"
+    },
+    {
+      "text": "without",
+      "spokenText": "without"
+    },
+    {
+      "text": "for",
+      "spokenText": "for"
+    },
+    {
+      "text": "during",
+      "spokenText": "during"
+    },
+    {
+      "text": "until",
+      "spokenText": "until"
+    },
+    {
+      "text": "and",
+      "spokenText": "and"
+    },
+    {
+      "text": "but",
+      "spokenText": "but"
+    },
+    {
+      "text": "or",
+      "spokenText": "or"
+    },
+    {
+      "text": "because",
+      "spokenText": "because"
+    },
+    {
+      "text": "so",
+      "spokenText": "so"
+    },
+    {
+      "text": "even though",
+      "spokenText": "even though"
+    },
+    {
+      "text": "if",
+      "spokenText": "if"
+    },
+    {
+      "text": "as soon as",
+      "spokenText": "as soon as"
+    },
+    {
+      "text": "as long as",
+      "spokenText": "as long as"
+    },
+    {
+      "text": "so that",
+      "spokenText": "so that"
+    },
+    {
+      "text": "even if",
+      "spokenText": "even if"
+    },
+    {
+      "text": "whether",
+      "spokenText": "whether"
+    },
+    {
+      "text": "moreover",
+      "spokenText": "moreover"
+    },
+    {
+      "text": "furthermore",
+      "spokenText": "furthermore"
+    },
+    {
+      "text": "meanwhile",
+      "spokenText": "meanwhile"
+    },
+    {
+      "text": "for example",
+      "spokenText": "for example"
+    },
+    {
+      "text": "in addition",
+      "spokenText": "in addition"
+    },
+    {
+      "text": "in contrast",
+      "spokenText": "in contrast"
+    },
+    {
+      "text": "on the other hand",
+      "spokenText": "on the other hand"
+    },
+    {
+      "text": "as a result",
+      "spokenText": "as a result"
+    },
+    {
+      "text": "in fact",
+      "spokenText": "in fact"
+    },
+    {
+      "text": "in general",
+      "spokenText": "in general"
+    },
+    {
+      "text": "in particular",
+      "spokenText": "in particular"
+    },
+    {
+      "text": "be",
+      "spokenText": "be"
+    },
+    {
+      "text": "become",
+      "spokenText": "become"
+    },
+    {
+      "text": "begin",
+      "spokenText": "begin"
+    },
+    {
+      "text": "bring",
+      "spokenText": "bring"
+    },
+    {
+      "text": "build",
+      "spokenText": "build"
+    },
+    {
+      "text": "catch",
+      "spokenText": "catch"
+    },
+    {
+      "text": "choose",
+      "spokenText": "choose"
+    },
+    {
+      "text": "come",
+      "spokenText": "come"
+    },
+    {
+      "text": "cost",
+      "spokenText": "cost"
+    },
+    {
+      "text": "cut",
+      "spokenText": "cut"
+    },
+    {
+      "text": "do",
+      "spokenText": "do"
+    },
+    {
+      "text": "draw",
+      "spokenText": "draw"
+    },
+    {
+      "text": "drink",
+      "spokenText": "drink"
+    },
+    {
+      "text": "eat",
+      "spokenText": "eat"
+    },
+    {
+      "text": "fall",
+      "spokenText": "fall"
+    },
+    {
+      "text": "find",
+      "spokenText": "find"
+    },
+    {
+      "text": "fly",
+      "spokenText": "fly"
+    },
+    {
+      "text": "forget",
+      "spokenText": "forget"
+    },
+    {
+      "text": "get",
+      "spokenText": "get"
+    },
+    {
+      "text": "give",
+      "spokenText": "give"
+    },
+    {
+      "text": "go",
+      "spokenText": "go"
+    },
+    {
+      "text": "grow",
+      "spokenText": "grow"
+    },
+    {
+      "text": "have",
+      "spokenText": "have"
+    },
+    {
+      "text": "hear",
+      "spokenText": "hear"
+    },
+    {
+      "text": "hold",
+      "spokenText": "hold"
+    },
+    {
+      "text": "keep",
+      "spokenText": "keep"
+    },
+    {
+      "text": "know",
+      "spokenText": "know"
+    },
+    {
+      "text": "leave",
+      "spokenText": "leave"
+    },
+    {
+      "text": "lend",
+      "spokenText": "lend"
+    },
+    {
+      "text": "let",
+      "spokenText": "let"
+    },
+    {
+      "text": "lose",
+      "spokenText": "lose"
+    },
+    {
+      "text": "make",
+      "spokenText": "make"
+    },
+    {
+      "text": "mean",
+      "spokenText": "mean"
+    },
+    {
+      "text": "meet",
+      "spokenText": "meet"
+    },
+    {
+      "text": "pay",
+      "spokenText": "pay"
+    },
+    {
+      "text": "put",
+      "spokenText": "put"
+    },
+    {
+      "text": "ride",
+      "spokenText": "ride"
+    },
+    {
+      "text": "run",
+      "spokenText": "run"
+    },
+    {
+      "text": "say",
+      "spokenText": "say"
+    },
+    {
+      "text": "see",
+      "spokenText": "see"
+    },
+    {
+      "text": "sell",
+      "spokenText": "sell"
+    },
+    {
+      "text": "send",
+      "spokenText": "send"
+    },
+    {
+      "text": "sing",
+      "spokenText": "sing"
+    },
+    {
+      "text": "sit",
+      "spokenText": "sit"
+    },
+    {
+      "text": "sleep",
+      "spokenText": "sleep"
+    },
+    {
+      "text": "speak",
+      "spokenText": "speak"
+    },
+    {
+      "text": "spend",
+      "spokenText": "spend"
+    },
+    {
+      "text": "stand",
+      "spokenText": "stand"
+    },
+    {
+      "text": "take",
+      "spokenText": "take"
+    },
+    {
+      "text": "teach",
+      "spokenText": "teach"
+    },
+    {
+      "text": "tell",
+      "spokenText": "tell"
+    },
+    {
+      "text": "think",
+      "spokenText": "think"
+    },
+    {
+      "text": "understand",
+      "spokenText": "understand"
+    },
+    {
+      "text": "wake",
+      "spokenText": "wake"
+    },
+    {
+      "text": "wear",
+      "spokenText": "wear"
+    },
+    {
+      "text": "win",
+      "spokenText": "win"
+    },
+    {
+      "text": "write",
+      "spokenText": "write"
+    },
+    {
+      "text": "bite",
+      "spokenText": "bite"
+    },
+    {
+      "text": "blow",
+      "spokenText": "blow"
+    },
+    {
+      "text": "feed",
+      "spokenText": "feed"
+    },
+    {
+      "text": "fight",
+      "spokenText": "fight"
+    },
+    {
+      "text": "freeze",
+      "spokenText": "freeze"
+    },
+    {
+      "text": "hide",
+      "spokenText": "hide"
+    },
+    {
+      "text": "hit",
+      "spokenText": "hit"
+    },
+    {
+      "text": "hurt",
+      "spokenText": "hurt"
+    },
+    {
+      "text": "lead",
+      "spokenText": "lead"
+    },
+    {
+      "text": "rise",
+      "spokenText": "rise"
+    },
+    {
+      "text": "shake",
+      "spokenText": "shake"
+    },
+    {
+      "text": "shine",
+      "spokenText": "shine"
+    },
+    {
+      "text": "steal",
+      "spokenText": "steal"
+    },
+    {
+      "text": "throw",
+      "spokenText": "throw"
+    },
+    {
+      "text": "blow up",
+      "spokenText": "blow up"
+    },
+    {
+      "text": "accept",
+      "spokenText": "accept"
+    },
+    {
+      "text": "add",
+      "spokenText": "add"
+    },
+    {
+      "text": "agree",
+      "spokenText": "agree"
+    },
+    {
+      "text": "allow",
+      "spokenText": "allow"
+    },
+    {
+      "text": "ask",
+      "spokenText": "ask"
+    },
+    {
+      "text": "believe",
+      "spokenText": "believe"
+    },
+    {
+      "text": "borrow",
+      "spokenText": "borrow"
+    },
+    {
+      "text": "call",
+      "spokenText": "call"
+    },
+    {
+      "text": "close",
+      "spokenText": "close"
+    },
+    {
+      "text": "collect",
+      "spokenText": "collect"
+    },
+    {
+      "text": "compare",
+      "spokenText": "compare"
+    },
+    {
+      "text": "complete",
+      "spokenText": "complete"
+    },
+    {
+      "text": "copy",
+      "spokenText": "copy"
+    },
+    {
+      "text": "count",
+      "spokenText": "count"
+    },
+    {
+      "text": "cry",
+      "spokenText": "cry"
+    },
+    {
+      "text": "dance",
+      "spokenText": "dance"
+    },
+    {
+      "text": "develop",
+      "spokenText": "develop"
+    },
+    {
+      "text": "finish",
+      "spokenText": "finish"
+    },
+    {
+      "text": "follow",
+      "spokenText": "follow"
+    },
+    {
+      "text": "hope",
+      "spokenText": "hope"
+    },
+    {
+      "text": "include",
+      "spokenText": "include"
+    },
+    {
+      "text": "invite",
+      "spokenText": "invite"
+    },
+    {
+      "text": "join",
+      "spokenText": "join"
+    },
+    {
+      "text": "jump",
+      "spokenText": "jump"
+    },
+    {
+      "text": "learn",
+      "spokenText": "learn"
+    },
+    {
+      "text": "like",
+      "spokenText": "like"
+    },
+    {
+      "text": "live",
+      "spokenText": "live"
+    },
+    {
+      "text": "look",
+      "spokenText": "look"
+    },
+    {
+      "text": "love",
+      "spokenText": "love"
+    },
+    {
+      "text": "move",
+      "spokenText": "move"
+    },
+    {
+      "text": "need",
+      "spokenText": "need"
+    },
+    {
+      "text": "offer",
+      "spokenText": "offer"
+    },
+    {
+      "text": "open",
+      "spokenText": "open"
+    },
+    {
+      "text": "order",
+      "spokenText": "order"
+    },
+    {
+      "text": "paint",
+      "spokenText": "paint"
+    },
+    {
+      "text": "play",
+      "spokenText": "play"
+    },
+    {
+      "text": "prefer",
+      "spokenText": "prefer"
+    },
+    {
+      "text": "receive",
+      "spokenText": "receive"
+    },
+    {
+      "text": "remember",
+      "spokenText": "remember"
+    },
+    {
+      "text": "repeat",
+      "spokenText": "repeat"
+    },
+    {
+      "text": "return",
+      "spokenText": "return"
+    },
+    {
+      "text": "save",
+      "spokenText": "save"
+    },
+    {
+      "text": "share",
+      "spokenText": "share"
+    },
+    {
+      "text": "smile",
+      "spokenText": "smile"
+    },
+    {
+      "text": "start",
+      "spokenText": "start"
+    },
+    {
+      "text": "stay",
+      "spokenText": "stay"
+    },
+    {
+      "text": "stop",
+      "spokenText": "stop"
+    },
+    {
+      "text": "study",
+      "spokenText": "study"
+    },
+    {
+      "text": "talk",
+      "spokenText": "talk"
+    },
+    {
+      "text": "travel",
+      "spokenText": "travel"
+    },
+    {
+      "text": "use",
+      "spokenText": "use"
+    },
+    {
+      "text": "walk",
+      "spokenText": "walk"
+    },
+    {
+      "text": "want",
+      "spokenText": "want"
+    },
+    {
+      "text": "wash",
+      "spokenText": "wash"
+    },
+    {
+      "text": "work",
+      "spokenText": "work"
+    },
+    {
+      "text": "worry",
+      "spokenText": "worry"
+    },
+    {
+      "text": "raise",
+      "spokenText": "raise"
+    },
+    {
+      "text": "lie",
+      "spokenText": "lie"
+    },
+    {
+      "text": "apologise",
+      "spokenText": "apologise"
+    },
+    {
+      "text": "refuse",
+      "spokenText": "refuse"
+    },
+    {
+      "text": "protect",
+      "spokenText": "protect"
+    },
+    {
+      "text": "reduce",
+      "spokenText": "reduce"
+    }
+  ]
+}

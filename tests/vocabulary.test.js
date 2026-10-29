@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {hasRecording} from '../src/recorded-audio.js';
 import assert from 'node:assert/strict';
 import {words,wordById,wordExercises,exerciseById,audioTexts} from '../src/academy/catalog.js';
 import {legacyWords} from '../src/academy/words.js';
@@ -11,9 +12,9 @@ import {validProgress} from '../src/state.js';
 
 test('thematic vocabulary preserves old IDs, examples, recordings and saved cards',()=>{
  const p=freshProgress();
- for(const original of legacyWords){const w=wordById[original.id];for(const key of Object.keys(original))assert.equal(w[key],original[key],`${w.id}:${key}`);assert.equal(w.hasAudio,true);p.wordCards[w.id]={due:1,last:0,days:0,repetitions:0};p.favourites.push(w.id);}
+ for(const original of legacyWords){const w=wordById[original.id];for(const key of Object.keys(original))assert.equal(w[key],original[key],`${w.id}:${key}`);assert.equal(hasRecording(w.en),true);p.wordCards[w.id]={due:1,last:0,days:0,repetitions:0};p.favourites.push(w.id);}
  assert.ok(validProgress(p));assert.equal(audioTexts.length,636);
- const modern=words.filter(w=>!w.hasAudio);assert.ok(modern.length>900);assert.ok(modern.every(w=>!w.topic));
+ const modern=words.filter(w=>!w.topic);assert.ok(modern.length>900);assert.ok(modern.every(w=>!w.topic));
 });
 test('all entries have valid taxonomy, examples and stable distinct sense IDs',()=>{
  assert.equal(new Set(words.map(w=>w.id)).size,words.length);assert.equal(new Set(words.map(w=>`${w.en.toLowerCase()}|${w.pos}|${w.domain||''}`)).size,words.length);
@@ -31,7 +32,7 @@ test('every verb has usable forms; variants and irregular read are accepted',()=
 test('context questions restore an exact original sentence and all new questions enter mistake review',()=>{
  const context=wordExercises.filter(q=>q.mode==='context');assert.ok(context.length>1000);
  for(const q of context){const sentence=q.prompt.split('\n')[0];assert.equal(sentence.replace('____',q.answer),wordById[q.word].example,q.id);}
- const q=context.find(q=>!wordById[q.word].hasAudio),p=recordAnswer(freshProgress(),q.id,'wrong',100);
+ const q=context.find(q=>!wordById[q.word].topic),p=recordAnswer(freshProgress(),q.id,'wrong',100);
  assert.equal(mistakeQueue(p,{all:true})[0].id,q.id);assert.ok(validProgress(p));
 });
 test('sessions prefer untouched questions, are bounded and do not repeat the same first page',()=>{

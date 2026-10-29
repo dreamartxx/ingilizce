@@ -11,7 +11,7 @@ test('Muayene has a complete parent category, distinct clinical senses and suppo
  assert.equal(medicalCategories[0].id,'muayene');assert.equal(medicalCategories[0].title,'Muayene');assert.equal(medicalCategories.length,16);
  assert.equal(medicalWords.length,365);assert.equal(new Set(medicalWords.map(w=>w.id)).size,365);
  assert.equal(medicalWords.filter(w=>w.forms).length,45);assert.equal(medicalWords.filter(w=>w.pos==='phrase').length,65);
- for(const w of medicalWords){assert.ok(w.categories.includes('muayene'));assert.equal(w.domain,'clinical');assert.equal(w.hasAudio,false);assert.ok(wordById[w.id]);assert.ok(w.tr&&w.example&&w.translation);}
+ for(const w of medicalWords){assert.ok(w.categories.includes('muayene'));assert.equal(w.domain,'clinical');assert.ok(wordById[w.id]);assert.ok(w.tr&&w.example&&w.translation);}
  for(const c of medicalCategories.slice(1)){assert.equal(c.parent,'muayene');assert.ok(medicalWords.filter(w=>w.categories.includes(c.id)).length>=20,c.id);}
  const clinical=wordById['clinical-noun-stool'],ordinary=words.find(w=>w.en==='stool'&&!w.domain);
  assert.equal(clinical.tr,'dışkı');if(ordinary)assert.notEqual(clinical.id,ordinary.id);

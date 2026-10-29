@@ -7,12 +7,12 @@ let category;
 for(const line of medicalLexicon.trim().split('\n').filter(Boolean)){
  if(line.startsWith('@')){const [key,title,icon,level,pos,tip]=line.slice(1).split('|');category={id:`muayene-${key}`,title,icon,level,pos,tip,parent:'muayene',group:'Mesleki İngilizce'};medicalCategories.push(category);continue;}
  const [en,tr,example,translation]=line.split('|');if(!category||!translation)throw Error(`Incomplete medical entry: ${line}`);
- medicalWords.push({id:`clinical-${category.pos}-${slug(en)}`,en,tr,example,translation,pos:category.pos,level:category.level,domain:'clinical',categories:[category.id,'muayene'],hasAudio:false});
+ medicalWords.push({id:`clinical-${category.pos}-${slug(en)}`,en,tr,example,translation,pos:category.pos,level:category.level,domain:'clinical',categories:[category.id,'muayene']});
 }
 medicalCategories.push({id:'muayene-verbs',title:'Muayenede kullanılan fiiller',icon:'🧩',level:'B1',pos:'verb',tip:'Muayene bağlamında fiil, anlamı ve üç hâli. Breathe fiil, breath isimdir; examine muayene etmek, prescribe reçete etmektir.',parent:'muayene',group:'Mesleki İngilizce'});
 for(const line of medicalVerbRows.trim().split('\n')){
  const [en,tr,past,participle,type,example,translation]=line.split('|');if(!translation)throw Error(`Incomplete medical verb: ${line}`);
- medicalWords.push({id:`clinical-verb-${slug(en)}`,en,tr,example,translation,pos:'verb',level:'B1',domain:'clinical',categories:['muayene-verbs','muayene',`${type}-verbs`],hasAudio:false,forms:{type,past:past.split('/'),participle:participle.split('/')}});
+ medicalWords.push({id:`clinical-verb-${slug(en)}`,en,tr,example,translation,pos:'verb',level:'B1',domain:'clinical',categories:['muayene-verbs','muayene',`${type}-verbs`],forms:{type,past:past.split('/'),participle:participle.split('/')}});
 }
 const variants={diarrhoea:['diarrhea'],localised:['localized'],'general practitioner':['GP'],electrocardiogram:['ECG','EKG'],'complete blood count':['CBC'],'X-ray':['x ray'],'MRI scan':['MRI'],'CT scan':['CT'],'physiotherapy':['physical therapy']};
 const notes={
