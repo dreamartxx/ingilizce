@@ -1,3 +1,4 @@
+import {medicalDialogueExercises} from './medical/dialogues.js';
 import {grammar} from './grammar.js';
 import {words,legacyWords} from './words.js';
 import {createVocabularyExercises} from './vocabulary/practice.js';
@@ -18,7 +19,7 @@ const readingExercise=(text,id,topic,level,kind)=>{const [prompt,answer,wrong,wh
 export const topics=grammar.map((g,i)=>{const [title,text,translation,q1,q2]=readings[i];return {...g,panel:panels[i],words:words.filter(w=>w.topic===g.id),reading:{title,text,translation},speaking:speakingTasks[i],checks:[{...readingExercise(q1,`r-${g.id}-0`,g.id,g.level,'reading'),context:text},{...readingExercise(q2,`r-${g.id}-1`,g.id,g.level,'reading'),context:text}]};});
 export const wordExercises=createVocabularyExercises(words);
 const legacyExercises=units.flatMap(u=>[...u.quiz.map((q,i)=>({id:`old-${u.id}-${i}`,kind:'reading',level:u.level,topic:u.id,prompt:q.q,answer:q.options[q.answer],options:q.options,why:q.why})),...u.phrases.map(p=>({id:`phrase-${p.id}`,kind:'vocabulary',level:u.level,topic:u.id,prompt:p.tr,answer:p.en,why:p.hint,options:[p.en,...u.phrases.filter(c=>c.id!==p.id).slice(0,2).map(c=>c.en)]}))]);
-export const exercises=[...grammar.flatMap(g=>g.exercises),...topics.flatMap(t=>[...t.checks,{...t.checks[0],id:`l-${t.id}`,kind:'listening',context:undefined,audio:t.reading.text}]),...wordExercises,...guideExercises,...legacyExercises];
+export const exercises=[...grammar.flatMap(g=>g.exercises),...topics.flatMap(t=>[...t.checks,{...t.checks[0],id:`l-${t.id}`,kind:'listening',context:undefined,audio:t.reading.text}]),...wordExercises,...medicalDialogueExercises,...guideExercises,...legacyExercises];
 export const exerciseById=Object.fromEntries(exercises.map(e=>[e.id,e]));
 export const wordById=Object.fromEntries(words.map(w=>[w.id,w]));
 export const topicById=Object.fromEntries(topics.map(t=>[t.id,t]));

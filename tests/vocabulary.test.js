@@ -16,7 +16,7 @@ test('thematic vocabulary preserves old IDs, examples, recordings and saved card
  const modern=words.filter(w=>!w.hasAudio);assert.ok(modern.length>900);assert.ok(modern.every(w=>!w.topic));
 });
 test('all entries have valid taxonomy, examples and stable distinct sense IDs',()=>{
- assert.equal(new Set(words.map(w=>w.id)).size,words.length);assert.equal(new Set(words.map(w=>`${w.en.toLowerCase()}|${w.pos}`)).size,words.length);
+ assert.equal(new Set(words.map(w=>w.id)).size,words.length);assert.equal(new Set(words.map(w=>`${w.en.toLowerCase()}|${w.pos}|${w.domain||''}`)).size,words.length);
  for(const w of words){assert.ok(partsOfSpeech[w.pos],w.en);assert.ok(w.categories.length);for(const id of w.categories)assert.ok(categoryById[id]);assert.ok(w.tr&&w.example&&w.translation,w.en);assert.ok(exerciseById[`v-${w.id}`]);}
  for(const c of categories)assert.ok(words.filter(w=>w.categories.includes(c.id)).length>=15,c.id);
  for(const id of ['furniture','kitchenware','family','relationships','pronouns','determiners','irregular-verbs','regular-verbs','environment','ideas'])assert.ok(categoryById[id]);

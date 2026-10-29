@@ -6,17 +6,18 @@ export function createVocabularyExercises(words){
   return [answer,...[...unique.slice(offset),...unique.slice(0,offset)].slice(0,2)];
  };
  const meaning=words.map(w=>{
-  const accept=words.filter(x=>x.id!==w.id&&x.pos===w.pos&&x.tr===w.tr).map(x=>x.en);
-  const peers=words.filter(x=>x.pos===w.pos&&x.tr!==w.tr);
+  const accept=[...(w.aliases||[]),...words.filter(x=>x.id!==w.id&&x.pos===w.pos&&x.tr===w.tr).map(x=>x.en)];
+  const peers=words.filter(x=>x.pos===w.pos&&x.tr!==w.tr&&(!w.domain||x.domain===w.domain));
   return {id:`v-${w.id}`,kind:'vocabulary',mode:'meaning',topic:w.topic,level:w.level,word:w.id,pos:w.pos,prompt:`Bu kartın İngilizcesini hatırla: ${w.tr}`,answer:w.en,accept,options:choices(w,w.en,peers.map(x=>x.en),accept),why:`${w.en} = ${w.tr}. ${w.example} (${w.translation})`};
  });
  const context=words.flatMap(w=>{
+  if(w.domain&&w.pos==='phrase')return [];
   const forms=[w.en,...(w.forms?.past||[]),...(w.forms?.participle||[])].sort((a,b)=>b.length-a.length);
   let match;
   for(const form of forms){const escaped=form.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');const re=new RegExp(`(?<![a-z])${escaped}(?![a-z])`,'i');const m=re.exec(w.example);if(m){match={answer:m[0],index:m.index,length:m[0].length};break;}}
   if(!match)return [];
   const {answer,index,length}=match;const sentence=w.example.slice(0,index)+'____'+w.example.slice(index+length);
-  const peers=words.filter(x=>x.pos===w.pos&&x.en.toLowerCase()!==w.en.toLowerCase()&&x.tr!==w.tr).map(x=>x.en).filter(s=>s.toLowerCase()!==answer.toLowerCase());
+  const peers=words.filter(x=>(!w.domain||x.domain===w.domain)&&x.pos===w.pos&&x.en.toLowerCase()!==w.en.toLowerCase()&&x.tr!==w.tr).map(x=>x.en).filter(s=>s.toLowerCase()!==answer.toLowerCase());
   return [{id:`context-${w.id}`,kind:'vocabulary',mode:'context',word:w.id,pos:w.pos,topic:w.topic,level:w.level,prompt:`${sentence}\n${w.translation}\nİpucu: ${w.tr}`,answer,options:choices(w,answer,peers),why:`${w.example} — ${w.translation} Kelime: ${w.en}.`}];
  });
  const verbs=words.filter(w=>w.forms);

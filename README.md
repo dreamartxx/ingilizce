@@ -6,10 +6,10 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 
 - A1–B2 için 24 soruluk seviye taraması; atlanan dinleme soruları ayrı sayılır.
 - 32 konu: Türkçe anlatım, adım adım cümle kurma, 96 örnek ve 128 gramer sorusu.
-- 1.153 kelime ve kullanım, 44 tematik başlık: ev eşyaları, akrabalar, mutfak, ulaşım, iş hayatı, çevre, tartışma ve daha fazlası. Her kayıtta Türkçe anlam ve çevrilmiş örnek cümle.
+- 1.518 kelime ve kullanım: genel bankada 44 başlık ve Muayene içinde 15 alt başlık. Genel konular: ev eşyaları, akrabalar, mutfak, ulaşım, iş hayatı, çevre, tartışma ve daha fazlası. Her kayıtta Türkçe anlam ve çevrilmiş örnek cümle.
 - 9 sözcük türü için açıklama ve örnekler; zamir/sahiplik tablosu, sıfat karşılaştırmaları, 38 açıklamalı sözcük türü sorusu.
-- 203 fiil: 122 düzenli, 81 düzensiz. V1/V2/V3 tablosu; kabul edilen İngiliz/Amerikan biçimleri ve V2/V3 alıştırmaları.
-- 2.662 kelime ve fiil alıştırması: 1.153 anlamdan hatırlama, 1.103 cümle tamamlama ve 406 fiil çekimi sorusu. Seçenekli veya yazarak 10/20 soruluk turlar.
+- Genel bankada 203 fiil: 122 düzenli, 81 düzensiz; Muayene bölümünde klinik örneklerle 45 fiil kullanımı daha. V1/V2/V3 tablosu; kabul edilen İngiliz/Amerikan biçimleri ve V2/V3 alıştırmaları.
+- Genel bankada 2.662 kelime ve fiil alıştırması: 1.153 anlamdan hatırlama, 1.103 cümle tamamlama ve 406 fiil çekimi sorusu. Seçenekli veya yazarak 10/20 soruluk turlar.
 - Konu/seviye/sözcük türü ve fiil çekimiyle arama; grup hâlinde kart ekleme, favoriler, filtreli kart çalışması. Az çalışılan sorulara öncelik verilir.
 - 32 özgün okuma metni, 64 okuma sorusu, 32 dinleme sorusu, 32 konuşma/yazma görevi.
 - Yanlışlar otomatik birikir; beceri/seviye filtreli ayrı çalışma ve üç farklı günde doğru hatırlama takibi.
@@ -24,6 +24,14 @@ Yetişkin Türkçe konuşan öğrenciler için sade, etkileşimli İngilizce ça
 - E-posta/şifre girişi, davetli kayıt, şifre değiştirme, MySQL kayıtları ve JSON dışa aktarma.
 
 Yeni kelime içeriği için ses veya API üretimi yapılmadı. Önceden kaydedilen sesler korunur; yeni kartlar kaydı olmayan bir ses düğmesi göstermez. Kelime sayısı farklı sözcük türlerindeki kullanımları ayrı sayar, fiil çekimlerini ek kelime saymaz. A1–B2 etiketleri yaklaşık çalışma sırasıdır.
+
+## Muayene
+
+Kelime bankasının ilk kategorisi. 365 klinik kelime/kullanım: 15 alt başlık; 45 çekimli fiil; doktor için 40, hasta için 25 hazır cümle. 755 kelime/çekim alıştırması ve 8 kurgusal doktor–hasta görüşmesinde 16 anlama sorusu. Doktorun İngilizce cümlelerini gizleyerek hatırlama, Türkçeyi açma/kapama ve görüşme bazında çalışma desteklenir.
+
+Alt başlıklar: iletişim, öykü, ağrı nitelikleri, genel belirtiler/cilt, solunum/kalp, sindirim, idrar/üreme/kadın sağlığı, nöroloji/duyu/ruhsal durum, anatomi, fizik muayene/araçlar, tetkikler, tedavi/takip, doktor cümleleri, hasta ifadeleri ve fiiller. Klinik kullanımlar ayrı kimliklerle korunur; günlük dildeki aynı sözcüğün kartı veya kaydı değiştirilmez. ECG/EKG/CBC gibi kısaltmalar ve diarrhea gibi yazım varyantları aramada ve kelime yanıtlarında kabul edilir.
+
+İçerik mesleki dil çalışmasıdır, tanı/tedavi protokolü değildir. Hasta verisi kullanılmaz. Ses/API üretimi yapılmadı. Özgün örneklerde terminoloji ve iletişim kontrolü için [NHS](https://www.nhs.uk/nhs-services/gps/what-to-ask-your-doctor/), [MedlinePlus terimleri](https://medlineplus.gov/appendixa.html) ve [tetkik rehberi](https://medlineplus.gov/lab-tests/) kullanıldı; kaynaklar bölüm içinde de açılabilir.
 
 ## Hızlı başlat
 

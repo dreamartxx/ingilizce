@@ -1,3 +1,4 @@
+import {medicalCategories,medicalWords} from '../medical/index.js';
 import {daily} from './daily.js';
 import {world} from './world.js';
 import {life} from './life.js';
@@ -6,7 +7,7 @@ import {structure} from './structure.js';
 import {verbBlocks} from './verbs.js';
 
 export const partsOfSpeech={noun:'İsim',pronoun:'Zamir',adjective:'Sıfat',verb:'Fiil',adverb:'Zarf',determiner:'Belirleyici',preposition:'Edat',conjunction:'Bağlaç',phrase:'İfade'};
-export const categories=[];
+export const categories=[...medicalCategories];
 const entries=[];
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 for(const [source,group] of [[daily,'Ev ve yakın çevrem'],[world,'Günlük hayat'],[life,'Dünya ve yaşam'],[describing,'Nitelikler ve duygular'],[structure,'Cümleyi kuran sözcükler']]){
@@ -26,6 +27,7 @@ for(const block of verbBlocks){
   entries.push({id:`bank-verb-${slug(en)}`,en,tr,example,translation,level:block.level,pos:'verb',categories:[id],forms:{type:block.kind,past:past.split('/'),participle:participle.split('/')}});
  }
 }
+entries.push(...medicalWords);
 categories.push({id:'course-core',title:'Derslerin temel kelimeleri',icon:'📚',group:'Derslerle birlikte',tip:'32 dersin içindeki kelimeler. Konuyu çalıştıktan sonra burada tekrar et.'});
 export const categoryById=Object.fromEntries(categories.map(c=>[c.id,c]));
 const sets={
@@ -60,9 +62,9 @@ const extraForms={
 };
 export function enrichWords(legacy){
  const result=legacy.map(w=>({...w,pos:Object.entries(sets).find(([,set])=>set.has(w.en))?.[0]||'noun',categories:['course-core'],hasAudio:true}));
- const byKey=new Map(result.map(w=>[`${w.en.toLowerCase()}|${w.pos}`,w]));
+ const byKey=new Map(result.map(w=>[`${w.en.toLowerCase()}|${w.pos}|${w.domain||''}`,w]));
  for(const entry of entries){
-  const key=`${entry.en.toLowerCase()}|${entry.pos}`,existing=byKey.get(key);
+  const key=`${entry.en.toLowerCase()}|${entry.pos}|${entry.domain||''}`,existing=byKey.get(key);
   if(existing){existing.categories=[...new Set([...existing.categories,...entry.categories])];if(entry.forms)existing.forms=entry.forms;if(entry.comparison)existing.comparison=entry.comparison;}
   else {const w={...entry,hasAudio:false};result.push(w);byKey.set(key,w);}
  }
