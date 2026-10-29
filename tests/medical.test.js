@@ -20,6 +20,7 @@ test('Muayene has a complete parent category, distinct clinical senses and suppo
 test('medical aliases and inflections are accepted without presenting other valid variants as wrong options',()=>{
  for(const w of medicalWords){const q=exerciseById[`v-${w.id}`];assert.ok(q);for(const alias of w.aliases||[])assert.ok(isCorrect(q,alias));for(const f of w.forms?['past','participle']:[]){const q=exerciseById[`${f}-${w.id}`];for(const form of w.forms[f])assert.ok(isCorrect(q,form));}}
  assert.ok(isCorrect(exerciseById['v-clinical-noun-diarrhoea'],'diarrhea'));assert.ok(isCorrect(exerciseById['v-clinical-noun-electrocardiogram'],'EKG'));
+ assert.ok(isCorrect(exerciseById['context-clinical-noun-electrocardiogram'],'EKG'));assert.ok(isCorrect(exerciseById['context-clinical-noun-diarrhoea'],'diarrhea'));
  assert.equal(wordExercises.filter(q=>q.word?.startsWith('clinical-')).length,755);
 });
 test('clinical cards and dialogue errors round-trip through the existing progress schema',()=>{
